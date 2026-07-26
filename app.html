@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>María 365 — Devocional Diario</title>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
@@ -15,7 +15,7 @@
       <div class="header-title">
         <span>✝</span> María 365
       </div>
-      <button class="back-btn" id="backBtn" style="display:none;" onclick="showCalendar()">
+      <button class="back-btn" id="backBtn" style="display:none;" onclick="goBack()">
         ← Volver
       </button>
       <div class="streak-badge" id="streakBadge" style="display:none;">
@@ -39,6 +39,57 @@
 
   <!-- Main Content -->
   <div class="main-container">
+
+    <!-- Home Screen -->
+    <div class="home-view active" id="homeView">
+      <div class="home-header">
+        <div class="home-greeting" id="homeGreeting">Buenos días</div>
+        <div class="home-date" id="homeDate"></div>
+      </div>
+
+      <div class="stage-card" id="stageCard">
+        <div class="stage-badge" id="stageBadge">🌱</div>
+        <div class="stage-info">
+          <div class="stage-name" id="stageName">Iniciante</div>
+          <div class="stage-progress-text" id="stageProgressText">0 de 30 días</div>
+        </div>
+        <div class="stage-bar">
+          <div class="stage-bar-fill" id="stageBarFill" style="width: 0%"></div>
+        </div>
+      </div>
+
+      <div class="home-stats">
+        <div class="home-stat">
+          <div class="home-stat-number" id="homeStreak">0</div>
+          <div class="home-stat-label">Racha 🔥</div>
+        </div>
+        <div class="home-stat">
+          <div class="home-stat-number" id="homeCompleted">0</div>
+          <div class="home-stat-label">Completados</div>
+        </div>
+        <div class="home-stat">
+          <div class="home-stat-number" id="homePercent">0%</div>
+          <div class="home-stat-label">Progreso</div>
+        </div>
+      </div>
+
+      <button class="home-today-btn" onclick="showToday()">
+        <span>📖</span>
+        <span>Ir al Devocional de Hoy</span>
+        <span>→</span>
+      </button>
+
+      <div class="home-next-stage" id="homeNextStage">
+        <h3>Próximo logro</h3>
+        <div class="next-stage-card" id="nextStageCard">
+          <div class="next-stage-icon">⭐</div>
+          <div class="next-stage-info">
+            <div class="next-stage-name">Intermediario</div>
+            <div class="next-stage-need">Te faltan 31 días</div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Calendar View -->
     <div class="calendar-view" id="calendarView">
@@ -108,6 +159,58 @@
       </div>
     </div>
 
+    <!-- Logros View -->
+    <div class="logros-view" id="logrosView">
+      <h2 class="logros-title">Mis Logros</h2>
+      
+      <div class="logros-current">
+        <h3>Estágio Actual</h3>
+        <div class="logros-stage-card" id="logrosCurrentStage">
+          <!-- Filled by JS -->
+        </div>
+      </div>
+
+      <div class="logros-list">
+        <h3>Todos los Estágios</h3>
+        <div class="logro-item locked" id="logroIniciante">
+          <div class="logro-icon">🌱</div>
+          <div class="logro-info">
+            <div class="logro-name">Iniciante</div>
+            <div class="logro-desc">0-30 días completados</div>
+            <div class="logro-reward">+ Oraciones básicas</div>
+          </div>
+          <div class="logro-status">✓</div>
+        </div>
+        <div class="logro-item locked" id="logroIntermedio">
+          <div class="logro-icon">⭐</div>
+          <div class="logro-info">
+            <div class="logro-name">Intermediario</div>
+            <div class="logro-desc">31-90 días completados</div>
+            <div class="logro-reward">+ 30 oraciones para momentos difíciles</div>
+          </div>
+          <div class="logro-status">🔒</div>
+        </div>
+        <div class="logro-item locked" id="logroAvanzado">
+          <div class="logro-icon">🔥</div>
+          <div class="logro-info">
+            <div class="logro-name">Avanzado</div>
+            <div class="logro-desc">91-180 días completados</div>
+            <div class="logro-reward">+ Guía de meditación + 30 reflexiones</div>
+          </div>
+          <div class="logro-status">🔒</div>
+        </div>
+        <div class="logro-item locked" id="logroMestre">
+          <div class="logro-icon">👑</div>
+          <div class="logro-info">
+            <div class="logro-name">Mestre</div>
+            <div class="logro-desc">181-365 días completados</div>
+            <div class="logro-reward">+ Rosario completo con audio</div>
+          </div>
+          <div class="logro-status">🔒</div>
+        </div>
+      </div>
+    </div>
+
     <!-- Paywall Overlay -->
     <div class="paywall-overlay" id="paywall" onclick="if(event.target===this)hidePaywall()">
       <div class="paywall-card">
@@ -132,8 +235,38 @@
 
   </div>
 
+  <!-- Bottom Navigation -->
+  <nav class="bottom-nav" id="bottomNav">
+    <button class="nav-item active" onclick="showHome()">
+      <span class="nav-icon">🏠</span>
+      <span class="nav-label">Inicio</span>
+    </button>
+    <button class="nav-item" onclick="showCalendar()">
+      <span class="nav-icon">📅</span>
+      <span class="nav-label">Calendario</span>
+    </button>
+    <button class="nav-item" onclick="showToday()">
+      <span class="nav-icon">📖</span>
+      <span class="nav-label">Hoy</span>
+    </button>
+    <button class="nav-item" onclick="showLogros()">
+      <span class="nav-icon">🏆</span>
+      <span class="nav-label">Logros</span>
+    </button>
+  </nav>
+
+  <!-- Stage Unlock Toast -->
+  <div class="stage-toast" id="stageToast">
+    <div class="stage-toast-icon" id="stageToastIcon">⭐</div>
+    <div class="stage-toast-text">
+      <div class="stage-toast-title" id="stageToastTitle">¡Nuevo logro!</div>
+      <div class="stage-toast-desc" id="stageToastDesc">Has alcanzado el nivel Intermediario</div>
+    </div>
+  </div>
+
   <script src="js/data.js"></script>
   <script src="js/audio.js"></script>
+  <script src="js/stage-content.js"></script>
   <script src="js/app.js"></script>
 </body>
 </html>

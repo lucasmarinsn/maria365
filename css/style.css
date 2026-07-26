@@ -22,6 +22,7 @@ body {
   color: var(--text);
   line-height: 1.7;
   min-height: 100vh;
+  padding-bottom: 70px;
 }
 
 /* Header */
@@ -95,11 +96,21 @@ body {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
+  padding-bottom: 80px;
+}
+
+/* Home View */
+.home-view {
+  display: none;
+}
+
+.home-view.active {
+  display: block;
 }
 
 /* Calendar View */
 .calendar-view {
-  display: block;
+  display: none;
 }
 
 .month-section {
@@ -473,6 +484,14 @@ body {
   .day-nav {
     flex-direction: column;
   }
+
+  .bottom-nav {
+    padding: 6px 0;
+  }
+
+  .nav-item {
+    padding: 6px 12px;
+  }
 }
 
 /* Paywall */
@@ -602,6 +621,450 @@ body {
   color: var(--accent);
   text-decoration: none;
   font-weight: 600;
+}
+
+/* ============================================
+   HOME VIEW
+   ============================================ */
+.home-view {
+  display: none;
+}
+
+.home-view.active {
+  display: block;
+}
+
+.home-header {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.home-greeting {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(24px, 5vw, 32px);
+  color: var(--primary);
+  margin-bottom: 4px;
+}
+
+.home-date {
+  font-size: 14px;
+  color: var(--text-light);
+}
+
+/* Stage Card */
+.stage-card {
+  background: linear-gradient(135deg, var(--primary), var(--primary-light));
+  border-radius: 16px;
+  padding: 24px;
+  color: white;
+  margin-bottom: 24px;
+  position: relative;
+  overflow: hidden;
+}
+
+.stage-card::after {
+  content: '';
+  position: absolute;
+  top: -50%;
+  right: -30%;
+  width: 200px;
+  height: 200px;
+  background: radial-gradient(circle, rgba(201,168,76,0.15) 0%, transparent 70%);
+  border-radius: 50%;
+}
+
+.stage-badge {
+  font-size: 48px;
+  margin-bottom: 8px;
+}
+
+.stage-info {
+  margin-bottom: 16px;
+}
+
+.stage-name {
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.stage-progress-text {
+  font-size: 14px;
+  opacity: 0.8;
+  margin-top: 4px;
+}
+
+.stage-bar {
+  height: 8px;
+  background: rgba(255,255,255,0.2);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.stage-bar-fill {
+  height: 100%;
+  background: var(--accent);
+  border-radius: 4px;
+  transition: width 0.5s ease;
+}
+
+/* Home Stats */
+.home-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.home-stat {
+  background: var(--card-bg);
+  border-radius: 12px;
+  padding: 16px;
+  text-align: center;
+  border: 1px solid var(--border);
+}
+
+.home-stat-number {
+  font-family: 'Playfair Display', serif;
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--primary);
+}
+
+.home-stat-label {
+  font-size: 12px;
+  color: var(--text-light);
+  margin-top: 4px;
+}
+
+/* Home Today Button */
+.home-today-btn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(135deg, var(--accent), var(--accent-hover));
+  color: var(--primary);
+  border: none;
+  border-radius: 12px;
+  padding: 20px 24px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s;
+  margin-bottom: 24px;
+}
+
+.home-today-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(201,168,76,0.4);
+}
+
+/* Home Next Stage */
+.home-next-stage {
+  margin-top: 8px;
+}
+
+.home-next-stage h3 {
+  font-size: 16px;
+  color: var(--primary);
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+.next-stage-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: var(--card-bg);
+  border-radius: 12px;
+  padding: 16px;
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--accent);
+}
+
+.next-stage-icon {
+  font-size: 32px;
+}
+
+.next-stage-name {
+  font-weight: 600;
+  color: var(--primary);
+}
+
+.next-stage-need {
+  font-size: 13px;
+  color: var(--text-light);
+  margin-top: 2px;
+}
+
+/* ============================================
+   BOTTOM NAVIGATION
+   ============================================ */
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: white;
+  border-top: 1px solid var(--border);
+  display: flex;
+  justify-content: space-around;
+  padding: 8px 0;
+  z-index: 100;
+  box-shadow: 0 -2px 12px rgba(0,0,0,0.08);
+}
+
+.bottom-nav.hidden {
+  display: none;
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  background: none;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: all 0.2s;
+  color: var(--text-light);
+}
+
+.nav-item.active {
+  color: var(--accent);
+}
+
+.nav-icon {
+  font-size: 20px;
+}
+
+.nav-label {
+  font-size: 11px;
+  font-weight: 500;
+}
+
+/* ============================================
+   LOGROS VIEW
+   ============================================ */
+.logros-view {
+  display: none;
+}
+
+.logros-view.active {
+  display: block;
+}
+
+.logros-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 24px;
+  color: var(--primary);
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.logros-current {
+  margin-bottom: 32px;
+}
+
+.logros-current h3 {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--text-light);
+  margin-bottom: 12px;
+}
+
+.logros-stage-card {
+  background: linear-gradient(135deg, var(--primary), var(--primary-light));
+  border-radius: 16px;
+  padding: 24px;
+  color: white;
+  text-align: center;
+}
+
+.logros-current-icon {
+  font-size: 48px;
+  margin-bottom: 8px;
+}
+
+.logros-current-name {
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.logros-current-progress {
+  font-size: 14px;
+  opacity: 0.8;
+  margin-top: 4px;
+}
+
+.logros-list h3 {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--text-light);
+  margin-bottom: 16px;
+}
+
+.logro-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: var(--card-bg);
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 12px;
+  border: 1px solid var(--border);
+  transition: all 0.2s;
+}
+
+.logro-item.unlocked {
+  border-color: var(--accent);
+  background: linear-gradient(135deg, #fffdf5, #fff9e6);
+}
+
+.logro-item.locked {
+  opacity: 0.6;
+}
+
+.logro-icon {
+  font-size: 32px;
+  flex-shrink: 0;
+}
+
+.logro-info {
+  flex: 1;
+}
+
+.logro-name {
+  font-weight: 600;
+  color: var(--primary);
+  font-size: 16px;
+}
+
+.logro-desc {
+  font-size: 13px;
+  color: var(--text-light);
+  margin-top: 2px;
+}
+
+.logro-reward {
+  font-size: 12px;
+  color: var(--accent);
+  margin-top: 4px;
+  font-weight: 500;
+}
+
+.logro-status {
+  font-size: 20px;
+  flex-shrink: 0;
+}
+
+/* ============================================
+   STAGE THEMES
+   ============================================ */
+.theme-iniciante {
+  --stage-color: #3182ce;
+}
+
+.theme-intermedio {
+  --stage-color: #c9a84c;
+}
+
+.theme-avanzado {
+  --stage-color: #805ad5;
+}
+
+.theme-mestre {
+  --stage-color: #e53e3e;
+}
+
+.theme-intermedio .stage-card,
+.theme-intermedio .app-header {
+  background: linear-gradient(135deg, #c9a84c, #b8932f);
+}
+
+.theme-avanzado .stage-card,
+.theme-avanzado .app-header {
+  background: linear-gradient(135deg, #805ad5, #6b46c1);
+}
+
+.theme-mestre .stage-card,
+.theme-mestre .app-header {
+  background: linear-gradient(135deg, #e53e3e, #c53030);
+}
+
+/* ============================================
+   STAGE TOAST NOTIFICATION
+   ============================================ */
+.stage-toast {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%) translateY(-100px);
+  background: white;
+  border-radius: 16px;
+  padding: 16px 24px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  box-shadow: 0 12px 40px rgba(0,0,0,0.2);
+  z-index: 2000;
+  transition: transform 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+  border-left: 4px solid var(--accent);
+}
+
+.stage-toast.show {
+  transform: translateX(-50%) translateY(0);
+}
+
+.stage-toast-icon {
+  font-size: 36px;
+  flex-shrink: 0;
+}
+
+.stage-toast-title {
+  font-weight: 700;
+  color: var(--primary);
+  font-size: 16px;
+}
+
+.stage-toast-desc {
+  font-size: 13px;
+  color: var(--text-light);
+  margin-top: 2px;
+}
+
+/* ============================================
+   RESPONSIVE ADJUSTMENTS
+   ============================================ */
+@media (max-width: 600px) {
+  .bottom-nav {
+    padding: 6px 0;
+  }
+  
+  .nav-item {
+    padding: 6px 12px;
+  }
+  
+  .home-stats {
+    gap: 8px;
+  }
+  
+  .home-stat {
+    padding: 12px 8px;
+  }
+  
+  .home-stat-number {
+    font-size: 22px;
+  }
+  
+  .stage-badge {
+    font-size: 40px;
+  }
 }
 
 /* Scrollbar */

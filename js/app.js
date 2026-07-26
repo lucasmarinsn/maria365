@@ -29,8 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
   audioPlayer.onEndCallback = () => updatePlayButton(false);
 
   setupSpeedButtons();
-  renderCalendar();
-  updateProgress();
+  showHome();
 });
 
 // Progress Management
@@ -211,10 +210,12 @@ function openDay(day) {
   updateCompleteButton();
 
   // Switch views
-  document.getElementById('calendarView').style.display = 'none';
+  hideAllViews();
   document.getElementById('dayView').classList.add('active');
   document.getElementById('backBtn').style.display = 'flex';
   document.getElementById('streakBadge').style.display = 'none';
+  document.getElementById('bottomNav').classList.add('hidden');
+  updateNavActive('hoy');
 
   window.scrollTo(0, 0);
 }
@@ -223,8 +224,8 @@ function showCalendar() {
   if (audioPlayer) audioPlayer.stop();
   updatePlayButton(false);
 
+  hideAllViews();
   document.getElementById('calendarView').style.display = 'block';
-  document.getElementById('dayView').classList.remove('active');
   document.getElementById('backBtn').style.display = 'none';
 
   const progress = getProgress();
@@ -234,7 +235,66 @@ function showCalendar() {
 
   renderCalendar();
   updateProgress();
+  updateNavActive('calendario');
   window.scrollTo(0, 0);
+}
+
+function showHome() {
+  if (audioPlayer) audioPlayer.stop();
+  updatePlayButton(false);
+
+  hideAllViews();
+  document.getElementById('homeView').classList.add('active');
+  document.getElementById('backBtn').style.display = 'none';
+
+  updateHome();
+  updateNavActive('inicio');
+  window.scrollTo(0, 0);
+}
+
+function showToday() {
+  const today = new Date();
+  const dayOfYear = getDayOfYear(today);
+  openDay(dayOfYear);
+}
+
+function showLogros() {
+  if (audioPlayer) audioPlayer.stop();
+  updatePlayButton(false);
+
+  hideAllViews();
+  document.getElementById('logrosView').classList.add('active');
+  document.getElementById('backBtn').style.display = 'none';
+
+  updateLogros();
+  updateNavActive('logros');
+  window.scrollTo(0, 0);
+}
+
+function hideAllViews() {
+  document.getElementById('homeView').classList.remove('active');
+  document.getElementById('calendarView').style.display = 'none';
+  document.getElementById('dayView').classList.remove('active');
+  document.getElementById('logrosView').classList.remove('active');
+  document.getElementById('bottomNav').classList.remove('hidden');
+}
+
+function goBack() {
+  const homeActive = document.getElementById('homeView').classList.contains('active');
+  if (homeActive) {
+    showCalendar();
+  } else {
+    showHome();
+  }
+}
+
+function updateNavActive(section) {
+  document.querySelectorAll('.nav-item').forEach(item => item.classList.remove('active'));
+  const map = { inicio: 0, calendario: 1, hoy: 2, logros: 3 };
+  const idx = map[section];
+  if (idx !== undefined) {
+    document.querySelectorAll('.nav-item')[idx].classList.add('active');
+  }
 }
 
 function navigateDay(direction) {
@@ -277,12 +337,110 @@ function setupSpeedButtons() {
   });
 }
 
+// Home View
+function updateHome() {
+  const progress = getProgress();
+  const completed = progress.completedDays.length;
+  const percent = Math.round((completed / 365) * 100);
+
+  // Greeting
+  const hour = new Date().getHours();
+  let greeting = 'Buenos días';
+  if (hour >= 12 && hour < 18) greeting = 'Buenas tardes';
+  else if (hour >= 18) greeting = 'Buenas noches';
+  document.getElementById('homeGreeting').textContent = greeting;
+
+  // Date
+  const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+  document.getElementById('homeDate').textContent = new Date().toLocaleDateString('es-ES', options);
+
+  // Stage calculation
+  const stages = [
+    { name: 'Iniciante', icon: '🌱', min: 0, max: 30, next: 'Intermediario', nextIcon: '⭐' },
+    { name: 'Intermediario', icon: '⭐', min: 31, max: 90, next: 'Avanzado', nextIcon: '🔥' },
+    { name: 'Avanzado', icon: '🔥', min: 91, max: 180, next: 'Mestre', nextIcon: '👑' },
+    { name: 'Mestre', icon: '👑', min: 181, max: 365, next: null, nextIcon: null }
+  ];
+
+  let currentStage = stages[0];
+  for (const stage of stages) {
+    if (completed >= stage.min && completed <= stage.max) {
+      currentStage = stage;
+      break;
+    }
+  }
+
+  document.getElementById('stageBadge').textContent = currentStage.icon;
+  document.getElementById('stageName').textContent = currentStage.name;
+  document.getElementById('stageProgressText').textContent = `${completed} de ${currentStage.max} días`;
+  const stagePercent = Math.min(100, Math.round(((completed - currentStage.min) / (currentStage.max - currentStage.min)) * 100));
+  document.getElementById('stageBarFill').style.width = `${stagePercent}%`;
+
+  // Stats
+  document.getElementById('homeStreak').textContent = progress.currentStreak;
+  document.getElementById('homeCompleted').textContent = completed;
+  document.getElementById('homePercent').textContent = `${percent}%`;
+
+  // Next stage
+  const nextStageEl = document.getElementById('homeNextStage');
+  if (currentStage.next) {
+    nextStageEl.style.display = 'block';
+    document.querySelector('.next-stage-icon').textContent = currentStage.nextIcon;
+    document.querySelector('.next-stage-name').textContent = currentStage.next;
+    const daysLeft = currentStage.max + 1 - completed;
+    document.querySelector('.next-stage-need').textContent = `Te faltan ${daysLeft} días`;
+  } else {
+    nextStageEl.style.display = 'none';
+  }
+}
+
+// Logros View
+function updateLogros() {
+  const progress = getProgress();
+  const completed = progress.completedDays.length;
+
+  const stages = [
+    { id: 'logroIniciante', min: 0, max: 30, name: 'Iniciante', icon: '🌱' },
+    { id: 'logroIntermedio', min: 31, max: 90, name: 'Intermediario', icon: '⭐' },
+    { id: 'logroAvanzado', min: 91, max: 180, name: 'Avanzado', icon: '🔥' },
+    { id: 'logroMestre', min: 181, max: 365, name: 'Mestre', icon: '👑' }
+  ];
+
+  let currentStage = stages[0];
+  stages.forEach(stage => {
+    const el = document.getElementById(stage.id);
+    if (completed >= stage.min) {
+      el.classList.remove('locked');
+      el.querySelector('.logro-status').textContent = '✓';
+    }
+    if (completed >= stage.min && completed <= stage.max) {
+      currentStage = stage;
+    }
+  });
+
+  document.getElementById('logrosCurrentStage').innerHTML = `
+    <div class="logros-current-icon">${currentStage.icon}</div>
+    <div class="logros-current-name">${currentStage.name}</div>
+    <div class="logros-current-progress">${completed} días completados</div>
+  `;
+}
+
+// Stage Toast
+function showStageToast(icon, title, desc) {
+  const toast = document.getElementById('stageToast');
+  document.getElementById('stageToastIcon').textContent = icon;
+  document.getElementById('stageToastTitle').textContent = title;
+  document.getElementById('stageToastDesc').textContent = desc;
+  toast.classList.add('show');
+  setTimeout(() => toast.classList.remove('show'), 3000);
+}
+
 // Keyboard Navigation
 document.addEventListener('keydown', (e) => {
   if (document.getElementById('dayView').classList.contains('active')) {
     if (e.key === 'ArrowLeft') navigateDay(-1);
     if (e.key === 'ArrowRight') navigateDay(1);
-    if (e.key === 'Escape') showCalendar();
+    if (e.key === 'Escape') goBack();
     if (e.key === ' ') {
       e.preventDefault();
       toggleAudio();
