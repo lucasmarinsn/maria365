@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>María 365 — Devocional Diario</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="app-header">
+    <div class="header-content">
+      <div class="header-title">
+        <span>✝</span> María 365
+      </div>
+      <button class="back-btn" id="backBtn" style="display:none;" onclick="showCalendar()">
+        ← Volver
+      </button>
+      <div class="streak-badge" id="streakBadge" style="display:none;">
+        🔥 <span id="streakCount">0</span> días
+      </div>
+    </div>
+  </header>
+
+  <!-- Progress Section -->
+  <div class="progress-section">
+    <div class="progress-container">
+      <div class="progress-stats">
+        <span>Días completados: <strong id="completedCount">0</strong>/365</span>
+        <span id="progressPercent">0%</span>
+      </div>
+      <div class="progress-bar">
+        <div class="progress-fill" id="progressFill" style="width: 0%"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <div class="main-container">
+
+    <!-- Calendar View -->
+    <div class="calendar-view" id="calendarView">
+      <!-- Months will be rendered by JS -->
+    </div>
+
+    <!-- Day View -->
+    <div class="day-view" id="dayView">
+      <div class="day-header">
+        <div class="day-number" id="dayNumber">Día 1</div>
+        <h1 class="day-title" id="dayTitle">El Comienzo del Camino</h1>
+        <div class="day-month" id="dayMonth">Enero</div>
+      </div>
+
+      <div class="verse-card">
+        <p class="verse-text" id="verseText"></p>
+        <p class="verse-reference" id="verseReference"></p>
+      </div>
+
+      <div class="content-card">
+        <h3>📖 Reflexión</h3>
+        <p id="reflectionText"></p>
+      </div>
+
+      <div class="content-card">
+        <h3>🙏 Oración</h3>
+        <p id="prayerText"></p>
+      </div>
+
+      <div class="audio-controls">
+        <div class="audio-header">
+          <div class="audio-title">🔊 Escuchar Oración</div>
+          <div class="speed-control">
+            <button class="speed-btn" data-rate="0.8">0.8x</button>
+            <button class="speed-btn active" data-rate="0.9">1x</button>
+            <button class="speed-btn" data-rate="1.0">1.2x</button>
+          </div>
+        </div>
+        <div class="audio-player">
+          <button class="play-btn" id="playBtn" onclick="toggleAudio()">▶</button>
+          <div class="audio-wave" id="audioWave">
+            <div class="wave-bar"></div>
+            <div class="wave-bar"></div>
+            <div class="wave-bar"></div>
+            <div class="wave-bar"></div>
+            <div class="wave-bar"></div>
+            <div class="wave-bar"></div>
+            <div class="wave-bar"></div>
+            <div class="wave-bar"></div>
+            <div class="wave-bar"></div>
+            <div class="wave-bar"></div>
+          </div>
+        </div>
+      </div>
+
+      <button class="complete-btn" id="completeBtn" onclick="toggleComplete()">
+        Marcar como Completado ✓
+      </button>
+
+      <div class="day-nav">
+        <button class="nav-btn" id="prevBtn" onclick="navigateDay(-1)">
+          ← Anterior
+        </button>
+        <button class="nav-btn" id="nextBtn" onclick="navigateDay(1)">
+          Siguiente →
+        </button>
+      </div>
+    </div>
+
+    <!-- Paywall Overlay -->
+    <div class="paywall-overlay" id="paywall" onclick="if(event.target===this)hidePaywall()">
+      <div class="paywall-card">
+        <button class="paywall-close" onclick="hidePaywall()">✕</button>
+        <div class="paywall-icon">✝</div>
+        <h2>Desbloquea María 365</h2>
+        <p class="subtitle">Accede a 365 días de devociones marianas con audio</p>
+        <ul class="paywall-features">
+          <li>✓ 365 oraciones y reflexiones diarias</li>
+          <li>✓ Audio con una pulsación</li>
+          <li>✓ Seguimiento de progreso</li>
+          <li>✓ Racha de días</li>
+        </ul>
+        <div class="paywall-price">
+          <strong>$7</strong>/mes — Prueba gratis de 7 días
+        </div>
+        <a href="https://pay.hotmart.com/V106888688G" target="_blank" class="paywall-cta">Comenzar Prueba Gratis</a>
+        <p class="paywall-note">Cancela cuando quieras · Sin compromiso</p>
+        <p class="paywall-login">¿Ya tienes cuenta? <a href="#">Ingresa aquí</a></p>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="js/data.js"></script>
+  <script src="js/audio.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
