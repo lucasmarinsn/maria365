@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1080">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  width: 1080px;
+  height: 1080px;
+  overflow: hidden;
+  font-family: 'Inter', sans-serif;
+}
+
+.ad {
+  width: 1080px;
+  height: 1080px;
+  background: linear-gradient(160deg, #1a365d 0%, #2a4a7f 40%, #c9a84c 100%);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 80px;
+  overflow: hidden;
+}
+
+.ad::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: 
+    radial-gradient(ellipse at 20% 80%, rgba(201,168,76,0.3) 0%, transparent 50%),
+    radial-gradient(ellipse at 80% 20%, rgba(255,255,255,0.1) 0%, transparent 50%);
+}
+
+.sun-glow {
+  position: absolute;
+  top: -100px;
+  right: -100px;
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(circle, rgba(255,220,130,0.4) 0%, rgba(201,168,76,0.2) 40%, transparent 70%);
+  border-radius: 50%;
+  z-index: 0;
+}
+
+.headline {
+  font-family: 'Playfair Display', serif;
+  font-size: 60px;
+  font-weight: 700;
+  color: white;
+  line-height: 1.15;
+  margin-bottom: 32px;
+  position: relative;
+  z-index: 1;
+  max-width: 700px;
+  text-shadow: 0 2px 20px rgba(0,0,0,0.2);
+}
+
+.subtext {
+  font-size: 24px;
+  color: rgba(255,255,255,0.9);
+  line-height: 1.6;
+  margin-bottom: 48px;
+  position: relative;
+  z-index: 1;
+  max-width: 650px;
+}
+
+.morning-scene {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  margin-bottom: 50px;
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: 20px;
+  padding: 28px 36px;
+}
+
+.scene-icon {
+  font-size: 56px;
+  flex-shrink: 0;
+}
+
+.scene-text {
+  font-size: 18px;
+  color: white;
+  line-height: 1.6;
+}
+
+.scene-text strong {
+  color: #c9a84c;
+}
+
+.cta-section {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.cta-button {
+  background: white;
+  color: #1a365d;
+  padding: 22px 52px;
+  border-radius: 12px;
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+}
+
+.trial-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(255,255,255,0.15);
+  border: 1px solid rgba(255,255,255,0.3);
+  padding: 12px 24px;
+  border-radius: 30px;
+  font-size: 16px;
+  color: white;
+  font-weight: 600;
+}
+
+.logo {
+  position: absolute;
+  bottom: 50px;
+  right: 70px;
+  font-family: 'Playfair Display', serif;
+  font-size: 28px;
+  font-weight: 700;
+  color: rgba(255,255,255,0.9);
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-cross {
+  color: #c9a84c;
+  font-size: 24px;
+}
+
+.prayer-cards {
+  position: absolute;
+  right: 60px;
+  top: 120px;
+  z-index: 1;
+}
+
+.prayer-card {
+  width: 220px;
+  background: rgba(255,255,255,0.95);
+  border-radius: 16px;
+  padding: 20px;
+  margin-bottom: 16px;
+  box-shadow: 0 12px 40px rgba(0,0,0,0.15);
+}
+
+.prayer-card-day {
+  font-size: 12px;
+  color: #c9a84c;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.prayer-card-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 15px;
+  color: #1a365d;
+  line-height: 1.3;
+  margin-bottom: 8px;
+}
+
+.prayer-card-icon {
+  text-align: right;
+  font-size: 20px;
+}
+</style>
+</head>
+<body>
+<div class="ad">
+  <div class="sun-glow"></div>
+  
+  <div class="prayer-cards">
+    <div class="prayer-card">
+      <div class="prayer-card-day">Día 1</div>
+      <div class="prayer-card-title">María, Estrella del Año Nuevo</div>
+      <div class="prayer-card-icon">🙏</div>
+    </div>
+    <div class="prayer-card">
+      <div class="prayer-card-day">Día 2</div>
+      <div class="prayer-card-title">La Paz que María nos trae</div>
+      <div class="prayer-card-icon">🕊️</div>
+    </div>
+    <div class="prayer-card">
+      <div class="prayer-card-day">Día 3</div>
+      <div class="prayer-card-title">María, Madre de Consuelo</div>
+      <div class="prayer-card-icon">💫</div>
+    </div>
+  </div>
+  
+  <h1 class="headline">¿Y si tu mañana comenzara con María?</h1>
+  
+  <p class="subtext">Imagina: en vez de despertar y agarrar el celular en piloto automático, abres María 365, escuchas una oración y comienzas el día con paz.</p>
+  
+  <div class="morning-scene">
+    <div class="scene-icon">🌅</div>
+    <div class="scene-text">
+      <strong>365 oraciones marianas</strong> — una por día<br>
+      <strong>Audio incluido</strong> — escucha en cualquier lugar<br>
+      <strong>Reflexión + versículo</strong> — para nutrir tu fe
+    </div>
+  </div>
+  
+  <div class="cta-section">
+    <div class="cta-button">Quiero empezar hoy</div>
+    <div class="trial-badge">✨ 7 días gratis</div>
+  </div>
+  
+  <div class="logo">
+    <span class="logo-cross">✝</span> María 365
+  </div>
+</div>
+</body>
+</html>

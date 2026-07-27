@@ -3,9 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>María 365 — Devocional Diario</title>
+  <title>María Te Llama — Devocional Diario</title>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
+  
+  <!-- PWA Meta Tags -->
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#1a365d">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="María Te Llama">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <meta name="description" content="365 oraciones marianas con audio para comenzar tu día con paz">
+  <meta name="mobile-web-app-capable" content="yes">
 </head>
 <body>
 
@@ -13,7 +23,7 @@
   <header class="app-header">
     <div class="header-content">
       <div class="header-title">
-        <span>✝</span> María 365
+        <span>✝</span> María Te Llama
       </div>
       <button class="back-btn" id="backBtn" style="display:none;" onclick="goBack()">
         ← Volver
@@ -211,27 +221,6 @@
       </div>
     </div>
 
-    <!-- Paywall Overlay -->
-    <div class="paywall-overlay" id="paywall" onclick="if(event.target===this)hidePaywall()">
-      <div class="paywall-card">
-        <button class="paywall-close" onclick="hidePaywall()">✕</button>
-        <div class="paywall-icon">✝</div>
-        <h2>Desbloquea María 365</h2>
-        <p class="subtitle">Accede a 365 días de devociones marianas con audio</p>
-        <ul class="paywall-features">
-          <li>✓ 365 oraciones y reflexiones diarias</li>
-          <li>✓ Audio con una pulsación</li>
-          <li>✓ Seguimiento de progreso</li>
-          <li>✓ Racha de días</li>
-        </ul>
-        <div class="paywall-price">
-          <strong>$7</strong>/mes — Prueba gratis de 7 días
-        </div>
-        <a href="https://pay.hotmart.com/V106888688G" target="_blank" class="paywall-cta">Comenzar Prueba Gratis</a>
-        <p class="paywall-note">Cancela cuando quieras · Sin compromiso</p>
-        <p class="paywall-login">¿Ya tienes cuenta? <a href="#">Ingresa aquí</a></p>
-      </div>
-    </div>
 
   </div>
 
@@ -268,5 +257,20 @@
   <script src="js/audio.js"></script>
   <script src="js/stage-content.js"></script>
   <script src="js/app.js"></script>
+  
+  <!-- Service Worker Registration -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/service-worker.js')
+          .then(registration => {
+            console.log('SW registered:', registration);
+          })
+          .catch(error => {
+            console.log('SW registration failed:', error);
+          });
+      });
+    }
+  </script>
 </body>
 </html>

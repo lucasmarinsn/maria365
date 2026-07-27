@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bienvenido — María Te Llama</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    
+    body {
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(135deg, #1a365d 0%, #0f1f3d 100%);
+      color: white;
+      min-height: 100vh;
+      padding: 40px 20px;
+    }
+    
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    
+    .header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    
+    .cross {
+      font-size: 48px;
+      color: #c9a84c;
+      margin-bottom: 20px;
+    }
+    
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 32px;
+      font-weight: 700;
+      color: #e5c96d;
+      margin-bottom: 10px;
+    }
+    
+    .subtitle {
+      font-size: 16px;
+      color: rgba(255,255,255,0.8);
+    }
+    
+    .card {
+      background: rgba(255,255,255,0.1);
+      border-radius: 16px;
+      padding: 30px;
+      margin-bottom: 24px;
+      border: 1px solid rgba(255,255,255,0.2);
+    }
+    
+    .step {
+      display: flex;
+      align-items: flex-start;
+      gap: 16px;
+      margin-bottom: 24px;
+    }
+    
+    .step:last-child {
+      margin-bottom: 0;
+    }
+    
+    .step-number {
+      width: 36px;
+      height: 36px;
+      background: linear-gradient(135deg, #c9a84c 0%, #e5c96d 100%);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 600;
+      color: #1a365d;
+      flex-shrink: 0;
+    }
+    
+    .step-content h3 {
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+    
+    .step-content p {
+      font-size: 14px;
+      color: rgba(255,255,255,0.8);
+      line-height: 1.6;
+    }
+    
+    .btn {
+      display: block;
+      width: 100%;
+      padding: 16px;
+      background: linear-gradient(135deg, #c9a84c 0%, #e5c96d 100%);
+      color: #1a365d;
+      text-decoration: none;
+      border-radius: 12px;
+      font-weight: 600;
+      font-size: 18px;
+      text-align: center;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    
+    .btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 20px rgba(201, 168, 76, 0.4);
+    }
+    
+    .features {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 16px;
+      margin-top: 24px;
+    }
+    
+    .feature {
+      background: rgba(255,255,255,0.05);
+      padding: 16px;
+      border-radius: 12px;
+      text-align: center;
+    }
+    
+    .feature-icon {
+      font-size: 24px;
+      margin-bottom: 8px;
+    }
+    
+    .feature-text {
+      font-size: 12px;
+      color: rgba(255,255,255,0.7);
+    }
+    
+    .support {
+      text-align: center;
+      margin-top: 32px;
+      padding: 20px;
+      background: rgba(255,255,255,0.05);
+      border-radius: 12px;
+    }
+    
+    .support p {
+      font-size: 14px;
+      color: rgba(255,255,255,0.7);
+    }
+    
+    .support a {
+      color: #e5c96d;
+      text-decoration: none;
+    }
+    
+    .ios-note {
+      background: rgba(201, 168, 76, 0.2);
+      border: 1px solid rgba(201, 168, 76, 0.3);
+      border-radius: 12px;
+      padding: 16px;
+      margin-top: 24px;
+    }
+    
+    .ios-note h4 {
+      font-size: 14px;
+      color: #e5c96d;
+      margin-bottom: 8px;
+    }
+    
+    .ios-note p {
+      font-size: 12px;
+      color: rgba(255,255,255,0.8);
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="cross">✝</div>
+      <h1>¡Bienvenido!</h1>
+      <p class="subtitle">María Te Llama — Tu devocional diario</p>
+    </div>
+    
+    <a href="https://maria365.vercel.app/app.html" class="btn">
+      Comenzar Ahora
+    </a>
+    
+    <div class="card" style="margin-top: 24px;">
+      <h2 style="font-size: 20px; margin-bottom: 20px; font-family: 'Playfair Display', serif;">Cómo acceder</h2>
+      
+      <div class="step">
+        <div class="step-number">1</div>
+        <div class="step-content">
+          <h3>En tu celular</h3>
+          <p>Abre el enlace de arriba en <strong>Chrome</strong> (Android) o <strong>Safari</strong> (iPhone)</p>
+        </div>
+      </div>
+      
+      <div class="step">
+        <div class="step-number">2</div>
+        <div class="step-content">
+          <h3>Instala la app</h3>
+          <p>Toca los tres puntitos (Chrome) o el botón de compartir (Safari) y selecciona <strong>"Agregar a pantalla de inicio"</strong></p>
+        </div>
+      </div>
+      
+      <div class="step">
+        <div class="step-number">3</div>
+        <div class="step-content">
+          <h3>¡Listo!</h3>
+          <p>La app aparecerá en tu pantalla de inicio como una app nativa</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card">
+      <h2 style="font-size: 20px; margin-bottom: 16px; font-family: 'Playfair Display', serif;">¿Qué incluye?</h2>
+      <div class="features">
+        <div class="feature">
+          <div class="feature-icon">📖</div>
+          <div class="feature-text">365 oraciones</div>
+        </div>
+        <div class="feature">
+          <div class="feature-icon">🎧</div>
+          <div class="feature-text">Audio diario</div>
+        </div>
+        <div class="feature">
+          <div class="feature-icon">📊</div>
+          <div class="feature-text">Tu progreso</div>
+        </div>
+        <div class="feature">
+          <div class="feature-icon">🏆</div>
+          <div class="feature-text">Logros</div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="ios-note">
+      <h4>📱 Usuarios de iPhone</h4>
+      <p>Si no ves la opción de "Agregar a pantalla de inicio", asegúrate de usar <strong>Safari</strong>. La app no se instala desde Chrome en iPhone.</p>
+    </div>
+    
+    <div class="support">
+      <p>¿Necesitas ayuda? Escríbenos a <a href="mailto:soporte@pasoafuturo.com">soporte@pasoafuturo.com</a></p>
+    </div>
+  </div>
+</body>
+</html>

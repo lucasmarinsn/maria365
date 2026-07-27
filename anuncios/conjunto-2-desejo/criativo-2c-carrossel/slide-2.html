@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { width: 1080px; height: 1080px; overflow: hidden; font-family: 'Inter', sans-serif; }
+.ad {
+  width: 1080px; height: 1080px;
+  background: linear-gradient(160deg, #0f2444, #1a365d 60%);
+  display: flex; flex-direction: column; justify-content: center; padding: 80px;
+  position: relative; overflow: hidden;
+}
+.icon-row {
+  display: flex; gap: 32px; margin-bottom: 48px; position: relative; z-index: 1;
+}
+.icon-box {
+  width: 100px; height: 100px; background: rgba(201,168,76,0.15);
+  border: 2px solid rgba(201,168,76,0.3); border-radius: 20px;
+  display: flex; align-items: center; justify-content: center; font-size: 44px;
+}
+.headline {
+  font-family: 'Playfair Display', serif; font-size: 54px; font-weight: 700;
+  color: white; position: relative; z-index: 1; margin-bottom: 32px; line-height: 1.2;
+}
+.features {
+  position: relative; z-index: 1;
+}
+.feature-item {
+  display: flex; align-items: center; gap: 20px; padding: 20px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+.feature-item:last-child { border-bottom: none; }
+.feature-check {
+  width: 48px; height: 48px; background: rgba(201,168,76,0.2);
+  border-radius: 12px; display: flex; align-items: center; justify-content: center;
+  font-size: 24px; color: #c9a84c; flex-shrink: 0;
+}
+.feature-label {
+  font-size: 22px; color: white; font-weight: 500;
+}
+.feature-desc {
+  font-size: 16px; color: rgba(255,255,255,0.6); margin-top: 4px;
+}
+.logo {
+  position: absolute; bottom: 50px; right: 70px;
+  font-family: 'Playfair Display', serif; font-size: 28px; font-weight: 700;
+  color: rgba(255,255,255,0.9); z-index: 1; display: flex; align-items: center; gap: 10px;
+}
+.logo-cross { color: #c9a84c; font-size: 24px; }
+.slide-indicator {
+  position: absolute; bottom: 50px; left: 70px; z-index: 1;
+  display: flex; gap: 8px;
+}
+.dot { width: 12px; height: 12px; border-radius: 50%; background: rgba(255,255,255,0.3); }
+.dot.active { background: #c9a84c; width: 36px; border-radius: 6px; }
+</style>
+</head>
+<body>
+<div class="ad">
+  <div class="icon-row">
+    <div class="icon-box">📖</div>
+    <div class="icon-box">💭</div>
+    <div class="icon-box">✝</div>
+  </div>
+  <h1 class="headline">Oración + Reflexión + Versículo</h1>
+  <div class="features">
+    <div class="feature-item">
+      <div class="feature-check">📖</div>
+      <div>
+        <div class="feature-label">Oración mariana</div>
+        <div class="feature-desc">Una oración diferente para cada día del año</div>
+      </div>
+    </div>
+    <div class="feature-item">
+      <div class="feature-check">💭</div>
+      <div>
+        <div class="feature-label">Reflexión del día</div>
+        <div class="feature-desc">Profundiza el sentido de la oración</div>
+      </div>
+    </div>
+    <div class="feature-item">
+      <div class="feature-check">✝</div>
+      <div>
+        <div class="feature-label">Versículo bíblico</div>
+        <div class="feature-desc">La Palabra de Dios para guiar tu día</div>
+      </div>
+    </div>
+  </div>
+  <div class="logo"><span class="logo-cross">✝</span> María 365</div>
+  <div class="slide-indicator">
+    <div class="dot"></div><div class="dot active"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div>
+  </div>
+</div>
+</body>
+</html>

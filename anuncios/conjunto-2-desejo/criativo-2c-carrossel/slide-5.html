@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { width: 1080px; height: 1080px; overflow: hidden; font-family: 'Inter', sans-serif; }
+.ad {
+  width: 1080px; height: 1080px;
+  background: linear-gradient(160deg, #1a365d 0%, #2a4a7f 50%, #c9a84c 100%);
+  display: flex; flex-direction: column; justify-content: center; align-items: center;
+  padding: 80px; position: relative; overflow: hidden;
+}
+.ad::before {
+  content: ''; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);
+  width: 800px; height: 800px;
+  background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 60%);
+  border-radius: 50%;
+}
+.badge {
+  display: inline-block; background: white; color: #1a365d;
+  padding: 10px 24px; border-radius: 30px; font-size: 16px; font-weight: 700;
+  letter-spacing: 2px; text-transform: uppercase; margin-bottom: 40px;
+  position: relative; z-index: 1;
+}
+.headline {
+  font-family: 'Playfair Display', serif; font-size: 58px; font-weight: 700;
+  color: white; text-align: center; position: relative; z-index: 1;
+  margin-bottom: 48px; line-height: 1.2;
+  text-shadow: 0 2px 20px rgba(0,0,0,0.2);
+}
+.price-cards {
+  display: flex; gap: 24px; margin-bottom: 48px; position: relative; z-index: 1;
+}
+.price-card {
+  background: rgba(255,255,255,0.12); backdrop-filter: blur(10px);
+  border: 2px solid rgba(255,255,255,0.2); border-radius: 20px;
+  padding: 36px 40px; text-align: center; min-width: 300px;
+}
+.price-card.featured {
+  border-color: white; background: rgba(255,255,255,0.2);
+  position: relative;
+}
+.price-card-badge {
+  position: absolute; top: -14px; left: 50%; transform: translateX(-50%);
+  background: white; color: #1a365d; padding: 6px 20px; border-radius: 20px;
+  font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px;
+  white-space: nowrap;
+}
+.price-plan {
+  font-size: 14px; text-transform: uppercase; letter-spacing: 2px;
+  color: rgba(255,255,255,0.7); margin-bottom: 12px;
+}
+.price-value {
+  font-family: 'Playfair Display', serif; font-size: 56px; font-weight: 700;
+  color: white; margin-bottom: 4px;
+}
+.price-period {
+  font-size: 16px; color: rgba(255,255,255,0.6); margin-bottom: 16px;
+}
+.price-old {
+  font-size: 18px; color: rgba(255,255,255,0.4); text-decoration: line-through;
+}
+.cta-section {
+  position: relative; z-index: 1; text-align: center;
+}
+.cta-button {
+  display: inline-block; background: white; color: #1a365d;
+  padding: 22px 56px; border-radius: 12px; font-size: 22px; font-weight: 700;
+  text-transform: uppercase; letter-spacing: 1px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.2); margin-bottom: 16px;
+}
+.cta-sub {
+  font-size: 16px; color: rgba(255,255,255,0.7);
+}
+.trial-badge {
+  display: inline-flex; align-items: center; gap: 8px;
+  background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.3);
+  padding: 10px 24px; border-radius: 30px; font-size: 15px; color: white;
+  font-weight: 600; margin-top: 16px;
+}
+.logo {
+  position: absolute; bottom: 50px; right: 70px;
+  font-family: 'Playfair Display', serif; font-size: 28px; font-weight: 700;
+  color: rgba(255,255,255,0.9); z-index: 1; display: flex; align-items: center; gap: 10px;
+}
+.logo-cross { color: white; font-size: 24px; }
+.slide-indicator {
+  position: absolute; bottom: 50px; left: 70px; z-index: 1;
+  display: flex; gap: 8px;
+}
+.dot { width: 12px; height: 12px; border-radius: 50%; background: rgba(255,255,255,0.3); }
+.dot.active { background: white; width: 36px; border-radius: 6px; }
+</style>
+</head>
+<body>
+<div class="ad">
+  <div class="badge">7 días gratis</div>
+  
+  <h1 class="headline">Comienza tu jornada<br>con María hoy</h1>
+  
+  <div class="price-cards">
+    <div class="price-card">
+      <div class="price-plan">Mensual</div>
+      <div class="price-value">$7.90</div>
+      <div class="price-period">/mes</div>
+      <div class="price-old">Antes $9.99</div>
+    </div>
+    <div class="price-card featured">
+      <div class="price-card-badge">Ahorra 2 meses</div>
+      <div class="price-plan">Anual</div>
+      <div class="price-value">$60</div>
+      <div class="price-period">/año</div>
+      <div class="price-old">$119.88/año</div>
+    </div>
+  </div>
+  
+  <div class="cta-section">
+    <div class="cta-button">Empezar mi prueba gratis</div>
+    <div class="cta-sub">Cancela cuando quieras · Garantía de 7 días</div>
+    <div class="trial-badge">✨ 7 días gratis · Sin compromiso</div>
+  </div>
+  
+  <div class="logo"><span class="logo-cross">✝</span> María 365</div>
+  <div class="slide-indicator">
+    <div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot active"></div>
+  </div>
+</div>
+</body>
+</html>

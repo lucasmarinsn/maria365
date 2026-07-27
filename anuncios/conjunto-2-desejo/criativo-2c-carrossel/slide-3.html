@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { width: 1080px; height: 1080px; overflow: hidden; font-family: 'Inter', sans-serif; }
+.ad {
+  width: 1080px; height: 1080px;
+  background: linear-gradient(160deg, #0f2444, #1a365d 60%);
+  display: flex; flex-direction: column; justify-content: center; align-items: center;
+  padding: 80px; position: relative; overflow: hidden;
+}
+.ad::before {
+  content: ''; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);
+  width: 700px; height: 700px;
+  background: radial-gradient(circle, rgba(201,168,76,0.12) 0%, transparent 60%);
+  border-radius: 50%;
+}
+.big-icon {
+  font-size: 120px; position: relative; z-index: 1; margin-bottom: 40px;
+}
+.headline {
+  font-family: 'Playfair Display', serif; font-size: 54px; font-weight: 700;
+  color: white; text-align: center; position: relative; z-index: 1;
+  margin-bottom: 32px; line-height: 1.2;
+}
+.subtext {
+  font-size: 22px; color: rgba(255,255,255,0.8); text-align: center;
+  position: relative; z-index: 1; max-width: 650px; line-height: 1.6; margin-bottom: 48px;
+}
+.player-preview {
+  position: relative; z-index: 1; background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(201,168,76,0.25); border-radius: 20px;
+  padding: 32px 40px; width: 100%; max-width: 600px;
+}
+.player-row {
+  display: flex; align-items: center; gap: 20px;
+}
+.play-circle {
+  width: 64px; height: 64px; background: #c9a84c; border-radius: 50%;
+  display: flex; align-items: center; justify-content: center; font-size: 28px;
+  flex-shrink: 0; box-shadow: 0 4px 20px rgba(201,168,76,0.4);
+}
+.wave-bars {
+  flex: 1; display: flex; align-items: center; gap: 3px; height: 48px;
+}
+.bar { width: 5px; background: #c9a84c; border-radius: 2px; opacity: 0.6; }
+.context-icons {
+  display: flex; gap: 24px; margin-top: 24px; justify-content: center;
+}
+.context-item {
+  display: flex; align-items: center; gap: 8px;
+  font-size: 16px; color: rgba(255,255,255,0.7);
+}
+.context-icon { font-size: 24px; }
+.logo {
+  position: absolute; bottom: 50px; right: 70px;
+  font-family: 'Playfair Display', serif; font-size: 28px; font-weight: 700;
+  color: rgba(255,255,255,0.9); z-index: 1; display: flex; align-items: center; gap: 10px;
+}
+.logo-cross { color: #c9a84c; font-size: 24px; }
+.slide-indicator {
+  position: absolute; bottom: 50px; left: 70px; z-index: 1;
+  display: flex; gap: 8px;
+}
+.dot { width: 12px; height: 12px; border-radius: 50%; background: rgba(255,255,255,0.3); }
+.dot.active { background: #c9a84c; width: 36px; border-radius: 6px; }
+</style>
+</head>
+<body>
+<div class="ad">
+  <div class="big-icon">🔊</div>
+  <h1 class="headline">Audio para escuchar<br>en cualquier lugar</h1>
+  <p class="subtext">Cada oración tiene audio — escucha mientras cocinas, caminas o descansas.</p>
+  <div class="player-preview">
+    <div class="player-row">
+      <div class="play-circle">▶</div>
+      <div class="wave-bars">
+        <div class="bar" style="height:14px"></div>
+        <div class="bar" style="height:24px"></div>
+        <div class="bar" style="height:18px"></div>
+        <div class="bar" style="height:32px"></div>
+        <div class="bar" style="height:12px"></div>
+        <div class="bar" style="height:28px"></div>
+        <div class="bar" style="height:20px"></div>
+        <div class="bar" style="height:36px"></div>
+        <div class="bar" style="height:16px"></div>
+        <div class="bar" style="height:26px"></div>
+        <div class="bar" style="height:22px"></div>
+        <div class="bar" style="height:30px"></div>
+        <div class="bar" style="height:18px"></div>
+        <div class="bar" style="height:34px"></div>
+        <div class="bar" style="height:12px"></div>
+        <div class="bar" style="height:24px"></div>
+      </div>
+    </div>
+    <div class="context-icons">
+      <div class="context-item"><span class="context-icon">🍳</span> Cocinando</div>
+      <div class="context-item"><span class="context-icon">🚶</span> Caminando</div>
+      <div class="context-item"><span class="context-icon">😴</span> Descansando</div>
+    </div>
+  </div>
+  <div class="logo"><span class="logo-cross">✝</span> María 365</div>
+  <div class="slide-indicator">
+    <div class="dot"></div><div class="dot"></div><div class="dot active"></div><div class="dot"></div><div class="dot"></div>
+  </div>
+</div>
+</body>
+</html>

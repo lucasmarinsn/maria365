@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { width: 1080px; height: 1080px; overflow: hidden; font-family: 'Inter', sans-serif; }
+.ad {
+  width: 1080px; height: 1080px;
+  background: linear-gradient(160deg, #0f2444, #1a365d 60%);
+  display: flex; flex-direction: column; justify-content: center; padding: 80px;
+  position: relative; overflow: hidden;
+}
+.ad::before {
+  content: ''; position: absolute; bottom: -100px; right: -100px;
+  width: 500px; height: 500px;
+  background: radial-gradient(circle, rgba(201,168,76,0.1) 0%, transparent 70%);
+  border-radius: 50%;
+}
+.headline {
+  font-family: 'Playfair Display', serif; font-size: 54px; font-weight: 700;
+  color: white; position: relative; z-index: 1; margin-bottom: 48px; line-height: 1.2;
+}
+.progress-preview {
+  position: relative; z-index: 1; background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(201,168,76,0.25); border-radius: 24px;
+  padding: 40px; margin-bottom: 40px;
+}
+.progress-header {
+  display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px;
+}
+.progress-title {
+  font-size: 18px; color: white; font-weight: 600;
+}
+.progress-count {
+  font-size: 16px; color: #c9a84c; font-weight: 600;
+}
+.progress-bar-bg {
+  height: 16px; background: rgba(255,255,255,0.1); border-radius: 8px; overflow: hidden;
+  margin-bottom: 32px;
+}
+.progress-bar-fill {
+  height: 100%; width: 25%; background: linear-gradient(90deg, #c9a84c, #e5c96d);
+  border-radius: 8px; transition: width 0.5s;
+}
+.stats-row {
+  display: flex; gap: 24px;
+}
+.stat-box {
+  flex: 1; background: rgba(255,255,255,0.05); border-radius: 16px;
+  padding: 20px; text-align: center;
+}
+.stat-number {
+  font-family: 'Playfair Display', serif; font-size: 36px; font-weight: 700;
+  color: #c9a84c; margin-bottom: 4px;
+}
+.stat-label {
+  font-size: 14px; color: rgba(255,255,255,0.6); text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.calendar-mini {
+  position: relative; z-index: 1; display: grid; grid-template-columns: repeat(7, 1fr);
+  gap: 8px; margin-bottom: 40px;
+}
+.day-cell {
+  aspect-ratio: 1; border-radius: 8px; display: flex; align-items: center;
+  justify-content: center; font-size: 14px; font-weight: 500;
+}
+.day-done {
+  background: rgba(56,161,105,0.3); border: 1px solid rgba(56,161,105,0.5); color: #68d391;
+}
+.day-current {
+  background: #c9a84c; color: #1a365d; font-weight: 700;
+}
+.day-future {
+  background: rgba(255,255,255,0.05); color: rgba(255,255,255,0.3);
+}
+.day-label {
+  font-size: 12px; color: rgba(255,255,255,0.4); text-align: center;
+  padding: 4px 0;
+}
+.subtext {
+  font-size: 20px; color: rgba(255,255,255,0.8); position: relative; z-index: 1;
+  line-height: 1.6; max-width: 700px;
+}
+.logo {
+  position: absolute; bottom: 50px; right: 70px;
+  font-family: 'Playfair Display', serif; font-size: 28px; font-weight: 700;
+  color: rgba(255,255,255,0.9); z-index: 1; display: flex; align-items: center; gap: 10px;
+}
+.logo-cross { color: #c9a84c; font-size: 24px; }
+.slide-indicator {
+  position: absolute; bottom: 50px; left: 70px; z-index: 1;
+  display: flex; gap: 8px;
+}
+.dot { width: 12px; height: 12px; border-radius: 50%; background: rgba(255,255,255,0.3); }
+.dot.active { background: #c9a84c; width: 36px; border-radius: 6px; }
+</style>
+</head>
+<body>
+<div class="ad">
+  <h1 class="headline">Sigue tu progreso</h1>
+  
+  <div class="progress-preview">
+    <div class="progress-header">
+      <div class="progress-title">Días completados</div>
+      <div class="progress-count">90 / 365</div>
+    </div>
+    <div class="progress-bar-bg">
+      <div class="progress-bar-fill"></div>
+    </div>
+    <div class="stats-row">
+      <div class="stat-box">
+        <div class="stat-number">🔥</div>
+        <div class="stat-label">Racha 12</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-number">90</div>
+        <div class="stat-label">Completados</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-number">25%</div>
+        <div class="stat-label">Progreso</div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="calendar-mini">
+    <div class="day-label">L</div><div class="day-label">M</div><div class="day-label">X</div>
+    <div class="day-label">J</div><div class="day-label">V</div><div class="day-label">S</div><div class="day-label">D</div>
+    <div class="day-cell day-done">1</div><div class="day-cell day-done">2</div>
+    <div class="day-cell day-done">3</div><div class="day-cell day-done">4</div>
+    <div class="day-cell day-done">5</div><div class="day-cell day-done">6</div>
+    <div class="day-cell day-done">7</div><div class="day-cell day-done">8</div>
+    <div class="day-cell day-done">9</div><div class="day-cell day-done">10</div>
+    <div class="day-cell day-done">11</div><div class="day-cell day-done">12</div>
+    <div class="day-cell day-done">13</div><div class="day-cell day-current">14</div>
+    <div class="day-cell day-future">15</div><div class="day-cell day-future">16</div>
+    <div class="day-cell day-future">17</div><div class="day-cell day-future">18</div>
+    <div class="day-cell day-future">19</div><div class="day-cell day-future">20</div>
+    <div class="day-cell day-future">21</div>
+  </div>
+  
+  <p class="subtext">Nunca pierdas tu racha. Ve tu avance día a día y mantén la constancia.</p>
+  
+  <div class="logo"><span class="logo-cross">✝</span> María 365</div>
+  <div class="slide-indicator">
+    <div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot active"></div><div class="dot"></div>
+  </div>
+</div>
+</body>
+</html>

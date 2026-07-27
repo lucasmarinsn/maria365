@@ -1,6 +1,7 @@
 // App State
 let currentDay = 1;
 let audioPlayer = null;
+let userAccess = false;
 const MONTHS = [
   'Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio',
   'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'
@@ -8,21 +9,25 @@ const MONTHS = [
 
 const DAYS_IN_MONTH = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
 
-// Paywall
-function isSubscribed() {
-  return localStorage.getItem('maria365_subscribed') === 'true';
+// Access Control - Free access for all users
+function hasAccess() {
+  return true;
 }
 
-function showPaywall() {
-  document.getElementById('paywall').classList.add('active');
-}
-
-function hidePaywall() {
-  document.getElementById('paywall').classList.remove('active');
+function setAccess(email, name) {
+  localStorage.setItem('maria365_user_email', email || '');
+  localStorage.setItem('maria365_user_name', name || '');
 }
 
 // Initialize
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', async () => {
+  // Grant access to all users
+  if (!localStorage.getItem('maria365_user_email')) {
+    setAccess('user@maria365.com', 'Usuario');
+  }
+  
+  userAccess = true;
+  
   audioPlayer = new AudioPlayer();
   audioPlayer.onPlayCallback = () => updatePlayButton(true);
   audioPlayer.onPauseCallback = () => updatePlayButton(false);
@@ -178,11 +183,6 @@ function getDayOfYear(date) {
 
 // Day View
 function openDay(day) {
-  if (day !== 1 && !isSubscribed()) {
-    showPaywall();
-    return;
-  }
-
   currentDay = day;
   const data = devotionalData[day - 1];
 
@@ -434,6 +434,14 @@ function showStageToast(icon, title, desc) {
   toast.classList.add('show');
   setTimeout(() => toast.classList.remove('show'), 3000);
 }
+
+// Click toast to dismiss
+document.addEventListener('DOMContentLoaded', () => {
+  const toast = document.getElementById('stageToast');
+  if (toast) {
+    toast.addEventListener('click', () => toast.classList.remove('show'));
+  }
+});
 
 // Keyboard Navigation
 document.addEventListener('keydown', (e) => {

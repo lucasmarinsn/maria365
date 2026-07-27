@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { width: 1080px; height: 1080px; overflow: hidden; font-family: 'Inter', sans-serif; }
+.ad {
+  width: 1080px; height: 1080px;
+  background: linear-gradient(160deg, #0f2444, #1a365d 50%, #2a4a7f);
+  display: flex; flex-direction: column; justify-content: center; align-items: center;
+  padding: 80px; position: relative; overflow: hidden;
+}
+.ad::before {
+  content: ''; position: absolute; top: -200px; right: -200px;
+  width: 600px; height: 600px;
+  background: radial-gradient(circle, rgba(201,168,76,0.15) 0%, transparent 70%);
+  border-radius: 50%;
+}
+.big-number {
+  font-family: 'Playfair Display', serif; font-size: 200px; font-weight: 700;
+  color: #c9a84c; position: relative; z-index: 1; line-height: 1;
+  text-shadow: 0 4px 40px rgba(201,168,76,0.3);
+}
+.headline {
+  font-family: 'Playfair Display', serif; font-size: 52px; font-weight: 700;
+  color: white; text-align: center; position: relative; z-index: 1;
+  margin-top: 20px; margin-bottom: 40px;
+}
+.subtext {
+  font-size: 22px; color: rgba(255,255,255,0.8); text-align: center;
+  position: relative; z-index: 1; max-width: 600px; line-height: 1.6;
+}
+.logo {
+  position: absolute; bottom: 50px; right: 70px;
+  font-family: 'Playfair Display', serif; font-size: 28px; font-weight: 700;
+  color: rgba(255,255,255,0.9); z-index: 1; display: flex; align-items: center; gap: 10px;
+}
+.logo-cross { color: #c9a84c; font-size: 24px; }
+.slide-indicator {
+  position: absolute; bottom: 50px; left: 70px; z-index: 1;
+  display: flex; gap: 8px;
+}
+.dot { width: 12px; height: 12px; border-radius: 50%; background: rgba(255,255,255,0.3); }
+.dot.active { background: #c9a84c; width: 36px; border-radius: 6px; }
+</style>
+</head>
+<body>
+<div class="ad">
+  <div class="big-number">365</div>
+  <h1 class="headline">días. Una oración por día.</h1>
+  <p class="subtext">Un camino completo de devoción mariana — del primer al último día del año.</p>
+  <div class="logo"><span class="logo-cross">✝</span> María 365</div>
+  <div class="slide-indicator">
+    <div class="dot active"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div><div class="dot"></div>
+  </div>
+</div>
+</body>
+</html>

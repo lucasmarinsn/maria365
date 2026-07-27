@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1080">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  width: 1080px;
+  height: 1080px;
+  overflow: hidden;
+  font-family: 'Inter', sans-serif;
+}
+
+.ad {
+  width: 1080px;
+  height: 1080px;
+  background: linear-gradient(160deg, #0f2444 0%, #1a365d 60%, #2a4a7f 100%);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px;
+  overflow: hidden;
+}
+
+.ad::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 800px;
+  height: 800px;
+  background: radial-gradient(circle, rgba(201,168,76,0.15) 0%, transparent 60%);
+  border-radius: 50%;
+}
+
+.headline {
+  font-family: 'Playfair Display', serif;
+  font-size: 58px;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  line-height: 1.15;
+  margin-bottom: 40px;
+  position: relative;
+  z-index: 1;
+  max-width: 800px;
+}
+
+.subtext {
+  font-size: 22px;
+  color: rgba(255,255,255,0.85);
+  text-align: center;
+  line-height: 1.6;
+  margin-bottom: 50px;
+  position: relative;
+  z-index: 1;
+  max-width: 700px;
+}
+
+.audio-player-big {
+  position: relative;
+  z-index: 1;
+  background: rgba(255,255,255,0.08);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(201,168,76,0.3);
+  border-radius: 24px;
+  padding: 40px 50px;
+  margin-bottom: 50px;
+  width: 100%;
+  max-width: 700px;
+}
+
+.player-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.player-title {
+  font-size: 18px;
+  color: rgba(255,255,255,0.7);
+}
+
+.player-day {
+  font-size: 14px;
+  color: #c9a84c;
+  font-weight: 600;
+}
+
+.player-body {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.play-button {
+  width: 72px;
+  height: 72px;
+  background: #c9a84c;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  flex-shrink: 0;
+  box-shadow: 0 4px 20px rgba(201,168,76,0.4);
+}
+
+.player-wave {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  height: 60px;
+}
+
+.wave-bar {
+  width: 6px;
+  background: #c9a84c;
+  border-radius: 3px;
+  opacity: 0.6;
+}
+
+.player-time {
+  font-size: 16px;
+  color: rgba(255,255,255,0.5);
+  font-variant-numeric: tabular-nums;
+}
+
+.player-text {
+  font-family: 'Playfair Display', serif;
+  font-size: 16px;
+  color: rgba(255,255,255,0.9);
+  font-style: italic;
+  margin-top: 20px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.player-ref {
+  font-size: 13px;
+  color: #c9a84c;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.quote-text {
+  position: relative;
+  z-index: 1;
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  color: rgba(255,255,255,0.7);
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 40px;
+  max-width: 600px;
+}
+
+.cta-section {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+.cta-button {
+  display: inline-block;
+  background: #c9a84c;
+  color: #1a365d;
+  padding: 22px 56px;
+  border-radius: 12px;
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  box-shadow: 0 8px 32px rgba(201,168,76,0.4);
+  margin-bottom: 16px;
+}
+
+.cta-sub {
+  font-size: 16px;
+  color: rgba(255,255,255,0.6);
+}
+
+.logo {
+  position: absolute;
+  bottom: 50px;
+  right: 70px;
+  font-family: 'Playfair Display', serif;
+  font-size: 28px;
+  font-weight: 700;
+  color: rgba(255,255,255,0.9);
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-cross {
+  color: #c9a84c;
+  font-size: 24px;
+}
+
+.ear-icon {
+  position: absolute;
+  top: 60px;
+  left: 80px;
+  font-size: 80px;
+  z-index: 1;
+  opacity: 0.8;
+}
+
+.sound-waves {
+  position: absolute;
+  top: 180px;
+  left: 100px;
+  z-index: 1;
+}
+
+.sound-wave-line {
+  width: 60px;
+  height: 3px;
+  background: rgba(201,168,76,0.4);
+  border-radius: 2px;
+  margin-bottom: 8px;
+}
+</style>
+</head>
+<body>
+<div class="ad">
+  <div class="ear-icon">👂</div>
+  <div class="sound-waves">
+    <div class="sound-wave-line" style="width:40px"></div>
+    <div class="sound-wave-line" style="width:60px"></div>
+    <div class="sound-wave-line" style="width:50px"></div>
+    <div class="sound-wave-line" style="width:35px"></div>
+  </div>
+  
+  <h1 class="headline">¿Ya oraste ESCUCHANDO la oración?</h1>
+  
+  <p class="subtext">María 365 no es solo texto. Cada oración tiene audio — escuchas mientras cocinas, caminas o descansas.</p>
+  
+  <div class="audio-player-big">
+    <div class="player-header">
+      <div class="player-title">🔊 Escuchar oración</div>
+      <div class="player-day">Día 1 · Enero</div>
+    </div>
+    <div class="player-body">
+      <div class="play-button">⏸</div>
+      <div class="player-wave">
+        <div class="wave-bar" style="height:12px"></div>
+        <div class="wave-bar" style="height:24px"></div>
+        <div class="wave-bar" style="height:18px"></div>
+        <div class="wave-bar" style="height:32px"></div>
+        <div class="wave-bar" style="height:14px"></div>
+        <div class="wave-bar" style="height:28px"></div>
+        <div class="wave-bar" style="height:20px"></div>
+        <div class="wave-bar" style="height:36px"></div>
+        <div class="wave-bar" style="height:16px"></div>
+        <div class="wave-bar" style="height:26px"></div>
+        <div class="wave-bar" style="height:22px"></div>
+        <div class="wave-bar" style="height:30px"></div>
+        <div class="wave-bar" style="height:18px"></div>
+        <div class="wave-bar" style="height:34px"></div>
+        <div class="wave-bar" style="height:12px"></div>
+        <div class="wave-bar" style="height:24px"></div>
+        <div class="wave-bar" style="height:20px"></div>
+        <div class="wave-bar" style="height:28px"></div>
+        <div class="wave-bar" style="height:14px"></div>
+        <div class="wave-bar" style="height:22px"></div>
+      </div>
+      <div class="player-time">2:34</div>
+    </div>
+    <div class="player-text">"María guardaba todas estas cosas, meditándolas en su corazón."</div>
+    <div class="player-ref">— Lucas 2:19</div>
+  </div>
+  
+  <p class="quote-text">La fe entra por los ojos cuando los oídos están cansados.</p>
+  
+  <div class="cta-section">
+    <div class="cta-button">Quiero orar escuchando</div>
+    <div class="cta-sub">7 días gratis · 365 oraciones con audio</div>
+  </div>
+  
+  <div class="logo">
+    <span class="logo-cross">✝</span> María 365
+  </div>
+</div>
+</body>
+</html>

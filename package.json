@@ -1,0 +1,9 @@
+{
+  "name": "maria365-backend",
+  "version": "1.0.0",
+  "description": "Backend for María 365 app",
+  "private": true,
+  "dependencies": {
+    "firebase": "^10.12.0"
+  }
+}

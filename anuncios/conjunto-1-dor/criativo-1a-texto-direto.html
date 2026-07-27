@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1080">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  width: 1080px;
+  height: 1080px;
+  overflow: hidden;
+  font-family: 'Inter', sans-serif;
+}
+
+.ad {
+  width: 1080px;
+  height: 1080px;
+  background: linear-gradient(160deg, #0f2444 0%, #1a365d 40%, #2a4a7f 100%);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 80px 70px;
+  overflow: hidden;
+}
+
+.ad::before {
+  content: '';
+  position: absolute;
+  top: -200px;
+  right: -200px;
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, rgba(201,168,76,0.12) 0%, transparent 70%);
+  border-radius: 50%;
+}
+
+.ad::after {
+  content: '';
+  position: absolute;
+  bottom: -150px;
+  left: -150px;
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(circle, rgba(201,168,76,0.08) 0%, transparent 70%);
+  border-radius: 50%;
+}
+
+.badge {
+  display: inline-block;
+  background: #c9a84c;
+  color: #1a365d;
+  padding: 10px 24px;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  position: relative;
+  z-index: 1;
+}
+
+.headline {
+  font-family: 'Playfair Display', serif;
+  font-size: 58px;
+  font-weight: 700;
+  color: white;
+  line-height: 1.15;
+  margin-bottom: 32px;
+  position: relative;
+  z-index: 1;
+  max-width: 800px;
+}
+
+.subtext {
+  font-size: 22px;
+  color: rgba(255,255,255,0.85);
+  line-height: 1.6;
+  margin-bottom: 48px;
+  position: relative;
+  z-index: 1;
+  max-width: 750px;
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-bottom: 50px;
+  position: relative;
+  z-index: 1;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-size: 20px;
+  color: white;
+}
+
+.feature-icon {
+  width: 40px;
+  height: 40px;
+  background: rgba(201,168,76,0.2);
+  border: 2px solid #c9a84c;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  flex-shrink: 0;
+}
+
+.cta-section {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.cta-button {
+  background: #c9a84c;
+  color: #1a365d;
+  padding: 20px 48px;
+  border-radius: 12px;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: inline-block;
+  box-shadow: 0 8px 32px rgba(201,168,76,0.4);
+}
+
+.cta-sub {
+  font-size: 16px;
+  color: rgba(255,255,255,0.7);
+}
+
+.logo {
+  position: absolute;
+  bottom: 50px;
+  right: 70px;
+  font-family: 'Playfair Display', serif;
+  font-size: 28px;
+  font-weight: 700;
+  color: rgba(255,255,255,0.9);
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-cross {
+  color: #c9a84c;
+  font-size: 24px;
+}
+
+.phone-mockup {
+  position: absolute;
+  right: 60px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 280px;
+  height: 500px;
+  background: #0d1b2e;
+  border-radius: 36px;
+  border: 4px solid rgba(201,168,76,0.3);
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+}
+
+.phone-header {
+  width: 100%;
+  text-align: center;
+  padding: 12px 0;
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+  border-bottom: 1px solid rgba(201,168,76,0.2);
+  margin-bottom: 16px;
+}
+
+.phone-day {
+  font-size: 13px;
+  color: #c9a84c;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 8px;
+}
+
+.phone-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  margin-bottom: 16px;
+  line-height: 1.3;
+}
+
+.phone-verse {
+  background: rgba(201,168,76,0.1);
+  border-left: 3px solid #c9a84c;
+  padding: 12px;
+  border-radius: 0 8px 8px 0;
+  font-size: 12px;
+  color: rgba(255,255,255,0.8);
+  font-style: italic;
+  line-height: 1.5;
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+.phone-audio {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: rgba(201,168,76,0.15);
+  padding: 10px 16px;
+  border-radius: 20px;
+  width: 100%;
+  justify-content: center;
+}
+
+.phone-audio-icon {
+  font-size: 16px;
+}
+
+.phone-audio-bars {
+  display: flex;
+  gap: 3px;
+  align-items: center;
+}
+
+.phone-audio-bar {
+  width: 4px;
+  background: #c9a84c;
+  border-radius: 2px;
+}
+
+.phone-audio-text {
+  font-size: 12px;
+  color: #c9a84c;
+  font-weight: 600;
+}
+</style>
+</head>
+<body>
+<div class="ad">
+  <div class="badge">7 días gratis</div>
+  
+  <h1 class="headline">¿Por qué abandonas la oración en el día 10?</h1>
+  
+  <p class="subtext">No es falta de fe.<br>Es falta de estructura.</p>
+  
+  <div class="features">
+    <div class="feature">
+      <div class="feature-icon">📖</div>
+      <span>Una oración mariana por día, durante 365 días</span>
+    </div>
+    <div class="feature">
+      <div class="feature-icon">🔊</div>
+      <span>Audio para escuchar en cualquier lugar</span>
+    </div>
+    <div class="feature">
+      <div class="feature-icon">📊</div>
+      <span>Seguimiento de tu progreso</span>
+    </div>
+  </div>
+  
+  <div class="cta-section">
+    <div class="cta-button">Empezar mi prueba gratis</div>
+    <div class="cta-sub">Después $7.90/mes<br>Cancela cuando quieras</div>
+  </div>
+  
+  <div class="logo">
+    <span class="logo-cross">✝</span> María 365
+  </div>
+
+  <div class="phone-mockup">
+    <div class="phone-header">✝ María 365</div>
+    <div class="phone-day">Día 1 · Enero</div>
+    <div class="phone-title">María, Estrella del Año Nuevo</div>
+    <div class="phone-verse">"María guardaba todas estas cosas, meditándolas en su corazón." — Lucas 2:19</div>
+    <div class="phone-audio">
+      <span class="phone-audio-icon">▶</span>
+      <div class="phone-audio-bars">
+        <div class="phone-audio-bar" style="height:12px"></div>
+        <div class="phone-audio-bar" style="height:20px"></div>
+        <div class="phone-audio-bar" style="height:16px"></div>
+        <div class="phone-audio-bar" style="height:24px"></div>
+        <div class="phone-audio-bar" style="height:14px"></div>
+      </div>
+      <span class="phone-audio-text">Escuchar oración</span>
+    </div>
+  </div>
+</div>
+</body>
+</html>
