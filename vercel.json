@@ -4,5 +4,7 @@
     { "source": "/api/webhook", "destination": "/api/webhook.js" },
     { "source": "/api/validate", "destination": "/api/validate.js" },
     { "source": "/api/test", "destination": "/api/test.js" }
-  ]
+  ],
+  "cleanUrls": true,
+  "trailingSlash": false
 }
