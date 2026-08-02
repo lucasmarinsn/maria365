@@ -1,251 +1,251 @@
-?const devotionalData = [
+const devotionalData = [
   {
     day: 1,
-    title: "Mar�a, Estrella del A�o Nuevo",
+    title: "María, Estrella del Año Nuevo",
     month: "Enero",
-    verse: { text: "Porque yo s� los planes que tengo para vosotros, dice el Se�or, planes de bienestar y no de mal, para daros un futuro y una esperanza.", reference: "Jerem�as 29:11" },
-    reflection: "Al comenzar un nuevo a�o, Mar�a nos gu�a hacia Dios con su ejemplo de fe. Ella confi� en los planes de Dios desde el primer momento de su vida.",
-    prayer: "Mar�a, estrella del nuevo a�o, gu�a mis pasos en este camino que comienza."
+    verse: { text: "Porque yo sé los planes que tengo para vosotros, dice el Señor, planes de bienestar y no de mal, para daros un futuro y una esperanza.", reference: "Jeremías 29:11" },
+    reflection: "Al comenzar un nuevo año, María nos guía hacia Dios con su ejemplo de fe. Ella confió en los planes de Dios desde el primer momento de su vida.",
+    prayer: "María, estrella del nuevo año, guía mis pasos en este camino que comienza."
   },
   {
     day: 2,
-    title: "Mar�a, Madre de la Luz",
+    title: "María, Madre de la Luz",
     month: "Enero",
-    verse: { text: "En ti hab�a un rayo de la luz eterna, y el Verbo era la luz verdadera que alumbra a todo hombre.", reference: "Juan 1:9" },
-    reflection: "Mar�a es la Madre de la Luz porque dio a luz al Sol de Justicia. En el inicio del a�o, ella nos invita a caminar en la luz de Cristo.",
-    prayer: "Mar�a, madre de la luz verdadera, ilumina mi camino en este nuevo a�o."
+    verse: { text: "En ti había un rayo de la luz eterna, y el Verbo era la luz verdadera que alumbra a todo hombre.", reference: "Juan 1:9" },
+    reflection: "María es la Madre de la Luz porque dio a luz al Sol de Justicia. En el inicio del año, ella nos invita a caminar en la luz de Cristo.",
+    prayer: "María, madre de la luz verdadera, ilumina mi camino en este nuevo año."
   },
   {
     day: 3,
-    title: "Mar�a y las Apariciones Marianas",
+    title: "María y las Apariciones Marianas",
     month: "Enero",
-    verse: { text: "El �ngel del Se�or acamp� alrededor de los que le temen, y los defendi�.", reference: "Salmo 34:7" },
-    reflection: "A lo largo de la historia, Mar�a se ha manifestado a los fieles en diversas apariciones milagrosas. Desde Guadalupe hasta Lourdes, ella ha venido a confirmar nuestra fe.",
-    prayer: "Santa Mar�a, que tus apariciones nos recuerden tu presencia maternal."
+    verse: { text: "El ángel del Señor acampó alrededor de los que le temen, y los defendió.", reference: "Salmo 34:7" },
+    reflection: "A lo largo de la historia, María se ha manifestado a los fieles en diversas apariciones milagrosas. Desde Guadalupe hasta Lourdes, ella ha venido a confirmar nuestra fe.",
+    prayer: "Santa María, que tus apariciones nos recuerden tu presencia maternal."
   },
   {
     day: 4,
-    title: "Mar�a, Gu�a de los Pueblos",
+    title: "María, Guía de los Pueblos",
     month: "Enero",
-    verse: { text: "Yo soy el camino, la verdad y la vida; nadie viene al Padre sino por m�.", reference: "Juan 14:6" },
-    reflection: "Mar�a, como Madre de la Iglesia, gu�a a los pueblos hacia su Hijo. Ella fue la primera en seguir a Jes�s y sigue guiando a la humanidad.",
-    prayer: "Mar�a, gu�a de los pueblos, intercede por las naciones del mundo."
+    verse: { text: "Yo soy el camino, la verdad y la vida; nadie viene al Padre sino por mí.", reference: "Juan 14:6" },
+    reflection: "María, como Madre de la Iglesia, guía a los pueblos hacia su Hijo. Ella fue la primera en seguir a Jesús y sigue guiando a la humanidad.",
+    prayer: "María, guía de los pueblos, intercede por las naciones del mundo."
   },
   {
     day: 5,
     title: "El Silencio Nazareno",
     month: "Enero",
-    verse: { text: "Mar�a guardaba todas estas cosas, medit�ndolas en su coraz�n.", reference: "Lucas 2:19" },
-    reflection: "En Nazaret, Mar�a vivi� treinta a�os en silencio y oraci�n junto a Jes�s y Jos�. Este silencio fecundo nos ense�a que la santidad se cultiva en la quietud del coraz�n.",
-    prayer: "Mar�a, madre del silencio orante, ens��ame a valorar la quietud del coraz�n."
+    verse: { text: "María guardaba todas estas cosas, meditándolas en su corazón.", reference: "Lucas 2:19" },
+    reflection: "En Nazaret, María vivió treinta años en silencio y oración junto a Jesús y José. Este silencio fecundo nos enseña que la santidad se cultiva en la quietud del corazón.",
+    prayer: "María, madre del silencio orante, enséñame a valorar la quietud del corazón."
   },
   {
     day: 6,
-    title: "Epifan�a y Mar�a",
+    title: "Epifanía y María",
     month: "Enero",
-    verse: { text: "Nacido ya en Bel�n de Jud� en los d�as del rey Herodes, vinieron del Oriente magos a Jerusal�n.", reference: "Mateo 2:1-2" },
-    reflection: "Los Magos de Oriente reconocieron en el Ni�o Jes�s al Salvador del mundo. Mar�a, que custodiaba al Ni�o, fue testigo de la adoraci�n de los pueblos.",
-    prayer: "Mar�a, que junto a ti adoramos al Ni�o Dios, ay�danos a seguir la estrella de la fe."
+    verse: { text: "Nacido ya en Belén de Judá en los días del rey Herodes, vinieron del Oriente magos a Jerusalén.", reference: "Mateo 2:1-2" },
+    reflection: "Los Magos de Oriente reconocieron en el Niño Jesús al Salvador del mundo. María, que custodiaba al Niño, fue testigo de la adoración de los pueblos.",
+    prayer: "María, que junto a ti adoramos al Niño Dios, ayúdanos a seguir la estrella de la fe."
   },
   {
     day: 7,
-    title: "Mar�a y la Oraci�n del A�o Nuevo",
+    title: "María y la Oración del Año Nuevo",
     month: "Enero",
-    verse: { text: "La oraci�n constante del justo puede mucho en su eficacia.", reference: "Santiago 5:16" },
-    reflection: "Mar�a fue una mujer de oraci�n constante. Desde el Magn�ficat hasta el Cen�culo, su vida fue un continuo elevar su coraz�n a Dios.",
-    prayer: "Mar�a, maestra de oraci�n, ay�dame a comenzar este a�o con un compromiso firme de oraci�n."
+    verse: { text: "La oración constante del justo puede mucho en su eficacia.", reference: "Santiago 5:16" },
+    reflection: "María fue una mujer de oración constante. Desde el Magníficat hasta el Cenáculo, su vida fue un continuo elevar su corazón a Dios.",
+    prayer: "María, maestra de oración, ayúdame a comenzar este año con un compromiso firme de oración."
   },
   {
     day: 8,
-    title: "Mar�a, Refugio de los Pobres",
+    title: "María, Refugio de los Pobres",
     month: "Enero",
-    verse: { text: "Bienaventurados los pobres de esp�ritu, porque de ellos es el reino de los cielos.", reference: "Mateo 5:3" },
-    reflection: "Mar�a, que naci� en una familia humilde, comprende el coraz�n de los pobres. Ella es refugio de los necesitados y abogada de los desvalidos.",
-    prayer: "Mar�a, madre de los pobres, abre mi coraz�n para reconocer a Cristo en los m�s necesitados."
+    verse: { text: "Bienaventurados los pobres de espíritu, porque de ellos es el reino de los cielos.", reference: "Mateo 5:3" },
+    reflection: "María, que nació en una familia humilde, comprende el corazón de los pobres. Ella es refugio de los necesitados y abogada de los desvalidos.",
+    prayer: "María, madre de los pobres, abre mi corazón para reconocer a Cristo en los más necesitados."
   },
   {
     day: 9,
     title: "La Virgen de Guadalupe",
     month: "Enero",
-    verse: { text: "He aqu� que el poderoso ha hecho por m� grandes cosas, y su nombre es santo.", reference: "Lucas 1:49" },
-    reflection: "En Am�rica Latina, Mar�a se ha manifestado con rostro ind�gena en Guadalupe, mostrando su amor por todos los pueblos. Ella es Madre de todos.",
-    prayer: "Nuestra Se�ora de Guadalupe, madre de los pueblos americanos, intercede por todos tus hijos."
+    verse: { text: "He aquí que el poderoso ha hecho por mí grandes cosas, y su nombre es santo.", reference: "Lucas 1:49" },
+    reflection: "En América Latina, María se ha manifestado con rostro indígena en Guadalupe, mostrando su amor por todos los pueblos. Ella es Madre de todos.",
+    prayer: "Nuestra Señora de Guadalupe, madre de los pueblos americanos, intercede por todos tus hijos."
   },
   {
     day: 10,
-    title: "Mar�a, Sede de la Sabidur�a",
+    title: "María, Sede de la Sabiduría",
     month: "Enero",
-    verse: { text: "Encontr� a la sabidur�a m�s preciosa que el oro.", reference: "Proverbios 3:14" },
-    reflection: "Mar�a acogi� en su seno a la Sabidur�a eterna, el Verbo de Dios. Ella es Sede de la Sabidur�a porque en su seno habit� quien sustenta el universo.",
-    prayer: "Mar�a, sede de la sabidur�a divina, concede que busquemos la sabidur�a que viene de Dios."
+    verse: { text: "Encontré a la sabiduría más preciosa que el oro.", reference: "Proverbios 3:14" },
+    reflection: "María acogió en su seno a la Sabiduría eterna, el Verbo de Dios. Ella es Sede de la Sabiduría porque en su seno habitó quien sustenta el universo.",
+    prayer: "María, sede de la sabiduría divina, concede que busquemos la sabiduría que viene de Dios."
   },
   {
     day: 11,
-    title: "Mar�a, Madre del Amor Hermoso",
+    title: "María, Madre del Amor Hermoso",
     month: "Enero",
-    verse: { text: "El amor es fuerte como la muerte; las aguas fr�as no pueden apagar el amor.", reference: "Cantar de los Cantares 8:6" },
-    reflection: "Mar�a es Madre del Amor Hermoso porque dio a luz al Amor mismo. Su coraz�n maternal es el modelo de todo amor verdadero.",
-    prayer: "Mar�a, madre del amor hermoso, ens��ame a amar como T� amas."
+    verse: { text: "El amor es fuerte como la muerte; las aguas frías no pueden apagar el amor.", reference: "Cantar de los Cantares 8:6" },
+    reflection: "María es Madre del Amor Hermoso porque dio a luz al Amor mismo. Su corazón maternal es el modelo de todo amor verdadero.",
+    prayer: "María, madre del amor hermoso, enséñame a amar como Tú amas."
   },
   {
     day: 12,
-    title: "El Nombre de Mar�a",
+    title: "El Nombre de María",
     month: "Enero",
-    verse: { text: "No se hallar� en la boca de los fieles el nombre de Mar�a sin que inmediatamente se una a �l la idea de salud.", reference: "San Bernardo" },
-    reflection: "El nombre de Mar�a es poderoso ante Dios. Invocarlo con fe es abrir las puertas de la gracia. En el nombre de Mar�a encontramos todo bien.",
-    prayer: "Mar�a, dulce nombre que trae salvaci�n, que tu nombre siempre est� en mis labios y en mi coraz�n."
+    verse: { text: "No se hallará en la boca de los fieles el nombre de María sin que inmediatamente se una a él la idea de salud.", reference: "San Bernardo" },
+    reflection: "El nombre de María es poderoso ante Dios. Invocarlo con fe es abrir las puertas de la gracia. En el nombre de María encontramos todo bien.",
+    prayer: "María, dulce nombre que trae salvación, que tu nombre siempre esté en mis labios y en mi corazón."
   },
   {
     day: 13,
-    title: "Mar�a, Templo del Esp�ritu Santo",
+    title: "María, Templo del Espíritu Santo",
     month: "Enero",
-    verse: { text: "�No sab�is que vuestro cuerpo es templo del Esp�ritu Santo que mora en vosotros?", reference: "1 Corintios 6:19" },
-    reflection: "Mar�a fue el templo m�s puro que el Esp�ritu Santo habit�. En ella, Dios se hizo presente sin sombra de pecado.",
-    prayer: "Esp�ritu Santo, que moraste en Mar�a como en tu trono m�s puro, santifica mi cuerpo y mi alma."
+    verse: { text: "¿No sabéis que vuestro cuerpo es templo del Espíritu Santo que mora en vosotros?", reference: "1 Corintios 6:19" },
+    reflection: "María fue el templo más puro que el Espíritu Santo habitó. En ella, Dios se hizo presente sin sombra de pecado.",
+    prayer: "Espíritu Santo, que moraste en María como en tu trono más puro, santifica mi cuerpo y mi alma."
   },
   {
     day: 14,
-    title: "Mar�a, Modelo de Obediencia",
+    title: "María, Modelo de Obediencia",
     month: "Enero",
-    verse: { text: "He aqu� la sierva del Se�or; h�gase en m� seg�n tu palabra.", reference: "Lucas 1:38" },
-    reflection: "El fiat de Mar�a fue el acto de obediencia m�s grande de la historia. Ella dijo s� a Dios sin reservas, confiando plenamente en su plan.",
-    prayer: "Mar�a, modelo de obediencia, ens��ame a decir s� a Dios en cada momento."
+    verse: { text: "He aquí la sierva del Señor; hágase en mí según tu palabra.", reference: "Lucas 1:38" },
+    reflection: "El fiat de María fue el acto de obediencia más grande de la historia. Ella dijo sí a Dios sin reservas, confiando plenamente en su plan.",
+    prayer: "María, modelo de obediencia, enséñame a decir sí a Dios en cada momento."
   },
   {
     day: 15,
-    title: "Mar�a, Mediadora de Gracias",
+    title: "María, Mediadora de Gracias",
     month: "Enero",
     verse: { text: "Porque hay un solo Dios, y un solo mediador entre Dios y los hombres, Jesucristo hombre.", reference: "1 Timoteo 2:5" },
-    reflection: "Mar�a es mediadora de todas las gracias porque fue el puente por el que Dios vino al mundo. Ella nos presenta ante su Hijo.",
-    prayer: "Mar�a, mediadora de gracias, intercede ante tu Hijo por todos tus hijos."
+    reflection: "María es mediadora de todas las gracias porque fue el puente por el que Dios vino al mundo. Ella nos presenta ante su Hijo.",
+    prayer: "María, mediadora de gracias, intercede ante tu Hijo por todos tus hijos."
   },
   {
     day: 16,
-    title: "La Aparici�n de Lourdes",
+    title: "La Aparición de Lourdes",
     month: "Enero",
-    verse: { text: "El que beba del agua que yo le d�, nunca m�s tendr� sed.", reference: "Juan 4:14" },
-    reflection: "En Lourdes, Mar�a se apareci� junto a la fuente de agua viva, record�ndonos que solo Cristo sacia la sed del alma.",
-    prayer: "Virgen de Lourdes, que de tu apparici�n brot� agua sanadora, cura las heridas de mi alma."
+    verse: { text: "El que beba del agua que yo le dé, nunca más tendrá sed.", reference: "Juan 4:14" },
+    reflection: "En Lourdes, María se apareció junto a la fuente de agua viva, recordándonos que solo Cristo sacia la sed del alma.",
+    prayer: "Virgen de Lourdes, que de tu apparición brotó agua sanadora, cura las heridas de mi alma."
   },
   {
     day: 17,
-    title: "Mar�a y la Santidad Cotidiana",
+    title: "María y la Santidad Cotidiana",
     month: "Enero",
     verse: { text: "Sed santos, porque yo soy santo.", reference: "1 Pedro 1:16" },
-    reflection: "Mar�a nos muestra que la santidad se alcanza en la vida cotidiana, en las peque�as tareas del hogar y del trabajo.",
-    prayer: "Mar�a, que santificaste los momentos cotidianos, ay�dame a santificar cada d�a con amor."
+    reflection: "María nos muestra que la santidad se alcanza en la vida cotidiana, en las pequeñas tareas del hogar y del trabajo.",
+    prayer: "María, que santificaste los momentos cotidianos, ayúdame a santificar cada día con amor."
   },
   {
     day: 18,
-    title: "Mar�a, Madre de la Unidad",
+    title: "María, Madre de la Unidad",
     month: "Enero",
-    verse: { text: "Que todos sean uno, como t�, Padre, est�s en m� y yo en ti.", reference: "Juan 17:21" },
-    reflection: "Mar�a es madre de todos los creyentes, y su amor une a la Iglesia entera. Ella estuvo presente con los ap�stoles en el Cen�culo.",
-    prayer: "Mar�a, madre de la unidad, une a todos los cristianos en la fe y en el amor."
+    verse: { text: "Que todos sean uno, como tú, Padre, estás en mí y yo en ti.", reference: "Juan 17:21" },
+    reflection: "María es madre de todos los creyentes, y su amor une a la Iglesia entera. Ella estuvo presente con los apóstoles en el Cenáculo.",
+    prayer: "María, madre de la unidad, une a todos los cristianos en la fe y en el amor."
   },
   {
     day: 19,
-    title: "La Pureza de Mar�a",
+    title: "La Pureza de María",
     month: "Enero",
-    verse: { text: "Bienaventurados los puros de coraz�n, porque ellos ver�n a Dios.", reference: "Mateo 5:8" },
-    reflection: "Mar�a fue pura de coraz�n en toda su vida. Su pureza no fue solo f�sica, sino de intenci�n y de amor.",
-    prayer: "Mar�a, madre de la pureza, purifica mi coraz�n de toda mancha."
+    verse: { text: "Bienaventurados los puros de corazón, porque ellos verán a Dios.", reference: "Mateo 5:8" },
+    reflection: "María fue pura de corazón en toda su vida. Su pureza no fue solo física, sino de intención y de amor.",
+    prayer: "María, madre de la pureza, purifica mi corazón de toda mancha."
   },
   {
     day: 20,
-    title: "Mar�a, Consoladora de los Afligidos",
+    title: "María, Consoladora de los Afligidos",
     month: "Enero",
-    verse: { text: "Venid a m� todos los que est�is cansados y agobiados, y yo os aliviar�.", reference: "Mateo 11:28" },
-    reflection: "Mar�a conoce el sufrimiento porque ella misma llor� al pie de la cruz. Por eso puede consolar a los afligidos con un amor de madre.",
-    prayer: "Mar�a, consoladora de los afligidos, ac�rcate a todos los que lloran hoy."
+    verse: { text: "Venid a mí todos los que estáis cansados y agobiados, y yo os aliviaré.", reference: "Mateo 11:28" },
+    reflection: "María conoce el sufrimiento porque ella misma lloró al pie de la cruz. Por eso puede consolar a los afligidos con un amor de madre.",
+    prayer: "María, consoladora de los afligidos, acércate a todos los que lloran hoy."
   },
   {
     day: 21,
-    title: "La Aparici�n de F�tima",
+    title: "La Aparición de Fátima",
     month: "Enero",
-    verse: { text: "Arrepent�os y convert�os, para que sean borrados vuestros pecados.", reference: "Hechos 3:19" },
-    reflection: "En F�tima, Mar�a vino a pedirnos la oraci�n y la penitencia por la conversi�n del mundo. Su mensaje es urgente y actual.",
-    prayer: "Virgen de F�tima, que tu mensaje de conversi�n resuene en mi coraz�n."
+    verse: { text: "Arrepentíos y convertíos, para que sean borrados vuestros pecados.", reference: "Hechos 3:19" },
+    reflection: "En Fátima, María vino a pedirnos la oración y la penitencia por la conversión del mundo. Su mensaje es urgente y actual.",
+    prayer: "Virgen de Fátima, que tu mensaje de conversión resuene en mi corazón."
   },
   {
     day: 22,
-    title: "Mar�a, Auxilio de los Cristianos",
+    title: "María, Auxilio de los Cristianos",
     month: "Enero",
-    verse: { text: "El Se�or es mi fortaleza y mi escudo; en �l conf�a mi coraz�n.", reference: "Salmo 28:7" },
-    reflection: "Mar�a es Auxilio de los Cristianos porque nos protege en las batallas espirituales. Ella venci� al mal y nos ayuda a vencer tambi�n.",
-    prayer: "Mar�a, auxilio de los cristianos, prot�geme en las batallas de la vida."
+    verse: { text: "El Señor es mi fortaleza y mi escudo; en él confía mi corazón.", reference: "Salmo 28:7" },
+    reflection: "María es Auxilio de los Cristianos porque nos protege en las batallas espirituales. Ella venció al mal y nos ayuda a vencer también.",
+    prayer: "María, auxilio de los cristianos, protégeme en las batallas de la vida."
   },
   {
     day: 23,
-    title: "Mar�a, Madre de la Esperanza",
+    title: "María, Madre de la Esperanza",
     month: "Enero",
-    verse: { text: "Los que esperan en el Se�or renovar�n sus fuerzas.", reference: "Isa�as 40:31" },
-    reflection: "Mar�a esper� con fe la resurrecci�n de su Hijo, y su esperanza nunca fue defraudada. Ella es madre de la esperanza.",
-    prayer: "Mar�a, madre de la esperanza, fortalece mi esperanza cuando la desesperaci�n me aceche."
+    verse: { text: "Los que esperan en el Señor renovarán sus fuerzas.", reference: "Isaías 40:31" },
+    reflection: "María esperó con fe la resurrección de su Hijo, y su esperanza nunca fue defraudada. Ella es madre de la esperanza.",
+    prayer: "María, madre de la esperanza, fortalece mi esperanza cuando la desesperación me aceche."
   },
   {
     day: 24,
-    title: "Mar�a y la Familia",
+    title: "María y la Familia",
     month: "Enero",
     verse: { text: "El que haga la voluntad de Dios, ese es mi hermano y mi hermana y mi madre.", reference: "Marcos 3:35" },
-    reflection: "Mar�a vivi� en la Sagrada Familia de Nazaret, modelo de toda familia cristiana. Ella nos ense�a que la familia es lugar de amor y oraci�n.",
+    reflection: "María vivió en la Sagrada Familia de Nazaret, modelo de toda familia cristiana. Ella nos enseña que la familia es lugar de amor y oración.",
     prayer: "Santa Familia de Nazaret, bendice las familias del mundo."
   },
   {
     day: 25,
-    title: "La Aparici�n de Knock",
+    title: "La Aparición de Knock",
     month: "Enero",
-    verse: { text: "Dichosos los que no han visto y han cre�do.", reference: "Juan 20:29" },
-    reflection: "En Knock, Mar�a apareci� en silencio, sin pronunciar palabra. La fe no necesita palabras, sino un coraz�n dispuesto a escuchar a Dios.",
-    prayer: "Virgen de Knock, madre del silencio elocuente, ens��ame a escuchar la voz de Dios."
+    verse: { text: "Dichosos los que no han visto y han creído.", reference: "Juan 20:29" },
+    reflection: "En Knock, María apareció en silencio, sin pronunciar palabra. La fe no necesita palabras, sino un corazón dispuesto a escuchar a Dios.",
+    prayer: "Virgen de Knock, madre del silencio elocuente, enséñame a escuchar la voz de Dios."
   },
   {
     day: 26,
-    title: "Mar�a, Estrella de la Evangelizaci�n",
+    title: "María, Estrella de la Evangelización",
     month: "Enero",
-    verse: { text: "Id por todo el mundo y haced disc�pulos a todas las naciones.", reference: "Mateo 28:19" },
-    reflection: "Mar�a fue la primera evangelizadora porque llev� a Jes�s al mundo. Ella nos acompa�a en la misi�n de evangelizar.",
-    prayer: "Mar�a, estrella de la evangelizaci�n, ilumina mi camino misionero."
+    verse: { text: "Id por todo el mundo y haced discípulos a todas las naciones.", reference: "Mateo 28:19" },
+    reflection: "María fue la primera evangelizadora porque llevó a Jesús al mundo. Ella nos acompaña en la misión de evangelizar.",
+    prayer: "María, estrella de la evangelización, ilumina mi camino misionero."
   },
   {
     day: 27,
-    title: "Mar�a y la Reconciliaci�n",
+    title: "María y la Reconciliación",
     month: "Enero",
     verse: { text: "Dios estaba en Cristo reconciliando consigo al mundo.", reference: "2 Corintios 5:19" },
-    reflection: "Mar�a es modelo de reconciliaci�n porque siempre estuvo unida a la voluntad de Dios. Ella nos ayuda a reconciliarnos con Dios y con los hermanos.",
-    prayer: "Mar�a, madre de la reconciliaci�n, ay�dame a perdonar y a buscar la paz."
+    reflection: "María es modelo de reconciliación porque siempre estuvo unida a la voluntad de Dios. Ella nos ayuda a reconciliarnos con Dios y con los hermanos.",
+    prayer: "María, madre de la reconciliación, ayúdame a perdonar y a buscar la paz."
   },
   {
     day: 28,
-    title: "Mar�a, Madre de los Sacerdotes",
+    title: "María, Madre de los Sacerdotes",
     month: "Enero",
-    verse: { text: "El que quiera ser el primero, que sea el �ltimo de todos y el servidor de todos.", reference: "Marcos 9:35" },
-    reflection: "Mar�a es madre de los sacerdotes porque los prepara para servir a Dios y al pueblo. Ella intercede por ellos y les da la gracia de ser pastores santos.",
-    prayer: "Mar�a, madre de los sacerdotes, santifica a todos los presb�teros del mundo."
+    verse: { text: "El que quiera ser el primero, que sea el último de todos y el servidor de todos.", reference: "Marcos 9:35" },
+    reflection: "María es madre de los sacerdotes porque los prepara para servir a Dios y al pueblo. Ella intercede por ellos y les da la gracia de ser pastores santos.",
+    prayer: "María, madre de los sacerdotes, santifica a todos los presbíteros del mundo."
   },
   {
     day: 29,
-    title: "Mar�a, Modelo de Fe",
+    title: "María, Modelo de Fe",
     month: "Enero",
     verse: { text: "Porque andamos por fe, no por vista.", reference: "2 Corintios 5:7" },
-    reflection: "Mar�a camin� por fe cuando no comprend�a los planes de Dios. Su fe no se bas� en ver, sino en confiar en la palabra de Dios.",
-    prayer: "Mar�a, modelo de fe, fortalece mi fe para que camine por las promesas de Dios."
+    reflection: "María caminó por fe cuando no comprendía los planes de Dios. Su fe no se basó en ver, sino en confiar en la palabra de Dios.",
+    prayer: "María, modelo de fe, fortalece mi fe para que camine por las promesas de Dios."
   },
   {
     day: 30,
-    title: "Mar�a y la Penitencia Amorosa",
+    title: "María y la Penitencia Amorosa",
     month: "Enero",
-    verse: { text: "Si alguno quiere ir en pos de m�, ni�guese a s� mismo, tome su cruz y s�game.", reference: "Mateo 16:24" },
-    reflection: "Mar�a vivi� la penitencia con amor, ofreciendo sus sufrimientos por la salvaci�n del mundo. La verdadera penitencia es un acto de amor.",
-    prayer: "Mar�a, madre de la penitencia amorosa, ay�dame a ofrecer mis sufrimientos por amor a Dios."
+    verse: { text: "Si alguno quiere ir en pos de mí, niéguese a sí mismo, tome su cruz y sígame.", reference: "Mateo 16:24" },
+    reflection: "María vivió la penitencia con amor, ofreciendo sus sufrimientos por la salvación del mundo. La verdadera penitencia es un acto de amor.",
+    prayer: "María, madre de la penitencia amorosa, ayúdame a ofrecer mis sufrimientos por amor a Dios."
   },
   {
     day: 31,
-    title: "Mar�a, Mediadora de Todas las Gracias",
+    title: "María, Mediadora de Todas las Gracias",
     month: "Enero",
-    verse: { text: "No nos dej�is caer en la tentaci�n, sino libradnos del mal.", reference: "Mateo 6:13" },
-    reflection: "Mar�a es la Mediadora de todas las gracias porque todas las gracias pasan por sus manos maternales. Ella obtiene del cielo lo que necesitamos.",
-    prayer: "Mar�a, mediadora de todas las gracias, obt�n para m� todo lo que necesito para mi salvaci�n."
+    verse: { text: "No nos dejéis caer en la tentación, sino libradnos del mal.", reference: "Mateo 6:13" },
+    reflection: "María es la Mediadora de todas las gracias porque todas las gracias pasan por sus manos maternales. Ella obtiene del cielo lo que necesitamos.",
+    prayer: "María, mediadora de todas las gracias, obtén para mí todo lo que necesito para mi salvación."
   }
 
 , {
@@ -308,10 +308,10 @@
     title: "El Amor Maternal en Caná",
     month: "Febrero",
     verse: {
-      text: "Lo que �?l les diga, háganlo.",
+      text: "Lo que �‰l les diga, háganlo.",
       reference: "Juan 2:5"
     },
-    reflection: "En las bodas de Caná, María actuó con amor maternal al interceder por los novios. Su confianza en Jesús fue total. María siempre nos dirige a su Hijo, porque su amor maternal nos guía hacia �?l.",
+    reflection: "En las bodas de Caná, María actuó con amor maternal al interceder por los novios. Su confianza en Jesús fue total. María siempre nos dirige a su Hijo, porque su amor maternal nos guía hacia �‰l.",
     prayer: "María, intercede por mí ante Jesús como lo hiciste en Caná. Que tu amor maternal me lleve a hacer la voluntad de Dios."
   },
   {
@@ -399,7 +399,7 @@
       text: "No hay mayor amor que dar la vida por los amigos.",
       reference: "Juan 15:13"
     },
-    reflection: "Jesús dio su vida por amor, y María ofreció su vida en silencio junto a �?l. El amor más grande es la entrega total. María nos enseña que amar es darse sin medida.",
+    reflection: "Jesús dio su vida por amor, y María ofreció su vida en silencio junto a �‰l. El amor más grande es la entrega total. María nos enseña que amar es darse sin medida.",
     prayer: "Señor, que el amor de María me inspire a dar mi vida por los demás. Que nunca sea tacaño en el amor."
   },
   {
@@ -451,7 +451,7 @@
     title: "El Amor que Sana",
     month: "Febrero",
     verse: {
-      text: "�?l mismo cargó con nuestras enfermedades y sufrió nuestros dolores.",
+      text: "�‰l mismo cargó con nuestras enfermedades y sufrió nuestros dolores.",
       reference: "Isaías 53:4"
     },
     reflection: "María fue la primera sanadora porque llevó en su seno al Salvador. Su amor sana heridas físicas y espirituales. En la enfermedad, María nos acompaña con su amor sanador.",
@@ -620,7 +620,7 @@
       text: "Arrepentíos y convertíos, para que sean borrados vuestros pecados.",
       reference: "Hechos 3:19"
     },
-    reflection: "La conversión es un retorno al Padre, como María siempre estuvo orientada hacia �?l. Cada día podemos renovar nuestro compromiso de seguir a Cristo con corazón arrepentido.",
+    reflection: "La conversión es un retorno al Padre, como María siempre estuvo orientada hacia �‰l. Cada día podemos renovar nuestro compromiso de seguir a Cristo con corazón arrepentido.",
     prayer: "María, guíame en el camino de la conversión, para que mi vida sea una constante vuelta a Dios."
   },
   {
@@ -654,7 +654,7 @@
       reference: "Lucas 1:46-47"
     },
     reflection: "El cántico de María revela un alma pura que se regocija en Dios. Su alabanza nace de un corazón libre de egoísmo, completamente entregado a la voluntad divina.",
-    prayer: "María, enséñame a alabar a Dios con la pureza de tu corazón, para que mi espíritu se alegre en �?l."
+    prayer: "María, enséñame a alabar a Dios con la pureza de tu corazón, para que mi espíritu se alegre en �‰l."
   },
   {
     day: 10,
@@ -926,7 +926,7 @@
     title: "La Cruz, Árbol de Vida",
     month: "Abril",
     verse: {
-      text: "Cristo nos redimió de la maldición de la ley, haciéndose maldición por nosotros �?"porque está escrito: Maldito todo el que es colgado de un madero�?".",
+      text: "Cristo nos redimió de la maldición de la ley, haciéndose maldición por nosotros â€”porque está escrito: Maldito todo el que es colgado de un maderoâ€”.",
       reference: "Gálatas 3:13"
     },
     reflection: "María permaneció al pie de la cruz, testigo del sacrificio supremo de su Hijo. Lo que parecía el fin más cruel se convirtió en el principio de nuestra salvación. El árbol de la muerte se transformó en el árbol de la vida eterna.",
@@ -959,7 +959,7 @@
     title: "María y la Tumba Vacía",
     month: "Abril",
     verse: {
-      text: "Pero él les dijo: ¿Por qué estáis turbados, y por qué suben estas dudas en vuestro corazón?",
+      text: "Pero él les dijo: Â¿Por qué estáis turbados, y por qué suben estas dudas en vuestro corazón?",
       reference: "Lucas 24:38"
     },
     reflection: "Aunque los Evangelios no mencionan explícitamente a María en la tumba vacía, la tradición nos dice que su corazón de madre buscaba desesperadamente al Hijo que le habían arrebatado. La alegría del encuentro pascual debe haber sido indescriptible para ella.",
@@ -1232,491 +1232,491 @@
 
 ,   {
     day: 1,
-    title: "Mar�a, Reina de Mayo",
+    title: "María, Reina de Mayo",
     month: "Mayo",
-    verse: { text: "Y apareci� en el cielo una gran se�al: una mujer vestida de sol, con la luna bajo sus pies, y una corona de doce estrellas en su cabeza.", reference: "Apocalipsis 12:1" },
-    reflection: "Mayo es el mes dedicado a Mar�a Reina. Ella lleva una corona de estrellas porque fue exaltada sobre todas las criaturas. Su reinado no es de poder worldly, sino de amor y de servicio.",
-    prayer: "Mar�a, Reina de los cielos y de la tierra, reina en mi coraz�n y gobierna mi vida con tu amor maternal."
+    verse: { text: "Y apareció en el cielo una gran señal: una mujer vestida de sol, con la luna bajo sus pies, y una corona de doce estrellas en su cabeza.", reference: "Apocalipsis 12:1" },
+    reflection: "Mayo es el mes dedicado a María Reina. Ella lleva una corona de estrellas porque fue exaltada sobre todas las criaturas. Su reinado no es de poder worldly, sino de amor y de servicio.",
+    prayer: "María, Reina de los cielos y de la tierra, reina en mi corazón y gobierna mi vida con tu amor maternal."
   },
   {
     day: 2,
     title: "La Reina que Sirve",
     month: "Mayo",
     verse: { text: "El Hijo del Hombre no vino a ser servido, sino a servir y a dar su vida en rescate por muchos.", reference: "Marcos 10:45" },
-    reflection: "Mar�a es Reina porque sirve. Su reinado se ejerce en el amor y en la entrega. Como Jes�s, ella vino a servir, no a ser servida.",
-    prayer: "Mar�a, reina servicial, ens��ame a reinar sirviendo, a ser grande siendo humilde."
+    reflection: "María es Reina porque sirve. Su reinado se ejerce en el amor y en la entrega. Como Jesús, ella vino a servir, no a ser servida.",
+    prayer: "María, reina servicial, enséñame a reinar sirviendo, a ser grande siendo humilde."
   },
   {
     day: 3,
-    title: "La Coronaci�n de Mar�a",
+    title: "La Coronación de María",
     month: "Mayo",
-    verse: { text: "Porque ha mirado la humildad de su sierva, y desde ahora me llamar�n bienaventurada todas las generaciones.", reference: "Lucas 1:48" },
-    reflection: "Dios coron� a Mar�a como Reina porque su humildad la hizo digna de la gloria. La corona de Mar�a es el fruto de una vida entera de obediencia y amor.",
-    prayer: "Mar�a, coronada de gloria, intercede por nosotros para que un d�a tambi�n participemos de la corona de vida eterna."
+    verse: { text: "Porque ha mirado la humildad de su sierva, y desde ahora me llamarán bienaventurada todas las generaciones.", reference: "Lucas 1:48" },
+    reflection: "Dios coronó a María como Reina porque su humildad la hizo digna de la gloria. La corona de María es el fruto de una vida entera de obediencia y amor.",
+    prayer: "María, coronada de gloria, intercede por nosotros para que un día también participemos de la corona de vida eterna."
   },
   {
     day: 4,
-    title: "Mar�a, Reina de los �ngeles",
+    title: "María, Reina de los Ángeles",
     month: "Mayo",
-    verse: { text: "Y se oyeron voces y cantos y truenos de la gran multitud de �ngeles.", reference: "Apocalipsis 5:11" },
-    reflection: "Mar�a es Reina de los �ngeles porque fue la criatura m�s excelsa que Dios cre�. Los �ngeles la sirven y la adoran como Madre del Rey de reyes.",
-    prayer: "Reina de los �ngeles, pide a los �ngeles guardianes que nos protejan y nos gu�en cada d�a."
+    verse: { text: "Y se oyeron voces y cantos y truenos de la gran multitud de ángeles.", reference: "Apocalipsis 5:11" },
+    reflection: "María es Reina de los ángeles porque fue la criatura más excelsa que Dios creó. Los ángeles la sirven y la adoran como Madre del Rey de reyes.",
+    prayer: "Reina de los ángeles, pide a los ángeles guardianes que nos protejan y nos guíen cada día."
   },
   {
     day: 5,
-    title: "Mar�a, Reina de los Patriarcas",
+    title: "María, Reina de los Patriarcas",
     month: "Mayo",
-    verse: { text: "Y de Jacob naci� Jos�, esposo de Mar�a, de la cual naci� Jes�s, que es llamado Cristo.", reference: "Mateo 1:16" },
-    reflection: "Mar�a es Reina de los patriarcas porque fue la culminaci�n de la historia de salvaci�n del Antiguo Testamento. En ella se cumplieron todas las promesas.",
-    prayer: "Mar�a, que en ti se cumplen las promesas de Dios, ay�danos a confiar en su fidelidad."
+    verse: { text: "Y de Jacob nació José, esposo de María, de la cual nació Jesús, que es llamado Cristo.", reference: "Mateo 1:16" },
+    reflection: "María es Reina de los patriarcas porque fue la culminación de la historia de salvación del Antiguo Testamento. En ella se cumplieron todas las promesas.",
+    prayer: "María, que en ti se cumplen las promesas de Dios, ayúdanos a confiar en su fidelidad."
   },
   {
     day: 6,
-    title: "Mar�a, Reina de los Profetas",
+    title: "María, Reina de los Profetas",
     month: "Mayo",
-    verse: { text: "Porque yo s� los planes que tengo para vosotros, dice el Se�or, planes de bienestar y no de mal.", reference: "Jerem�as 29:11" },
-    reflection: "Los profetas anunciaron la venida del Mes�as, y Mar�a fue la que lo recibi� en su seno. Ella es Reina de los profetas porque en su cuerpo se hizo realidad lo que ellos anunciaron.",
-    prayer: "Mar�a, reina de los profetas, que las palabras de los profetas se cumplan en mi vida."
+    verse: { text: "Porque yo sé los planes que tengo para vosotros, dice el Señor, planes de bienestar y no de mal.", reference: "Jeremías 29:11" },
+    reflection: "Los profetas anunciaron la venida del Mesías, y María fue la que lo recibió en su seno. Ella es Reina de los profetas porque en su cuerpo se hizo realidad lo que ellos anunciaron.",
+    prayer: "María, reina de los profetas, que las palabras de los profetas se cumplan en mi vida."
   },
   {
     day: 7,
-    title: "Mar�a, Reina de los M�rtires",
+    title: "María, Reina de los Mártires",
     month: "Mayo",
-    verse: { text: "No tem�is a los que matan el cuerpo, pero no pueden matar el alma.", reference: "Mateo 10:28" },
-    reflection: "Mar�a es Reina de los m�rtires porque sufri� el martirio del alma al pie de la cruz. Ella vio morir a su Hijo y permaneci� fiel.",
-    prayer: "Mar�a, reina de los m�rtires, fortalece a los que sufren por la fe y dan su vida por Cristo."
+    verse: { text: "No temáis a los que matan el cuerpo, pero no pueden matar el alma.", reference: "Mateo 10:28" },
+    reflection: "María es Reina de los mártires porque sufrió el martirio del alma al pie de la cruz. Ella vio morir a su Hijo y permaneció fiel.",
+    prayer: "María, reina de los mártires, fortalece a los que sufren por la fe y dan su vida por Cristo."
   },
   {
     day: 8,
-    title: "Mar�a, Reina de los Confesores",
+    title: "María, Reina de los Confesores",
     month: "Mayo",
-    verse: { text: "Dad testimonio con sabidur�a ante los gentiles.", reference: "Colosenses 4:5" },
-    reflection: "Mar�a es Reina de los confesores porque confess� la fe ante el mundo con su vida y su ejemplo. Ella nunca tuvo miedo de declarar que era sierva del Se�or.",
-    prayer: "Mar�a, reina de los confesores, fortalece mi testimonio de fe ante el mundo."
+    verse: { text: "Dad testimonio con sabiduría ante los gentiles.", reference: "Colosenses 4:5" },
+    reflection: "María es Reina de los confesores porque confessó la fe ante el mundo con su vida y su ejemplo. Ella nunca tuvo miedo de declarar que era sierva del Señor.",
+    prayer: "María, reina de los confesores, fortalece mi testimonio de fe ante el mundo."
   },
   {
     day: 9,
-    title: "Mar�a, Reina de las V�rgenes",
+    title: "María, Reina de las Vírgenes",
     month: "Mayo",
-    verse: { text: "He aqu� la sierva del Se�or; h�gase en m� seg�n tu palabra.", reference: "Lucas 1:38" },
-    reflection: "Mar�a es Reina de las v�rgenes porque conserv� su virginidad con un amor m�s fuerte que la carne. Su pureza fue un don que ofreci� a Dios.",
-    prayer: "Mar�a, reina de las v�rgenes, guarda mi pureza y mi fidelidad a Dios."
+    verse: { text: "He aquí la sierva del Señor; hágase en mí según tu palabra.", reference: "Lucas 1:38" },
+    reflection: "María es Reina de las vírgenes porque conservó su virginidad con un amor más fuerte que la carne. Su pureza fue un don que ofreció a Dios.",
+    prayer: "María, reina de las vírgenes, guarda mi pureza y mi fidelidad a Dios."
   },
   {
     day: 10,
-    title: "Mar�a, Reina de las Madres",
+    title: "María, Reina de las Madres",
     month: "Mayo",
-    verse: { text: "Y Jes�s crec�a en sabidur�a, en estatura y en gracia ante Dios y ante los hombres.", reference: "Lucas 2:52" },
-    reflection: "Mar�a es Reina de las madres porque educ� a Jes�s con amor perfecto. Cada madre puede encontrar en ella el modelo de maternidad m�s alto.",
-    prayer: "Mar�a, reina de las madres, bendice a todas las madres del mundo y gu�alas en la educaci�n de sus hijos."
+    verse: { text: "Y Jesús crecía en sabiduría, en estatura y en gracia ante Dios y ante los hombres.", reference: "Lucas 2:52" },
+    reflection: "María es Reina de las madres porque educó a Jesús con amor perfecto. Cada madre puede encontrar en ella el modelo de maternidad más alto.",
+    prayer: "María, reina de las madres, bendice a todas las madres del mundo y guíalas en la educación de sus hijos."
   },
   {
     day: 11,
-    title: "Mar�a, Reina de la Familia",
+    title: "María, Reina de la Familia",
     month: "Mayo",
-    verse: { text: "En vuestra casa no se apagar� la l�mpara ni se secar� la mecha del candelero.", reference: "2 Reyes 4:33" },
-    reflection: "Mar�a es Reina de la familia porque form� la Sagrada Familia de Nazaret. Ella nos ense�a que la familia es el sanctuario donde se aprende a amar.",
-    prayer: "Santa Familia de Nazaret, Mar�a, Jos� y Jes�s, reina en cada familia del mundo."
+    verse: { text: "En vuestra casa no se apagará la lámpara ni se secará la mecha del candelero.", reference: "2 Reyes 4:33" },
+    reflection: "María es Reina de la familia porque formó la Sagrada Familia de Nazaret. Ella nos enseña que la familia es el sanctuario donde se aprende a amar.",
+    prayer: "Santa Familia de Nazaret, María, José y Jesús, reina en cada familia del mundo."
   },
   {
     day: 12,
-    title: "Mar�a, Reina de la Paz",
+    title: "María, Reina de la Paz",
     month: "Mayo",
     verse: { text: "La paz os dejo; mi paz os doy; no la doy como la da el mundo.", reference: "Juan 14:27" },
-    reflection: "Mar�a es Reina de la paz porque su presencia trae la paz del coraz�n. Ella estuvo presente en Pentecost�s, donde el Esp�ritu Santo trajo la paz.",
-    prayer: "Mar�a, reina de la paz, trae la paz a mi coraz�n, a mi familia y a todo el mundo."
+    reflection: "María es Reina de la paz porque su presencia trae la paz del corazón. Ella estuvo presente en Pentecostés, donde el Espíritu Santo trajo la paz.",
+    prayer: "María, reina de la paz, trae la paz a mi corazón, a mi familia y a todo el mundo."
   },
   {
     day: 13,
-    title: "Mar�a, Reina de la Misericordia",
+    title: "María, Reina de la Misericordia",
     month: "Mayo",
-    verse: { text: "Fez misericordia con los que le temen, de generaci�n en generaci�n.", reference: "Lucas 1:50" },
-    reflection: "Mar�a es Reina de la misericordia porque su coraz�n maternal se compadece de todos los que sufren. Ella es la madre que nunca cierra su coraz�n.",
-    prayer: "Mar�a, reina de la misericordia, abre tu coraz�n maternal a todas las necesidades del mundo."
+    verse: { text: "Fez misericordia con los que le temen, de generación en generación.", reference: "Lucas 1:50" },
+    reflection: "María es Reina de la misericordia porque su corazón maternal se compadece de todos los que sufren. Ella es la madre que nunca cierra su corazón.",
+    prayer: "María, reina de la misericordia, abre tu corazón maternal a todas las necesidades del mundo."
   },
   {
     day: 14,
-    title: "Mar�a, Reina de los Ap�stoles",
+    title: "María, Reina de los Apóstoles",
     month: "Mayo",
-    verse: { text: "Todos estos perseveraban un�nimes en oraci�n, junto con Mar�a, la madre de Jes�s.", reference: "Hechos 1:14" },
-    reflection: "Mar�a es Reina de los ap�stoles porque estuvo con ellos en el Cen�culo esperando el Esp�ritu Santo. Ella form� a los primeros misioneros.",
-    prayer: "Mar�a, reina de los ap�stoles, intercede por todos los misioneros de la Iglesia."
+    verse: { text: "Todos estos perseveraban unánimes en oración, junto con María, la madre de Jesús.", reference: "Hechos 1:14" },
+    reflection: "María es Reina de los apóstoles porque estuvo con ellos en el Cenáculo esperando el Espíritu Santo. Ella formó a los primeros misioneros.",
+    prayer: "María, reina de los apóstoles, intercede por todos los misioneros de la Iglesia."
   },
   {
     day: 15,
-    title: "Mar�a, Reina de los Doctores",
+    title: "María, Reina de los Doctores",
     month: "Mayo",
-    verse: { text: "Porque el Esp�ritu Santo os ense�ar� todo, y os recordar� todo lo que yo os he dicho.", reference: "Juan 14:26" },
-    reflection: "Mar�a es Reina de los doctores porque meditaba la Palabra de Dios en su coraz�n y la custodiaba con amor. Ella es maestra de fe.",
-    prayer: "Mar�a, reina de los doctores, ilumina la mente de los te�logos y de todos los que estudian la fe."
+    verse: { text: "Porque el Espíritu Santo os enseñará todo, y os recordará todo lo que yo os he dicho.", reference: "Juan 14:26" },
+    reflection: "María es Reina de los doctores porque meditaba la Palabra de Dios en su corazón y la custodiaba con amor. Ella es maestra de fe.",
+    prayer: "María, reina de los doctores, ilumina la mente de los teólogos y de todos los que estudian la fe."
   },
   {
     day: 16,
-    title: "Mar�a, Reina de los Santos",
+    title: "María, Reina de los Santos",
     month: "Mayo",
-    verse: { text: "As� que nosotros, rodeados de tan grande nube de testigos, despoj�monos de todo peso.", reference: "Hebreos 12:1" },
-    reflection: "Mar�a es Reina de los santos porque fue la m�s santa de todos los seres humanos. Ella es el modelo supremo de santidad.",
-    prayer: "Mar�a, reina de los santos, intercede por nosotros para que un d�a seamos dignos de la compa��a de los santos."
+    verse: { text: "Así que nosotros, rodeados de tan grande nube de testigos, despojémonos de todo peso.", reference: "Hebreos 12:1" },
+    reflection: "María es Reina de los santos porque fue la más santa de todos los seres humanos. Ella es el modelo supremo de santidad.",
+    prayer: "María, reina de los santos, intercede por nosotros para que un día seamos dignos de la compañía de los santos."
   },
   {
     day: 17,
-    title: "Mar�a, Reina de los Pobres",
+    title: "María, Reina de los Pobres",
     month: "Mayo",
-    verse: { text: "Bienaventurados los pobres de esp�ritu, porque de ellos es el reino de los cielos.", reference: "Mateo 5:3" },
-    reflection: "Mar�a es Reina de los pobres porque ella misma fue pobre en la tierra. Ella comprende el sufrimiento de los necesitados.",
-    prayer: "Mar�a, reina de los pobres, cuida de todos los que sufren la pobreza material y espiritual."
+    verse: { text: "Bienaventurados los pobres de espíritu, porque de ellos es el reino de los cielos.", reference: "Mateo 5:3" },
+    reflection: "María es Reina de los pobres porque ella misma fue pobre en la tierra. Ella comprende el sufrimiento de los necesitados.",
+    prayer: "María, reina de los pobres, cuida de todos los que sufren la pobreza material y espiritual."
   },
   {
     day: 18,
-    title: "Mar�a, Reina de los Enfermos",
+    title: "María, Reina de los Enfermos",
     month: "Mayo",
-    verse: { text: "�l mismo carg� con nuestras enfermedades y sufri� nuestros dolores.", reference: "Isa�as 53:4" },
-    reflection: "Mar�a es Reina de los enfermos porque acompa�� a Jes�s en su pasi�n y conoce el sufrimiento del cuerpo.",
-    prayer: "Mar�a, reina de los enfermos, sana a todos los que sufren y dales la fuerza para llevar su cruz."
+    verse: { text: "Él mismo cargó con nuestras enfermedades y sufrió nuestros dolores.", reference: "Isaías 53:4" },
+    reflection: "María es Reina de los enfermos porque acompañó a Jesús en su pasión y conoce el sufrimiento del cuerpo.",
+    prayer: "María, reina de los enfermos, sana a todos los que sufren y dales la fuerza para llevar su cruz."
   },
   {
     day: 19,
-    title: "Mar�a, Reina de los Pecadores",
+    title: "María, Reina de los Pecadores",
     month: "Mayo",
     verse: { text: "No he venido a llamar a los justos, sino a los pecadores al arrepentimiento.", reference: "Marcos 2:17" },
-    reflection: "Mar�a es Reina de los pecadores porque ella es la madre de la misericordia que nunca abandona a los que han ca�do.",
-    prayer: "Mar�a, reina de los pecadores, intercede por todos los que han perdido el camino de Dios."
+    reflection: "María es Reina de los pecadores porque ella es la madre de la misericordia que nunca abandona a los que han caído.",
+    prayer: "María, reina de los pecadores, intercede por todos los que han perdido el camino de Dios."
   },
   {
     day: 20,
-    title: "Mar�a, Reina de Todos",
+    title: "María, Reina de Todos",
     month: "Mayo",
-    verse: { text: "Dios la exalt� a la derecha, y le dio un nombre que es sobre todo nombre.", reference: "Filipenses 2:9" },
-    reflection: "Mar�a es Reina de todas las cosas porque Dios la exalt� sobre toda criatura. Su reinado abarca el cielo y la tierra.",
-    prayer: "Mar�a, reina de todas las cosas, que tu reinado se extienda a todos los corazones."
+    verse: { text: "Dios la exaltó a la derecha, y le dio un nombre que es sobre todo nombre.", reference: "Filipenses 2:9" },
+    reflection: "María es Reina de todas las cosas porque Dios la exaltó sobre toda criatura. Su reinado abarca el cielo y la tierra.",
+    prayer: "María, reina de todas las cosas, que tu reinado se extienda a todos los corazones."
   },
   {
     day: 21,
     title: "La Reina del Rosario",
     month: "Mayo",
-    verse: { text: "Y en su casa no se apagar� la l�mpara.", reference: "2 Reyes 4:33" },
-    reflection: "Mar�a es Reina del Rosario porque esta oraci�n es su cetro de amor. En cada misterio ella reina sobre nosotros gui�ndonos hacia Jes�s.",
-    prayer: "Mar�a, reina del Rosario, ens��anos a valorar esta oraci�n tan poderosa."
+    verse: { text: "Y en su casa no se apagará la lámpara.", reference: "2 Reyes 4:33" },
+    reflection: "María es Reina del Rosario porque esta oración es su cetro de amor. En cada misterio ella reina sobre nosotros guiándonos hacia Jesús.",
+    prayer: "María, reina del Rosario, enséñanos a valorar esta oración tan poderosa."
   },
   {
     day: 22,
-    title: "La Reina y el Sagrado Coraz�n",
+    title: "La Reina y el Sagrado Corazón",
     month: "Mayo",
-    verse: { text: "Venid a m� todos los que est�is cansados y agobiados, y yo os aliviar�.", reference: "Mateo 11:28" },
-    reflection: "Mar�a reina junto al Sagrado Coraz�n de Jes�s. Ella es el trono vivo donde se asienta el amor divino.",
-    prayer: "Sagrados Corazones de Jes�s y Mar�a, que vuestro amor reine en nuestros corazones."
+    verse: { text: "Venid a mí todos los que estáis cansados y agobiados, y yo os aliviaré.", reference: "Mateo 11:28" },
+    reflection: "María reina junto al Sagrado Corazón de Jesús. Ella es el trono vivo donde se asienta el amor divino.",
+    prayer: "Sagrados Corazones de Jesús y María, que vuestro amor reine en nuestros corazones."
   },
   {
     day: 23,
-    title: "La Reina de la Evangelizaci�n",
+    title: "La Reina de la Evangelización",
     month: "Mayo",
-    verse: { text: "Id por todo el mundo y haced disc�pulos a todas las naciones.", reference: "Mateo 28:19" },
-    reflection: "Mar�a es Reina de la evangelizaci�n porque fue la primera en llevar a Jes�s al mundo. Ella nos acompa�a en la misi�n de evangelizar.",
-    prayer: "Mar�a, reina de la evangelizaci�n, ilumina la labor misionera de la Iglesia."
+    verse: { text: "Id por todo el mundo y haced discípulos a todas las naciones.", reference: "Mateo 28:19" },
+    reflection: "María es Reina de la evangelización porque fue la primera en llevar a Jesús al mundo. Ella nos acompaña en la misión de evangelizar.",
+    prayer: "María, reina de la evangelización, ilumina la labor misionera de la Iglesia."
   },
   {
     day: 24,
-    title: "Mar�a Reina y la Justicia",
+    title: "María Reina y la Justicia",
     month: "Mayo",
-    verse: { text: "Desplegar� con fuerza su brazo, y dispersar� a los soberbios en los pensamientos de sus corazones.", reference: "Lucas 1:51" },
-    reflection: "El reinado de Mar�a trae justicia al mundo porque ella exalta a los humildes y derriba a los poderosos.",
-    prayer: "Mar�a, reina de la justicia, que tu reinado traiga equidad y dignidad a todos los pueblos."
+    verse: { text: "Desplegará con fuerza su brazo, y dispersará a los soberbios en los pensamientos de sus corazones.", reference: "Lucas 1:51" },
+    reflection: "El reinado de María trae justicia al mundo porque ella exalta a los humildes y derriba a los poderosos.",
+    prayer: "María, reina de la justicia, que tu reinado traiga equidad y dignidad a todos los pueblos."
   },
   {
     day: 25,
     title: "La Reina de la Gracia",
     month: "Mayo",
-    verse: { text: "Toda llena de gracia, el Se�or es contigo.", reference: "Lucas 1:28" },
-    reflection: "Mar�a es Reina de la gracia porque toda la gracia de Dios pasa por sus manos. Ella distribuye las gracias del cielo con generosidad maternal.",
-    prayer: "Mar�a, reina de la gracia, derrama sobre nosotros las gracias que necesitamos."
+    verse: { text: "Toda llena de gracia, el Señor es contigo.", reference: "Lucas 1:28" },
+    reflection: "María es Reina de la gracia porque toda la gracia de Dios pasa por sus manos. Ella distribuye las gracias del cielo con generosidad maternal.",
+    prayer: "María, reina de la gracia, derrama sobre nosotros las gracias que necesitamos."
   },
   {
     day: 26,
-    title: "Mar�a Reina y la Oraci�n",
+    title: "María Reina y la Oración",
     month: "Mayo",
-    verse: { text: "Permaneced en m�, como yo permanezco en vosotros.", reference: "Juan 15:4" },
-    reflection: "Mar�a reina desde la oraci�n. Su trono es el coraz�n que dialoga con Dios. Ella nos ense�a que la verdadera realeza se ejerce desde la contemplaci�n.",
-    prayer: "Mar�a, reina de la oraci�n, ens��ame a permanecer en Jes�s como T� permaneces en �l."
+    verse: { text: "Permaneced en mí, como yo permanezco en vosotros.", reference: "Juan 15:4" },
+    reflection: "María reina desde la oración. Su trono es el corazón que dialoga con Dios. Ella nos enseña que la verdadera realeza se ejerce desde la contemplación.",
+    prayer: "María, reina de la oración, enséñame a permanecer en Jesús como Tú permaneces en Él."
   },
   {
     day: 27,
     title: "La Reina de la Humildad",
     month: "Mayo",
-    verse: { text: "Quien se humilla ser� exaltado.", reference: "Mateo 23:12" },
-    reflection: "Mar�a es Reina porque fue la m�s humilde. Su exaltaci�n fue el fruto de su humildad profunda.",
-    prayer: "Mar�a, reina de la humildad, ens��ame a ser humilde para que Dios me exalte."
+    verse: { text: "Quien se humilla será exaltado.", reference: "Mateo 23:12" },
+    reflection: "María es Reina porque fue la más humilde. Su exaltación fue el fruto de su humildad profunda.",
+    prayer: "María, reina de la humildad, enséñame a ser humilde para que Dios me exalte."
   },
   {
     day: 28,
-    title: "Mar�a Reina y la Esperanza",
+    title: "María Reina y la Esperanza",
     month: "Mayo",
-    verse: { text: "Los que esperan en el Se�or renovar�n sus fuerzas.", reference: "Isa�as 40:31" },
-    reflection: "Mar�a es Reina de la esperanza porque nunca perdi� la confianza en Dios. Su reinado nos asegura que siempre hay esperanza.",
-    prayer: "Mar�a, reina de la esperanza, fortalece mi esperanza y la de todos los que sufren."
+    verse: { text: "Los que esperan en el Señor renovarán sus fuerzas.", reference: "Isaías 40:31" },
+    reflection: "María es Reina de la esperanza porque nunca perdió la confianza en Dios. Su reinado nos asegura que siempre hay esperanza.",
+    prayer: "María, reina de la esperanza, fortalece mi esperanza y la de todos los que sufren."
   },
   {
     day: 29,
     title: "La Reina del Cielo",
     month: "Mayo",
-    verse: { text: "En la casa de mi Padre hay muchas moradas; si no fuera as�, os lo habr�a dicho.", reference: "Juan 14:2" },
-    reflection: "Mar�a es Reina del Cielo porque fue asunta en cuerpo y alma a la gloria celestial. Desde all� ella reina y nos prepara un lugar.",
-    prayer: "Mar�a, reina del cielo, prepara para nosotros la morada eterna junto a tu Hijo."
+    verse: { text: "En la casa de mi Padre hay muchas moradas; si no fuera así, os lo habría dicho.", reference: "Juan 14:2" },
+    reflection: "María es Reina del Cielo porque fue asunta en cuerpo y alma a la gloria celestial. Desde allí ella reina y nos prepara un lugar.",
+    prayer: "María, reina del cielo, prepara para nosotros la morada eterna junto a tu Hijo."
   },
   {
     day: 30,
-    title: "Mar�a Reina y el Reino",
+    title: "María Reina y el Reino",
     month: "Mayo",
-    verse: { text: "Venga tu reino, h�gase tu voluntad as� en la tierra como en el cielo.", reference: "Mateo 6:10" },
-    reflection: "Mar�a es la primera en experimentar el Reino de Dios porque en ella ya se cumpli� la voluntad divina.",
-    prayer: "Mar�a, reina del Reino, que el reino de Dios se extienda por toda la tierra."
+    verse: { text: "Venga tu reino, hágase tu voluntad así en la tierra como en el cielo.", reference: "Mateo 6:10" },
+    reflection: "María es la primera en experimentar el Reino de Dios porque en ella ya se cumplió la voluntad divina.",
+    prayer: "María, reina del Reino, que el reino de Dios se extienda por toda la tierra."
   },
   {
     day: 31,
-    title: "Mar�a, Reina por los Siglos",
+    title: "María, Reina por los Siglos",
     month: "Mayo",
-    verse: { text: "Su dominio es un dominio eterno, que no pasar�, y su reino no ser� destruido.", reference: "Daniel 7:14" },
-    reflection: "Al concluir el mes de mayo, celebramos que el reinado de Mar�a es eterno. Ella reinar� por los siglos de los siglos junto a su Hijo.",
-    prayer: "Mar�a, reina por los siglos, que tu reinado eterno nos d� la certeza de la salvaci�n."
+    verse: { text: "Su dominio es un dominio eterno, que no pasará, y su reino no será destruido.", reference: "Daniel 7:14" },
+    reflection: "Al concluir el mes de mayo, celebramos que el reinado de María es eterno. Ella reinará por los siglos de los siglos junto a su Hijo.",
+    prayer: "María, reina por los siglos, que tu reinado eterno nos dé la certeza de la salvación."
   }
 
 ,   {
     day: 1,
-    title: "El Sagrado Coraz�n de Jes�s",
+    title: "El Sagrado Corazón de Jesús",
     month: "Junio",
-    verse: { text: "El que come mi carne y bebe mi sangre tiene vida eterna, y yo lo resucitar� en el �ltimo d�a.", reference: "Juan 6:54" },
-    reflection: "Junio comienza con la devoci�n al Sagrado Coraz�n de Jes�s, que es el centro de todo amor divino. Mar�a fue el primer tabern�culo de ese Coraz�n sagrado.",
-    prayer: "Sagrado Coraz�n de Jes�s, que en Mar�a encontraste el primer templo de tu amor, accepta nuestro coraz�n como ofrenda."
+    verse: { text: "El que come mi carne y bebe mi sangre tiene vida eterna, y yo lo resucitaré en el último día.", reference: "Juan 6:54" },
+    reflection: "Junio comienza con la devoción al Sagrado Corazón de Jesús, que es el centro de todo amor divino. María fue el primer tabernáculo de ese Corazón sagrado.",
+    prayer: "Sagrado Corazón de Jesús, que en María encontraste el primer templo de tu amor, accepta nuestro corazón como ofrenda."
   },
   {
     day: 2,
-    title: "El Coraz�n Inmaculado de Mar�a",
+    title: "El Corazón Inmaculado de María",
     month: "Junio",
-    verse: { text: "Y a ti misma una espada te atravesar� el alma.", reference: "Lucas 2:35" },
-    reflection: "El Coraz�n Inmaculado de Mar�a es el templo donde habit� el Verbo de Dios. Su coraz�n fue traspasado por el dolor, pero nunca perdi� su pureza.",
-    prayer: "Coraz�n Inmaculado de Mar�a, templo viviente del Verbo, que tu pureza nos inspire a cuidar nuestro coraz�n."
+    verse: { text: "Y a ti misma una espada te atravesará el alma.", reference: "Lucas 2:35" },
+    reflection: "El Corazón Inmaculado de María es el templo donde habitó el Verbo de Dios. Su corazón fue traspasado por el dolor, pero nunca perdió su pureza.",
+    prayer: "Corazón Inmaculado de María, templo viviente del Verbo, que tu pureza nos inspire a cuidar nuestro corazón."
   },
   {
     day: 3,
     title: "Dos Corazones, Un Solo Amor",
     month: "Junio",
-    verse: { text: "Permaneced en m�, como yo permanezco en vosotros.", reference: "Juan 15:4" },
-    reflection: "Los Sagrados Corazones de Jes�s y Mar�a laten al un�sono por amor a la humanidad. Su uni�n es el modelo de todo amor verdadero.",
-    prayer: "Sagrados Corazones de Jes�s y Mar�a, unid nuestros corazones al vuestro para que vivamos en amor perfecto."
+    verse: { text: "Permaneced en mí, como yo permanezco en vosotros.", reference: "Juan 15:4" },
+    reflection: "Los Sagrados Corazones de Jesús y María laten al unísono por amor a la humanidad. Su unión es el modelo de todo amor verdadero.",
+    prayer: "Sagrados Corazones de Jesús y María, unid nuestros corazones al vuestro para que vivamos en amor perfecto."
   },
   {
     day: 4,
-    title: "El Coraz�n que Late por Amor",
+    title: "El Corazón que Late por Amor",
     month: "Junio",
-    verse: { text: "Porque tanto am� Dios el mundo que dio a su Hijo unig�nito.", reference: "Juan 3:16" },
-    reflection: "El Coraz�n de Jes�s late con un amor infinito por cada persona humana. Mar�a comprendi� este amor como nadie.",
-    prayer: "Sagrado Coraz�n de Jes�s, que tu amor latiente transforme mi coraz�n y me haga capaz de amar como T� amas."
+    verse: { text: "Porque tanto amó Dios el mundo que dio a su Hijo unigénito.", reference: "Juan 3:16" },
+    reflection: "El Corazón de Jesús late con un amor infinito por cada persona humana. María comprendió este amor como nadie.",
+    prayer: "Sagrado Corazón de Jesús, que tu amor latiente transforme mi corazón y me haga capaz de amar como Tú amas."
   },
   {
     day: 5,
-    title: "La Devoci�n al Coraz�n de Jes�s",
+    title: "La Devoción al Corazón de Jesús",
     month: "Junio",
-    verse: { text: "Venid a m� todos los que est�is cansados y agobiados, y yo os aliviar�.", reference: "Mateo 11:28" },
-    reflection: "La devoci�n al Sagrado Coraz�n nos recuerda que Jes�s nos ama con un amor personal y constante. Mar�a fue la primera en experimentar este amor.",
-    prayer: "Sagrado Coraz�n de Jes�s, que tu amor sea mi descanso y mi fortaleza cada d�a."
+    verse: { text: "Venid a mí todos los que estáis cansados y agobiados, y yo os aliviaré.", reference: "Mateo 11:28" },
+    reflection: "La devoción al Sagrado Corazón nos recuerda que Jesús nos ama con un amor personal y constante. María fue la primera en experimentar este amor.",
+    prayer: "Sagrado Corazón de Jesús, que tu amor sea mi descanso y mi fortaleza cada día."
   },
   {
     day: 6,
-    title: "El Coraz�n Traspasado de Mar�a",
+    title: "El Corazón Traspasado de María",
     month: "Junio",
-    verse: { text: "He aqu� tu madre.", reference: "Juan 19:27" },
-    reflection: "El Coraz�n de Mar�a fue traspasado por una espada de dolor al pie de la cruz. Sin embargo, ese coraz�n herido se convirti� en fuente de gracia.",
-    prayer: "Mar�a, con el coraz�n traspasado, intercede por todos los que sufren y por todos los que han perdido la paz."
+    verse: { text: "He aquí tu madre.", reference: "Juan 19:27" },
+    reflection: "El Corazón de María fue traspasado por una espada de dolor al pie de la cruz. Sin embargo, ese corazón herido se convirtió en fuente de gracia.",
+    prayer: "María, con el corazón traspasado, intercede por todos los que sufren y por todos los que han perdido la paz."
   },
   {
     day: 7,
-    title: "El Coraz�n Eucar�stico",
+    title: "El Corazón Eucarístico",
     month: "Junio",
     verse: { text: "Tomad, comed; esto es mi cuerpo.", reference: "Mateo 26:26" },
-    reflection: "El Sagrado Coraz�n de Jes�s se hace presente en la Eucarist�a para alimentarnos y fortalecernos. Mar�a nos ense�a a recibir a Cristo con reverencia.",
-    prayer: "Jes�s Eucaristizado, que tu Coraz�n nos reciba en cada comuni�n con amor de Padre."
+    reflection: "El Sagrado Corazón de Jesús se hace presente en la Eucaristía para alimentarnos y fortalecernos. María nos enseña a recibir a Cristo con reverencia.",
+    prayer: "Jesús Eucaristizado, que tu Corazón nos reciba en cada comunión con amor de Padre."
   },
   {
     day: 8,
     title: "Los Dos Corazones en la Cruz",
     month: "Junio",
-    verse: { text: "Junto a la cruz de Jes�s estaba su madre.", reference: "Juan 19:25" },
-    reflection: "En la cruz, los dos Corazones se encontraron en el amor supremo. Jes�s y Mar�a ofrecieron juntos la redenci�n del mundo.",
-    prayer: "Sagrados Corazones de Jes�s y Mar�a, que el sacrificio de la cruz nos recuerde el amor que no tiene l�mites."
+    verse: { text: "Junto a la cruz de Jesús estaba su madre.", reference: "Juan 19:25" },
+    reflection: "En la cruz, los dos Corazones se encontraron en el amor supremo. Jesús y María ofrecieron juntos la redención del mundo.",
+    prayer: "Sagrados Corazones de Jesús y María, que el sacrificio de la cruz nos recuerde el amor que no tiene límites."
   },
   {
     day: 9,
-    title: "El Coraz�n de Mar�a, Refugio",
+    title: "El Corazón de María, Refugio",
     month: "Junio",
-    verse: { text: "Bajo sus alas encontrar�s refugio.", reference: "Salmo 91:4" },
-    reflection: "El Coraz�n de Mar�a es refugio seguro para los pecadores. Ella nunca cierra su coraz�n a quienes buscan perd�n y consuelo.",
-    prayer: "Mar�a, tu Coraz�n es mi refugio, ac�geme cuando el mundo me persiga."
+    verse: { text: "Bajo sus alas encontrarás refugio.", reference: "Salmo 91:4" },
+    reflection: "El Corazón de María es refugio seguro para los pecadores. Ella nunca cierra su corazón a quienes buscan perdón y consuelo.",
+    prayer: "María, tu Corazón es mi refugio, acógeme cuando el mundo me persiga."
   },
   {
     day: 10,
-    title: "El Coraz�n de Jes�s, Rey",
+    title: "El Corazón de Jesús, Rey",
     month: "Junio",
     verse: { text: "El Hijo del Hombre no vino a ser servido, sino a servir.", reference: "Marcos 10:45" },
-    reflection: "Jes�s es Rey porque su Coraz�n es puro y generoso. Su reinado es de amor y de servicio. Mar�a reconoci� este reinado en la Anunciaci�n.",
-    prayer: "Sagrado Coraz�n de Jes�s, Rey de reyes, reina en mi coraz�n y gobierna mi vida."
+    reflection: "Jesús es Rey porque su Corazón es puro y generoso. Su reinado es de amor y de servicio. María reconoció este reinado en la Anunciación.",
+    prayer: "Sagrado Corazón de Jesús, Rey de reyes, reina en mi corazón y gobierna mi vida."
   },
   {
     day: 11,
-    title: "La Fiesta del Sagrado Coraz�n",
+    title: "La Fiesta del Sagrado Corazón",
     month: "Junio",
     verse: { text: "El amor es paciente, es bondadoso; no es envidioso ni vanidoso ni soberbio.", reference: "1 Corintios 13:4" },
-    reflection: "Hoy celebramos la fiesta del Sagrado Coraz�n, que es la fiesta del amor de Dios por los hombres. Mar�a nos ense�a a corresponder a este amor.",
-    prayer: "Sagrado Coraz�n de Jes�s, en tu fiesta te ofrecemos nuestro amor imperfecto para que lo transformes con tu gracia."
+    reflection: "Hoy celebramos la fiesta del Sagrado Corazón, que es la fiesta del amor de Dios por los hombres. María nos enseña a corresponder a este amor.",
+    prayer: "Sagrado Corazón de Jesús, en tu fiesta te ofrecemos nuestro amor imperfecto para que lo transformes con tu gracia."
   },
   {
     day: 12,
-    title: "La Consagraci�n al Coraz�n",
+    title: "La Consagración al Corazón",
     month: "Junio",
-    verse: { text: "No os conform�is al mundo actual, sino transformen su mente.", reference: "Romanos 12:2" },
-    reflection: "La consagraci�n al Sagrado Coraz�n es entregarle nuestra vida para que �l la transforme. Mar�a fue la primera consagrada al Coraz�n de Jes�s.",
-    prayer: "Sagrado Coraz�n de Jes�s, te consagro mi vida y todo lo que soy para que seas T� quien viva en m�."
+    verse: { text: "No os conforméis al mundo actual, sino transformen su mente.", reference: "Romanos 12:2" },
+    reflection: "La consagración al Sagrado Corazón es entregarle nuestra vida para que Él la transforme. María fue la primera consagrada al Corazón de Jesús.",
+    prayer: "Sagrado Corazón de Jesús, te consagro mi vida y todo lo que soy para que seas Tú quien viva en mí."
   },
   {
     day: 13,
-    title: "El Coraz�n y la Oraci�n",
+    title: "El Corazón y la Oración",
     month: "Junio",
-    verse: { text: "La oraci�n constante del justo puede mucho en su eficacia.", reference: "Santiago 5:16" },
-    reflection: "La oraci�n es el lenguaje del coraz�n que habla con Dios. Mar�a oraba constantemente con su coraz�n puro.",
-    prayer: "Sagrado Coraz�n de Jes�s, ens��ame a orar con el coraz�n, como Mar�a lo hac�a."
+    verse: { text: "La oración constante del justo puede mucho en su eficacia.", reference: "Santiago 5:16" },
+    reflection: "La oración es el lenguaje del corazón que habla con Dios. María oraba constantemente con su corazón puro.",
+    prayer: "Sagrado Corazón de Jesús, enséñame a orar con el corazón, como María lo hacía."
   },
   {
     day: 14,
-    title: "El Coraz�n y la Eucarist�a",
+    title: "El Corazón y la Eucaristía",
     month: "Junio",
     verse: { text: "El que come mi carne y bebe mi sangre tiene vida eterna.", reference: "Juan 6:54" },
-    reflection: "En la Eucarist�a, el Coraz�n de Jes�s se entrega completamente a nosotros. Mar�a, que fue el primer tabern�culo, nos ense�a a adorar este misterio.",
-    prayer: "Jes�s Eucaristizado, que cada comuni�n sea un encuentro de amor entre tu Coraz�n y el m�o."
+    reflection: "En la Eucaristía, el Corazón de Jesús se entrega completamente a nosotros. María, que fue el primer tabernáculo, nos enseña a adorar este misterio.",
+    prayer: "Jesús Eucaristizado, que cada comunión sea un encuentro de amor entre tu Corazón y el mío."
   },
   {
     day: 15,
-    title: "El Coraz�n de Mar�a, Mediadora",
+    title: "El Corazón de María, Mediadora",
     month: "Junio",
-    verse: { text: "No hay mejor intercesora que una madre ante su hijo.", reference: "Reflexi�n mariana" },
-    reflection: "El Coraz�n de Mar�a media ante el Coraz�n de Jes�s por nosotros. Ella es la puente de amor que une al Cielo con la tierra.",
-    prayer: "Mar�a, Coraz�n mediador, presenta nuestras s�plicas ante tu Hijo."
+    verse: { text: "No hay mejor intercesora que una madre ante su hijo.", reference: "Reflexión mariana" },
+    reflection: "El Corazón de María media ante el Corazón de Jesús por nosotros. Ella es la puente de amor que une al Cielo con la tierra.",
+    prayer: "María, Corazón mediador, presenta nuestras súplicas ante tu Hijo."
   },
   {
     day: 16,
-    title: "El Coraz�n de Jes�s y la Misericordia",
+    title: "El Corazón de Jesús y la Misericordia",
     month: "Junio",
-    verse: { text: "Bienaventurados los misericordiosos, porque ellos alcanzar�n misericordia.", reference: "Mateo 5:7" },
-    reflection: "El Sagrado Coraz�n de Jes�s es fuente de misericordia infinita. Mar�a, que vivi� esta misericordia, nos invita a ser misericordiosos.",
-    prayer: "Sagrado Coraz�n de Jes�s, que tu misericordia nos perdone y nos haga instrumentos de tu amor."
+    verse: { text: "Bienaventurados los misericordiosos, porque ellos alcanzarán misericordia.", reference: "Mateo 5:7" },
+    reflection: "El Sagrado Corazón de Jesús es fuente de misericordia infinita. María, que vivió esta misericordia, nos invita a ser misericordiosos.",
+    prayer: "Sagrado Corazón de Jesús, que tu misericordia nos perdone y nos haga instrumentos de tu amor."
   },
   {
     day: 17,
     title: "Los Dos Corazones y los Pecadores",
     month: "Junio",
     verse: { text: "No he venido a llamar a los justos, sino a los pecadores al arrepentimiento.", reference: "Marcos 2:17" },
-    reflection: "Los Corazones de Jes�s y Mar�a laten con m�s fuerza por los pecadores que se alejan de Dios. Ellos nunca se cansan de buscar al hijo pr�digo.",
-    prayer: "Sagrados Corazones, que vuestro amor atraiga a todos los pecadores de vuelta al camino de la salvaci�n."
+    reflection: "Los Corazones de Jesús y María laten con más fuerza por los pecadores que se alejan de Dios. Ellos nunca se cansan de buscar al hijo pródigo.",
+    prayer: "Sagrados Corazones, que vuestro amor atraiga a todos los pecadores de vuelta al camino de la salvación."
   },
   {
     day: 18,
-    title: "El Coraz�n de Mar�a y la Pureza",
+    title: "El Corazón de María y la Pureza",
     month: "Junio",
-    verse: { text: "Bienaventurados los puros de coraz�n, porque ellos ver�n a Dios.", reference: "Mateo 5:8" },
-    reflection: "El Coraz�n de Mar�a es puro y sin mancha. Su pureza es el modelo al que todos debemos aspirar.",
-    prayer: "Mar�a, Coraz�n puro, purifica mi coraz�n para que pueda ver a Dios."
+    verse: { text: "Bienaventurados los puros de corazón, porque ellos verán a Dios.", reference: "Mateo 5:8" },
+    reflection: "El Corazón de María es puro y sin mancha. Su pureza es el modelo al que todos debemos aspirar.",
+    prayer: "María, Corazón puro, purifica mi corazón para que pueda ver a Dios."
   },
   {
     day: 19,
-    title: "El Coraz�n de Jes�s y los Ni�os",
+    title: "El Corazón de Jesús y los Niños",
     month: "Junio",
-    verse: { text: "Dejad a los ni�os venir a m�, porque de ellos es el Reino de los cielos.", reference: "Mateo 19:14" },
-    reflection: "El Coraz�n de Jes�s ama a los ni�os con predilecci�n. Mar�a tambi�n protege a los m�s peque�os con su amor maternal.",
-    prayer: "Sagrado Coraz�n, bendice a todos los ni�os del mundo y protege su inocencia."
+    verse: { text: "Dejad a los niños venir a mí, porque de ellos es el Reino de los cielos.", reference: "Mateo 19:14" },
+    reflection: "El Corazón de Jesús ama a los niños con predilección. María también protege a los más pequeños con su amor maternal.",
+    prayer: "Sagrado Corazón, bendice a todos los niños del mundo y protege su inocencia."
   },
   {
     day: 20,
-    title: "El Coraz�n y el Perd�n",
+    title: "El Corazón y el Perdón",
     month: "Junio",
-    verse: { text: "Perdona nuestras ofensas, como tambi�n nosotros perdonamos a los que nos ofenden.", reference: "Mateo 6:12" },
-    reflection: "El Coraz�n de Jes�s nos pide que perdonemos como �l nos perdon�. Mar�a perdon� a quienes crucificaron a su Hijo.",
-    prayer: "Sagrado Coraz�n, ens��ame a perdonar desde el coraz�n, como T� y Mar�a lo hicieron."
+    verse: { text: "Perdona nuestras ofensas, como también nosotros perdonamos a los que nos ofenden.", reference: "Mateo 6:12" },
+    reflection: "El Corazón de Jesús nos pide que perdonemos como Él nos perdonó. María perdonó a quienes crucificaron a su Hijo.",
+    prayer: "Sagrado Corazón, enséñame a perdonar desde el corazón, como Tú y María lo hicieron."
   },
   {
     day: 21,
     title: "Los Dos Corazones y la Iglesia",
     month: "Junio",
-    verse: { text: "He aqu� a tu madre.", reference: "Juan 19:27" },
-    reflection: "Los Corazones de Jes�s y Mar�a son el coraz�n de la Iglesia. Ella nos une como comunidad de fe.",
-    prayer: "Sagrados Corazones, bendecid a la Iglesia entera y haced que sea fiel a su misi�n."
+    verse: { text: "He aquí a tu madre.", reference: "Juan 19:27" },
+    reflection: "Los Corazones de Jesús y María son el corazón de la Iglesia. Ella nos une como comunidad de fe.",
+    prayer: "Sagrados Corazones, bendecid a la Iglesia entera y haced que sea fiel a su misión."
   },
   {
     day: 22,
-    title: "El Coraz�n de Mar�a y los Sacerdotes",
+    title: "El Corazón de María y los Sacerdotes",
     month: "Junio",
     verse: { text: "Pastoread la grey de Dios que os ha sido encomendada.", reference: "1 Pedro 5:2" },
-    reflection: "Mar�a ama a los sacerdotes porque son los ministros del Coraz�n de Jes�s. Ella intercede por ellos y los protege.",
-    prayer: "Mar�a, Coraz�n maternal, santifica a los sacerdotes y haz que sean fieles ministros del Sagrado Coraz�n."
+    reflection: "María ama a los sacerdotes porque son los ministros del Corazón de Jesús. Ella intercede por ellos y los protege.",
+    prayer: "María, Corazón maternal, santifica a los sacerdotes y haz que sean fieles ministros del Sagrado Corazón."
   },
   {
     day: 23,
-    title: "El Coraz�n de Jes�s, Refugio",
+    title: "El Corazón de Jesús, Refugio",
     month: "Junio",
-    verse: { text: "Venid a m� todos los que est�is cansados y agobiados.", reference: "Mateo 11:28" },
-    reflection: "El Coraz�n de Jes�s es refugio de los cansados y agobiados. Mar�a nos invita a acudir a �l con confianza.",
-    prayer: "Sagrado Coraz�n de Jes�s, refugio de mis cansancios, descansa en ti mi coraz�n."
+    verse: { text: "Venid a mí todos los que estáis cansados y agobiados.", reference: "Mateo 11:28" },
+    reflection: "El Corazón de Jesús es refugio de los cansados y agobiados. María nos invita a acudir a Él con confianza.",
+    prayer: "Sagrado Corazón de Jesús, refugio de mis cansancios, descansa en ti mi corazón."
   },
   {
     day: 24,
     title: "Los Dos Corazones y la Paz",
     month: "Junio",
     verse: { text: "La paz os dejo; mi paz os doy.", reference: "Juan 14:27" },
-    reflection: "Los Corazones de Jes�s y Mar�a son fuente de paz verdadera. Solo en ellos encontramos la paz que el mundo no puede dar.",
+    reflection: "Los Corazones de Jesús y María son fuente de paz verdadera. Solo en ellos encontramos la paz que el mundo no puede dar.",
     prayer: "Sagrados Corazones, dadnos la vuestra paz para que vivamos en serenidad y en amor."
   },
   {
     day: 25,
-    title: "El Coraz�n de Jes�s y el Amor",
+    title: "El Corazón de Jesús y el Amor",
     month: "Junio",
-    verse: { text: "Os doy un mandamiento nuevo: os am�is los unos a los otros.", reference: "Juan 13:34" },
-    reflection: "El Coraz�n de Jes�s es la fuente de todo amor verdadero. Mar�a nos ense�a a vivir este mandamiento con entrega.",
-    prayer: "Sagrado Coraz�n, enciende en mi coraz�n el fuego de tu amor para que ame a los dem�s."
+    verse: { text: "Os doy un mandamiento nuevo: os améis los unos a los otros.", reference: "Juan 13:34" },
+    reflection: "El Corazón de Jesús es la fuente de todo amor verdadero. María nos enseña a vivir este mandamiento con entrega.",
+    prayer: "Sagrado Corazón, enciende en mi corazón el fuego de tu amor para que ame a los demás."
   },
   {
     day: 26,
-    title: "Los Dos Corazones en Pentecost�s",
+    title: "Los Dos Corazones en Pentecostés",
     month: "Junio",
     verse: { text: "Y se les aparecieron lenguas repartidas, como de fuego.", reference: "Hechos 2:3" },
-    reflection: "En Pentecost�s, los Corazones de Jes�s y Mar�a se unieron para enviar al Esp�ritu Santo sobre la Iglesia.",
-    prayer: "Esp�ritu Santo, que descendiste sobre Mar�a y los ap�stoles, enciende en nuestros corazones el fuego del amor divino."
+    reflection: "En Pentecostés, los Corazones de Jesús y María se unieron para enviar al Espíritu Santo sobre la Iglesia.",
+    prayer: "Espíritu Santo, que descendiste sobre María y los apóstoles, enciende en nuestros corazones el fuego del amor divino."
   },
   {
     day: 27,
-    title: "El Coraz�n de Mar�a y la Familia",
+    title: "El Corazón de María y la Familia",
     month: "Junio",
-    verse: { text: "Y baj� con ellos, y vino a Nazaret, y estaba sujeto a ellos.", reference: "Lucas 2:51" },
-    reflection: "El Coraz�n de Mar�a cuida de la familia humana como cuid� de la Sagrada Familia. Ella nos ense�a a vivir en armon�a.",
-    prayer: "Mar�a, Coraz�n de la familia, bendice nuestros hogares y haz que sean lugares de amor y de paz."
+    verse: { text: "Y bajó con ellos, y vino a Nazaret, y estaba sujeto a ellos.", reference: "Lucas 2:51" },
+    reflection: "El Corazón de María cuida de la familia humana como cuidó de la Sagrada Familia. Ella nos enseña a vivir en armonía.",
+    prayer: "María, Corazón de la familia, bendice nuestros hogares y haz que sean lugares de amor y de paz."
   },
   {
     day: 28,
-    title: "El Coraz�n de Jes�s y la Justicia",
+    title: "El Corazón de Jesús y la Justicia",
     month: "Junio",
     verse: { text: "Buscad primero el reino de Dios y su justicia.", reference: "Mateo 6:33" },
-    reflection: "El Coraz�n de Jes�s es justo y misericordioso. Mar�a nos invita a buscar la justicia de Dios con humildad.",
-    prayer: "Sagrado Coraz�n, que tu justicia reine en el mundo y que Mar�a nos gu�e hacia ella."
+    reflection: "El Corazón de Jesús es justo y misericordioso. María nos invita a buscar la justicia de Dios con humildad.",
+    prayer: "Sagrado Corazón, que tu justicia reine en el mundo y que María nos guíe hacia ella."
   },
   {
     day: 29,
-    title: "El Coraz�n de Mar�a y los Santos",
+    title: "El Corazón de María y los Santos",
     month: "Junio",
-    verse: { text: "As� que nosotros, rodeados de tan grande nube de testigos.", reference: "Hebreos 12:1" },
-    reflection: "Los santos son fruto de los Corazones de Jes�s y Mar�a. Ellos nos muestran que la santidad es posible para todos.",
-    prayer: "Mar�a, Coraz�n de los santos, intercede por nosotros para que sigamos sus huellas."
+    verse: { text: "Así que nosotros, rodeados de tan grande nube de testigos.", reference: "Hebreos 12:1" },
+    reflection: "Los santos son fruto de los Corazones de Jesús y María. Ellos nos muestran que la santidad es posible para todos.",
+    prayer: "María, Corazón de los santos, intercede por nosotros para que sigamos sus huellas."
   },
   {
     day: 30,
     title: "Los Dos Corazones y la Eternidad",
     month: "Junio",
-    verse: { text: "Yo soy la resurrecci�n y la vida; el que cree en m� vivir�.", reference: "Juan 11:25" },
-    reflection: "Los Corazones de Jes�s y Mar�a nos abren las puertas de la eternidad. Su amor nos garantiza la vida eterna.",
+    verse: { text: "Yo soy la resurrección y la vida; el que cree en mí vivirá.", reference: "Juan 11:25" },
+    reflection: "Los Corazones de Jesús y María nos abren las puertas de la eternidad. Su amor nos garantiza la vida eterna.",
     prayer: "Sagrados Corazones, que vuestro amor nos conduzca a la vida eterna donde reinaremos juntos."
   }
 
@@ -1744,13 +1744,13 @@
   },
   {
     day: 3,
-    title: "¿Quién Eres Tú?",
+    title: "Â¿Quién Eres Tú?",
     month: "Julio",
     verse: {
       text: "Entonces la mujer vio que el árbol era bueno para comer, agradable a la vista y útil para alcanzar la sabiduría, tomó de su fruta y comió; también dio a su marido, que estaba con ella, y él comió.",
       reference: "Génesis 3:6"
     },
-    reflection: "Cuando losPastores preguntaron \"¿Quién eres tú?\", la Virgen respondió: \"Yo soy la Virgen del Rosario\". Este título nos invita a descubrir su identidad a través de la oración. María no busca ser adorada, sino que nos lleve a su Hijo Jesús. En cada misterio del Rosario descubrimos quién es Ella realmente.",
+    reflection: "Cuando losPastores preguntaron \"Â¿Quién eres tú?\", la Virgen respondió: \"Yo soy la Virgen del Rosario\". Este título nos invita a descubrir su identidad a través de la oración. María no busca ser adorada, sino que nos lleve a su Hijo Jesús. En cada misterio del Rosario descubrimos quién es Ella realmente.",
     prayer: "Virgen del Rosario, enséñanos a conocerte a través de la oración y a descubrir en cada misterio el amor de tu Hijo Jesús. Que tu nombre sea siempre en nuestros labios y en nuestros corazones. Amén."
   },
   {
@@ -1891,7 +1891,7 @@
     month: "Julio",
     verse: {
       text: "En todo lugar donde yo haga memoria de ti, yo te haré llover bendiciones.",
-      reference: "�?xodo 20:24"
+      reference: "�‰xodo 20:24"
     },
     reflection: "El Rosario es el arma más poderosa que María nos ha dado. En cada misterio meditamos la vida de Jesús y María, y en cada Ave María elevamos nuestra oración al cielo. La Virgen prometió que el Rosario tendrá poder sobre todas las cosas.",
     prayer: "Virgen del Rosario, arma poderosa contra todas las fuerzas del mal, que tu intercesión nos proteja y nos conceda la gracia de recitar el Rosario cada día con fe y devoción. Amén."
@@ -1971,7 +1971,7 @@
       reference: "Juan 15:4"
     },
     reflection: "El Rosario es un cenáculo donde permanecemos con María y Jesús, como los apóstoles en el Cenáculo. En cada misterio nos unimos a ellos en oración y meditación. Este cenáculo espiritual nos fortalece para vivir nuestra fe en el mundo.",
-    prayer: "Virgen del Cenáculo, que nos reúnes con Jesús en cada misterio del Rosario, ayúdanos a permanecer unidos a �?l en la oración y en la vida diaria, para que su amor transforme todo nuestro ser. Amén."
+    prayer: "Virgen del Cenáculo, que nos reúnes con Jesús en cada misterio del Rosario, ayúdanos a permanecer unidos a �‰l en la oración y en la vida diaria, para que su amor transforme todo nuestro ser. Amén."
   },
   {
     day: 24,
@@ -2052,7 +2052,7 @@
   },
   {
     day: 31,
-    title: "La �sltima Aparición",
+    title: "La �šltima Aparición",
     month: "Julio",
     verse: {
       text: "No os turbéis ni os acobardeis. Creed en Dios y creed también en mí.",
@@ -2225,7 +2225,7 @@
       reference: "Lucas 1:48"
     },
     reflection: "Hoy celebramos la Asunción de María a los cielos. Ella fue exaltada porque su humildad y obediencia la hicieron digna de la gloria divina.",
-    prayer: "Santa María, madre de Dios, que tu asunción nos llene de esperanza y alegría. ¡Amén!"
+    prayer: "Santa María, madre de Dios, que tu asunción nos llene de esperanza y alegría. Â¡Amén!"
   },
   {
     day: 16,
@@ -2353,7 +2353,7 @@
     title: "La Victoria sobre la Muerte",
     month: "Agosto",
     verse: {
-      text: "¡Oh muerte, dónde está tu victoria? ¡Oh muerte, dónde está tu aguijón?",
+      text: "Â¡Oh muerte, dónde está tu victoria? Â¡Oh muerte, dónde está tu aguijón?",
       reference: "1 Corintios 15:55"
     },
     reflection: "La Dormición de María es una victoria sobre la muerte. Ella fue liberada de la corrupción mortal y asunta a la vida eterna.",
@@ -2394,7 +2394,7 @@
   },
   {
     day: 31,
-    title: "La �sltima Palabra",
+    title: "La �šltima Palabra",
     month: "Agosto",
     verse: {
       text: "He aquí, yo estoy con vosotros todos los días, hasta el fin del mundo.",
@@ -2406,492 +2406,492 @@
 
 ,   {
     day: 1,
-    title: "El Primer Gozo: La Anunciaci�n",
+    title: "El Primer Gozo: La Anunciación",
     month: "Septiembre",
-    verse: { text: "Al�grate, llena de gracia, el Se�or es contigo; bendita t� entre las mujeres.", reference: "Lucas 1:28" },
-    reflection: "El primer gozo de Mar�a fue la Anunciaci�n, cuando el �ngel Gabriel le anunci� que ser�a Madre de Dios. Este gozo es el inicio de nuestra salvaci�n.",
-    prayer: "Mar�a, que el gozo de la Anunciaci�n llene mi coraz�n de alegr�a por la llegada del Salvador."
+    verse: { text: "Alégrate, llena de gracia, el Señor es contigo; bendita tú entre las mujeres.", reference: "Lucas 1:28" },
+    reflection: "El primer gozo de María fue la Anunciación, cuando el ángel Gabriel le anunció que sería Madre de Dios. Este gozo es el inicio de nuestra salvación.",
+    prayer: "María, que el gozo de la Anunciación llene mi corazón de alegría por la llegada del Salvador."
   },
   {
     day: 2,
-    title: "El Segundo Gozo: La Visitaci�n",
+    title: "El Segundo Gozo: La Visitación",
     month: "Septiembre",
-    verse: { text: "En cuanto Isabel oy� el saludo de Mar�a, el hijo salt� en su seno.", reference: "Lucas 1:41" },
-    reflection: "El segundo gozo fue la Visitaci�n, cuando Mar�a visit� a Isabel y el ni�o Juan salt� de alegr�a en su vientre. El gozo de encontrar a Cristo se comparte.",
-    prayer: "Mar�a, ens��ame a compartir el gozo del Evangelio con los que me rodean."
+    verse: { text: "En cuanto Isabel oyó el saludo de María, el hijo saltó en su seno.", reference: "Lucas 1:41" },
+    reflection: "El segundo gozo fue la Visitación, cuando María visitó a Isabel y el niño Juan saltó de alegría en su vientre. El gozo de encontrar a Cristo se comparte.",
+    prayer: "María, enséñame a compartir el gozo del Evangelio con los que me rodean."
   },
   {
     day: 3,
-    title: "El Tercer Gozo: El Nacimiento de Jes�s",
+    title: "El Tercer Gozo: El Nacimiento de Jesús",
     month: "Septiembre",
     verse: { text: "Os doy una buena nueva de gran gozo: os ha nacido hoy en la ciudad de David un Salvador.", reference: "Lucas 2:10" },
-    reflection: "El tercer gozo fue el nacimiento de Jes�s en Bel�n. Mar�a sostuvo entre sus brazos al Redentor del mundo. La alegr�a de ver a Dios hecho ni�o fue indescriptible.",
-    prayer: "Mar�a, madre del Ni�o Dios, que el gozo de tu Hijo naciente llene mi vida de esperanza."
+    reflection: "El tercer gozo fue el nacimiento de Jesús en Belén. María sostuvo entre sus brazos al Redentor del mundo. La alegría de ver a Dios hecho niño fue indescriptible.",
+    prayer: "María, madre del Niño Dios, que el gozo de tu Hijo naciente llene mi vida de esperanza."
   },
   {
     day: 4,
-    title: "El Cuarto Gozo: La Adoraci�n de los Pastores",
+    title: "El Cuarto Gozo: La Adoración de los Pastores",
     month: "Septiembre",
-    verse: { text: "Los pastores fueron apresuradamente y encontraron a Mar�a, a Jos� y al ni�o acostado en el pesebre.", reference: "Lucas 2:16" },
-    reflection: "El cuarto gozo fue ver a los pastores adorar al Ni�o Dios. Mar�a vio c�mo los humildes reconoc�an al Salvador. El gozo se multiplica cuando se comparte.",
-    prayer: "Mar�a, que el gozo de los pastores me ense�e a adorar a tu Hijo con sencillez."
+    verse: { text: "Los pastores fueron apresuradamente y encontraron a María, a José y al niño acostado en el pesebre.", reference: "Lucas 2:16" },
+    reflection: "El cuarto gozo fue ver a los pastores adorar al Niño Dios. María vio cómo los humildes reconocían al Salvador. El gozo se multiplica cuando se comparte.",
+    prayer: "María, que el gozo de los pastores me enseñe a adorar a tu Hijo con sencillez."
   },
   {
     day: 5,
-    title: "El Quinto Gozo: La Adoraci�n de los Magos",
+    title: "El Quinto Gozo: La Adoración de los Magos",
     month: "Septiembre",
-    verse: { text: "Entrando en la casa, vieron al ni�o con Mar�a su madre, y postr�ndose lo adoraron.", reference: "Mateo 2:11" },
-    reflection: "El quinto gozo fue la adoraci�n de los Magos, que trajieron sus dones al Ni�o Rey. Mar�a vio c�mo los pueblos ven�an de lejos a reconocer a Cristo.",
-    prayer: "Mar�a, que los Magos me ense�en a buscar a Cristo con perseverancia y a ofrecerle lo mejor de mi vida."
+    verse: { text: "Entrando en la casa, vieron al niño con María su madre, y postrándose lo adoraron.", reference: "Mateo 2:11" },
+    reflection: "El quinto gozo fue la adoración de los Magos, que trajieron sus dones al Niño Rey. María vio cómo los pueblos venían de lejos a reconocer a Cristo.",
+    prayer: "María, que los Magos me enseñen a buscar a Cristo con perseverancia y a ofrecerle lo mejor de mi vida."
   },
   {
     day: 6,
-    title: "El Sexto Gozo: La Presentaci�n en el Templo",
+    title: "El Sexto Gozo: La Presentación en el Templo",
     month: "Septiembre",
-    verse: { text: "Cuando se cumplieron los d�as de su purificaci�n, llevaron a Jes�s a Jerusal�n para presentarlo al Se�or.", reference: "Lucas 2:22" },
-    reflection: "El sexto gozo fue la Presentaci�n en el Templo, donde Sime�n reconoci� al Salvador. Mar�a experiment� el gozo de presentar a Dios al mundo.",
-    prayer: "Mar�a, que el gozo de presentar a Jes�s en el Templo me inspire a ofrecer mi vida a Dios cada d�a."
+    verse: { text: "Cuando se cumplieron los días de su purificación, llevaron a Jesús a Jerusalén para presentarlo al Señor.", reference: "Lucas 2:22" },
+    reflection: "El sexto gozo fue la Presentación en el Templo, donde Simeón reconoció al Salvador. María experimentó el gozo de presentar a Dios al mundo.",
+    prayer: "María, que el gozo de presentar a Jesús en el Templo me inspire a ofrecer mi vida a Dios cada día."
   },
   {
     day: 7,
-    title: "El S�ptimo Gozo: El Ni�o Jes�s en el Templo",
+    title: "El Séptimo Gozo: El Niño Jesús en el Templo",
     month: "Septiembre",
-    verse: { text: "Lo buscaban entre los parientes y conocidos, y al no encontrarlo, se volvieron a Jerusal�n busc�ndolo.", reference: "Lucas 2:44-45" },
-    reflection: "El s�ptimo gozo fue encontrar a Jes�s en el Templo, donde ense�aba a los doctores. Aunque fue un momento de angustia, el encuentro llen� de gozo el coraz�n de Mar�a.",
-    prayer: "Mar�a, que el gozo de encontrar a Jes�s en el Templo me ense�e a buscarlo siempre, especialmente en la oraci�n y la Eucarist�a."
+    verse: { text: "Lo buscaban entre los parientes y conocidos, y al no encontrarlo, se volvieron a Jerusalén buscándolo.", reference: "Lucas 2:44-45" },
+    reflection: "El séptimo gozo fue encontrar a Jesús en el Templo, donde enseñaba a los doctores. Aunque fue un momento de angustia, el encuentro llenó de gozo el corazón de María.",
+    prayer: "María, que el gozo de encontrar a Jesús en el Templo me enseñe a buscarlo siempre, especialmente en la oración y la Eucaristía."
   },
   {
     day: 8,
-    title: "Los Siete Gozos de Mar�a",
+    title: "Los Siete Gozos de María",
     month: "Septiembre",
-    verse: { text: "Al�grate, llena de gracia, el Se�or es contigo.", reference: "Lucas 1:28" },
-    reflection: "Los siete gozos de Mar�a son un camino de alegr�a espiritual que nos invita a contemplar los momentos m�s felices de su vida junto a Jes�s.",
-    prayer: "Mar�a, que los siete gozos de tu vida me llenen de alegr�a y me acerquen a tu Hijo."
+    verse: { text: "Alégrate, llena de gracia, el Señor es contigo.", reference: "Lucas 1:28" },
+    reflection: "Los siete gozos de María son un camino de alegría espiritual que nos invita a contemplar los momentos más felices de su vida junto a Jesús.",
+    prayer: "María, que los siete gozos de tu vida me llenen de alegría y me acerquen a tu Hijo."
   },
   {
     day: 9,
-    title: "El Gozo de la Anunciaci�n Profundizado",
+    title: "El Gozo de la Anunciación Profundizado",
     month: "Septiembre",
-    verse: { text: "He aqu� la sierva del Se�or; h�gase en m� seg�n tu palabra.", reference: "Lucas 1:38" },
-    reflection: "En la Anunciaci�n, Mar�a recibi� el gozo m�s grande: ser Madre de Dios. Su fiat fue un acto de fe absoluta que cambi� la historia de la humanidad.",
-    prayer: "Mar�a, que tu fiat me ense�e a decir s� a Dios con fe y generosidad."
+    verse: { text: "He aquí la sierva del Señor; hágase en mí según tu palabra.", reference: "Lucas 1:38" },
+    reflection: "En la Anunciación, María recibió el gozo más grande: ser Madre de Dios. Su fiat fue un acto de fe absoluta que cambió la historia de la humanidad.",
+    prayer: "María, que tu fiat me enseñe a decir sí a Dios con fe y generosidad."
   },
   {
     day: 10,
-    title: "El Gozo de la Visitaci�n Profundizado",
+    title: "El Gozo de la Visitación Profundizado",
     month: "Septiembre",
-    verse: { text: "Mi alma glorifica al Se�or y mi esp�ritu se alegra en Dios mi Salvador.", reference: "Lucas 1:46-47" },
-    reflection: "En la Visitaci�n, Mar�a enton� el Magn�ficat, el c�ntico m�s hermoso de alabanza. Su gozo fue compartido con Isabel y con el ni�o Juan.",
-    prayer: "Mar�a, ens��ame a cantar como t� el Magn�ficat de la gratitud."
+    verse: { text: "Mi alma glorifica al Señor y mi espíritu se alegra en Dios mi Salvador.", reference: "Lucas 1:46-47" },
+    reflection: "En la Visitación, María entonó el Magníficat, el cántico más hermoso de alabanza. Su gozo fue compartido con Isabel y con el niño Juan.",
+    prayer: "María, enséñame a cantar como tú el Magníficat de la gratitud."
   },
   {
     day: 11,
     title: "El Gozo del Nacimiento Profundizado",
     month: "Septiembre",
-    verse: { text: "Mar�a dio a luz a su hijo primog�nito, y lo envolvi� en pa�ales, y lo acost� en un pesebre.", reference: "Lucas 2:7" },
-    reflection: "El nacimiento de Jes�s fue el gozo m�s profundo de Mar�a. Ella sostuvo al creador del universo entre sus brazos, el Verbo eterno hecho ni�o.",
-    prayer: "Mar�a, que el gozo de tu maternidad divina renueve mi amor por Jes�s."
+    verse: { text: "María dio a luz a su hijo primogénito, y lo envolvió en pañales, y lo acostó en un pesebre.", reference: "Lucas 2:7" },
+    reflection: "El nacimiento de Jesús fue el gozo más profundo de María. Ella sostuvo al creador del universo entre sus brazos, el Verbo eterno hecho niño.",
+    prayer: "María, que el gozo de tu maternidad divina renueve mi amor por Jesús."
   },
   {
     day: 12,
-    title: "El Gozo de la Adoraci�n Profundizado",
+    title: "El Gozo de la Adoración Profundizado",
     month: "Septiembre",
-    verse: { text: "Los pastores volvieron glorificando y alabando a Dios por todo lo que hab�an o�do y visto.", reference: "Lucas 2:20" },
-    reflection: "Los pastores adoraron al Ni�o con sencillez y fe. Mar�a vio c�mo los humildes reconoc�an en el pesebre al Rey de reyes.",
-    prayer: "Mar�a, que la adoraci�n de los pastores me ense�e a reconocer a Jes�s en los m�s peque�os."
+    verse: { text: "Los pastores volvieron glorificando y alabando a Dios por todo lo que habían oído y visto.", reference: "Lucas 2:20" },
+    reflection: "Los pastores adoraron al Niño con sencillez y fe. María vio cómo los humildes reconocían en el pesebre al Rey de reyes.",
+    prayer: "María, que la adoración de los pastores me enseñe a reconocer a Jesús en los más pequeños."
   },
   {
     day: 13,
     title: "El Gozo de los Magos Profundizado",
     month: "Septiembre",
     verse: { text: "Y abriendo sus cofres, le ofrecieron dones: oro, incienso y mirra.", reference: "Mateo 2:11" },
-    reflection: "Los Magos ofrecieron a Jes�s los mejores tesoros del mundo. Mar�a contempl� c�mo los reyes se postraban ante el Ni�o Dios.",
-    prayer: "Mar�a, que los dones de los Magos me inspiren a ofrecer a Jes�s lo mejor de mi vida."
+    reflection: "Los Magos ofrecieron a Jesús los mejores tesoros del mundo. María contempló cómo los reyes se postraban ante el Niño Dios.",
+    prayer: "María, que los dones de los Magos me inspiren a ofrecer a Jesús lo mejor de mi vida."
   },
   {
     day: 14,
-    title: "La Exaltaci�n de la Cruz",
+    title: "La Exaltación de la Cruz",
     month: "Septiembre",
-    verse: { text: "Y cuando yo sea levantado de la tierra, a todos atraer� a m� mismo.", reference: "Juan 12:32" },
-    reflection: "Hoy celebramos la Exaltaci�n de la Santa Cruz. Mar�a estuvo al pie de la cruz, testigo del amor supremo de Jes�s por la humanidad.",
-    prayer: "Mar�a, que la cruz de tu Hijo sea para m� fuente de salvaci�n y de esperanza."
+    verse: { text: "Y cuando yo sea levantado de la tierra, a todos atraeré a mí mismo.", reference: "Juan 12:32" },
+    reflection: "Hoy celebramos la Exaltación de la Santa Cruz. María estuvo al pie de la cruz, testigo del amor supremo de Jesús por la humanidad.",
+    prayer: "María, que la cruz de tu Hijo sea para mí fuente de salvación y de esperanza."
   },
   {
     day: 15,
-    title: "Mar�a, Madre de los Siete Gozos",
+    title: "María, Madre de los Siete Gozos",
     month: "Septiembre",
-    verse: { text: "Bendita t� entre las mujeres, y bendito el fruto de tu vientre.", reference: "Lucas 1:42" },
-    reflection: "Mar�a es Madre de los Siete Gozos porque vivi� cada momento de su vida con alegr�a y entrega a Dios. Ella nos ense�a que la verdadera alegr�a viene de la fe.",
-    prayer: "Mar�a, madre de los siete gozos, llena mi vida de alegr�a espiritual."
+    verse: { text: "Bendita tú entre las mujeres, y bendito el fruto de tu vientre.", reference: "Lucas 1:42" },
+    reflection: "María es Madre de los Siete Gozos porque vivió cada momento de su vida con alegría y entrega a Dios. Ella nos enseña que la verdadera alegría viene de la fe.",
+    prayer: "María, madre de los siete gozos, llena mi vida de alegría espiritual."
   },
   {
     day: 16,
     title: "El Gozo en medio del Dolor",
     month: "Septiembre",
-    verse: { text: "Los que sembraban con l�grimas cosechar�n con c�nticos de alegr�a.", reference: "Salmo 126:5" },
-    reflection: "Mar�a experiment� gozo y dolor en su vida. Los siete gozos incluyen momentos de prueba, pero siempre hubo fe y esperanza.",
-    prayer: "Mar�a, que en medio de mis dolores encuentre el gozo de saber que Dios est� conmigo."
+    verse: { text: "Los que sembraban con lágrimas cosecharán con cánticos de alegría.", reference: "Salmo 126:5" },
+    reflection: "María experimentó gozo y dolor en su vida. Los siete gozos incluyen momentos de prueba, pero siempre hubo fe y esperanza.",
+    prayer: "María, que en medio de mis dolores encuentre el gozo de saber que Dios está conmigo."
   },
   {
     day: 17,
-    title: "El Gozo de la Resurrecci�n",
+    title: "El Gozo de la Resurrección",
     month: "Septiembre",
-    verse: { text: "No est� aqu�, porque ha resucitado, como dijo.", reference: "Mateo 28:6" },
-    reflection: "El gozo m�s grande de Mar�a fue ver a su Hijo resucitado. La resurrecci�n fue la victoria definitiva sobre la muerte y el pecado.",
-    prayer: "Mar�a, que el gozo de la resurrecci�n llene mi vida de esperanza."
+    verse: { text: "No está aquí, porque ha resucitado, como dijo.", reference: "Mateo 28:6" },
+    reflection: "El gozo más grande de María fue ver a su Hijo resucitado. La resurrección fue la victoria definitiva sobre la muerte y el pecado.",
+    prayer: "María, que el gozo de la resurrección llene mi vida de esperanza."
   },
   {
     day: 18,
-    title: "El Gozo de Pentecost�s",
+    title: "El Gozo de Pentecostés",
     month: "Septiembre",
     verse: { text: "Y se les aparecieron lenguas repartidas, como de fuego, que se posaron sobre cada uno de ellos.", reference: "Hechos 2:3" },
-    reflection: "En Pentecost�s, Mar�a recibi� al Esp�ritu Santo junto a los ap�stoles. El fuego del Esp�ritu trajo gozo y fuerza a la Iglesia naciente.",
-    prayer: "Esp�ritu Santo, que descendiste sobre Mar�a, renueva en m� el gozo de la fe."
+    reflection: "En Pentecostés, María recibió al Espíritu Santo junto a los apóstoles. El fuego del Espíritu trajo gozo y fuerza a la Iglesia naciente.",
+    prayer: "Espíritu Santo, que descendiste sobre María, renueva en mí el gozo de la fe."
   },
   {
     day: 19,
-    title: "El Gozo de la Asunci�n",
+    title: "El Gozo de la Asunción",
     month: "Septiembre",
-    verse: { text: "Porque ha mirado la humildad de su sierva, y desde ahora me llamar�n bienaventurada todas las generaciones.", reference: "Lucas 1:48" },
-    reflection: "La Asunci�n de Mar�a fue el gozo definitivo: ella fue llevada al cielo en cuerpo y alma. Su vida terrenal culmin� en la plenitud de la gloria.",
-    prayer: "Mar�a, asunta al cielo, que tu gozo celestial nos d� la esperanza de la eternidad."
+    verse: { text: "Porque ha mirado la humildad de su sierva, y desde ahora me llamarán bienaventurada todas las generaciones.", reference: "Lucas 1:48" },
+    reflection: "La Asunción de María fue el gozo definitivo: ella fue llevada al cielo en cuerpo y alma. Su vida terrenal culminó en la plenitud de la gloria.",
+    prayer: "María, asunta al cielo, que tu gozo celestial nos dé la esperanza de la eternidad."
   },
   {
     day: 20,
-    title: "El Gozo de la Coronaci�n",
+    title: "El Gozo de la Coronación",
     month: "Septiembre",
-    verse: { text: "Apareci� en el cielo una gran se�al: una mujer vestida de sol, con la luna bajo sus pies, y una corona de doce estrellas.", reference: "Apocalipsis 12:1" },
-    reflection: "Mar�a fue coronada Reina de los cielos y de la tierra. Su corona es el fruto de una vida entera de fe, amor y obediencia.",
-    prayer: "Mar�a, coronada de gloria, que tu gozo de Reina llene mi coraz�n de esperanza."
+    verse: { text: "Apareció en el cielo una gran señal: una mujer vestida de sol, con la luna bajo sus pies, y una corona de doce estrellas.", reference: "Apocalipsis 12:1" },
+    reflection: "María fue coronada Reina de los cielos y de la tierra. Su corona es el fruto de una vida entera de fe, amor y obediencia.",
+    prayer: "María, coronada de gloria, que tu gozo de Reina llene mi corazón de esperanza."
   },
   {
     day: 21,
-    title: "El Gozo de la Intercesi�n",
+    title: "El Gozo de la Intercesión",
     month: "Septiembre",
-    verse: { text: "O�d a mi palabra, escuchad mi ruego, prestad o�do a mi clamor.", reference: "Salmo 17:1" },
-    reflection: "Mar�a goza en el cielo intercediendo por nosotros. Ella presenta nuestras s�plicas ante Dios y obtiene las gracias que necesitamos.",
-    prayer: "Mar�a, que tu intercesi�n me acerque cada d�a m�s a Dios."
+    verse: { text: "Oíd a mi palabra, escuchad mi ruego, prestad oído a mi clamor.", reference: "Salmo 17:1" },
+    reflection: "María goza en el cielo intercediendo por nosotros. Ella presenta nuestras súplicas ante Dios y obtiene las gracias que necesitamos.",
+    prayer: "María, que tu intercesión me acerque cada día más a Dios."
   },
   {
     day: 22,
-    title: "El Gozo de la Comuni�n de los Santos",
+    title: "El Gozo de la Comunión de los Santos",
     month: "Septiembre",
-    verse: { text: "Creo en la comuni�n de los santos.", reference: "Credo Apost�lico" },
-    reflection: "La comuni�n de los santos nos une a Mar�a y a todos los santos del cielo. Este gozo nos recuerda que no estamos solos en nuestro caminar hacia Dios.",
-    prayer: "Mar�a, fortalece nuestra comuni�n con los santos del cielo."
+    verse: { text: "Creo en la comunión de los santos.", reference: "Credo Apostólico" },
+    reflection: "La comunión de los santos nos une a María y a todos los santos del cielo. Este gozo nos recuerda que no estamos solos en nuestro caminar hacia Dios.",
+    prayer: "María, fortalece nuestra comunión con los santos del cielo."
   },
   {
     day: 23,
-    title: "El Gozo de la Oraci�n",
+    title: "El Gozo de la Oración",
     month: "Septiembre",
-    verse: { text: "La oraci�n constante del justo puede mucho en su eficacia.", reference: "Santiago 5:16" },
-    reflection: "Mar�a encontr� gozo en la oraci�n. Desde el Magn�ficat hasta el Cen�culo, su vida fue un continuo di�logo con Dios.",
-    prayer: "Mar�a, maestra de oraci�n, ens��ame a encontrar gozo en la oraci�n."
+    verse: { text: "La oración constante del justo puede mucho en su eficacia.", reference: "Santiago 5:16" },
+    reflection: "María encontró gozo en la oración. Desde el Magníficat hasta el Cenáculo, su vida fue un continuo diálogo con Dios.",
+    prayer: "María, maestra de oración, enséñame a encontrar gozo en la oración."
   },
   {
     day: 24,
     title: "El Gozo del Servicio",
     month: "Septiembre",
     verse: { text: "El Hijo del Hombre no vino a ser servido, sino a servir.", reference: "Marcos 10:45" },
-    reflection: "Mar�a encontr� gozo en servir a los dem�s. Desde la Visitaci�n hasta el Cen�culo, ella siempre estuvo disponible para los que necesitaban su ayuda.",
-    prayer: "Mar�a, que el servicio a los dem�s sea fuente de gozo en mi vida."
+    reflection: "María encontró gozo en servir a los demás. Desde la Visitación hasta el Cenáculo, ella siempre estuvo disponible para los que necesitaban su ayuda.",
+    prayer: "María, que el servicio a los demás sea fuente de gozo en mi vida."
   },
   {
     day: 25,
     title: "El Gozo de la Pureza",
     month: "Septiembre",
-    verse: { text: "Bienaventurados los puros de coraz�n, porque ellos ver�n a Dios.", reference: "Mateo 5:8" },
-    reflection: "Mar�a fue pura de coraz�n y por eso vio a Dios cara a cara. La pureza es camino de gozo porque nos acerca a Dios.",
-    prayer: "Mar�a, madre de la pureza, que la pureza de mi coraz�n sea fuente de gozo."
+    verse: { text: "Bienaventurados los puros de corazón, porque ellos verán a Dios.", reference: "Mateo 5:8" },
+    reflection: "María fue pura de corazón y por eso vio a Dios cara a cara. La pureza es camino de gozo porque nos acerca a Dios.",
+    prayer: "María, madre de la pureza, que la pureza de mi corazón sea fuente de gozo."
   },
   {
     day: 26,
     title: "El Gozo de la Fe",
     month: "Septiembre",
-    verse: { text: "Bienaventurados los que no han visto y han cre�do.", reference: "Juan 20:29" },
-    reflection: "Mar�a crey� sin ver para creer. Su fe fue la fuente de su gozo m�s profundo. La fe nos permite ver a Dios donde otros solo ven oscuridad.",
-    prayer: "Mar�a, que tu fe me ense�e a creer sin ver y a encontrar gozo en la presencia de Dios."
+    verse: { text: "Bienaventurados los que no han visto y han creído.", reference: "Juan 20:29" },
+    reflection: "María creyó sin ver para creer. Su fe fue la fuente de su gozo más profundo. La fe nos permite ver a Dios donde otros solo ven oscuridad.",
+    prayer: "María, que tu fe me enseñe a creer sin ver y a encontrar gozo en la presencia de Dios."
   },
   {
     day: 27,
     title: "El Gozo de la Esperanza",
     month: "Septiembre",
-    verse: { text: "Los que esperan en el Se�or renovar�n sus fuerzas.", reference: "Isa�as 40:31" },
-    reflection: "Mar�a esper� con fe la resurrecci�n de su Hijo. La esperanza es fuente de gozo porque nos asegura que Dios siempre cumple sus promesas.",
-    prayer: "Mar�a, madre de la esperanza, que la esperanza en Dios sea fuente de gozo en mi vida."
+    verse: { text: "Los que esperan en el Señor renovarán sus fuerzas.", reference: "Isaías 40:31" },
+    reflection: "María esperó con fe la resurrección de su Hijo. La esperanza es fuente de gozo porque nos asegura que Dios siempre cumple sus promesas.",
+    prayer: "María, madre de la esperanza, que la esperanza en Dios sea fuente de gozo en mi vida."
   },
   {
     day: 28,
     title: "El Gozo del Amor",
     month: "Septiembre",
     verse: { text: "El amor es paciente, es bondadoso; no es envidioso ni vanidoso ni soberbio.", reference: "1 Corintios 13:4" },
-    reflection: "Mar�a am� a Dios y a los hombres con un amor puro y total. El amor es la fuente de todo gozo verdadero.",
-    prayer: "Mar�a, que tu amor me ense�e a amar como Dios ama y a encontrar gozo en el amor."
+    reflection: "María amó a Dios y a los hombres con un amor puro y total. El amor es la fuente de todo gozo verdadero.",
+    prayer: "María, que tu amor me enseñe a amar como Dios ama y a encontrar gozo en el amor."
   },
   {
     day: 29,
     title: "El Gozo de la Eternidad",
     month: "Septiembre",
-    verse: { text: "Yo soy la resurrecci�n y la vida; el que cree en m� vivir�.", reference: "Juan 11:25" },
-    reflection: "El gozo definitivo de Mar�a es la eternidad con Dios. Ella nos promete que si la seguimos, llegaremos a la plenitud del gozo celestial.",
-    prayer: "Mar�a, que el gozo de la eternidad sea mi meta suprema y mi esperanza m�s firme."
+    verse: { text: "Yo soy la resurrección y la vida; el que cree en mí vivirá.", reference: "Juan 11:25" },
+    reflection: "El gozo definitivo de María es la eternidad con Dios. Ella nos promete que si la seguimos, llegaremos a la plenitud del gozo celestial.",
+    prayer: "María, que el gozo de la eternidad sea mi meta suprema y mi esperanza más firme."
   },
   {
     day: 30,
-    title: "Los Siete Gozos: Un Camino de Alegr�a",
+    title: "Los Siete Gozos: Un Camino de Alegría",
     month: "Septiembre",
-    verse: { text: "Os he dicho estas cosas para que mi alegr�a est� en vosotros, y vuestra alegr�a sea completa.", reference: "Juan 15:11" },
-    reflection: "Al concluir este mes, recordamos que los siete gozos de Mar�a son un camino de alegr�a espiritual que nos acerca a Cristo. Cada gozo es una invitaci�n a vivir la fe con alegr�a.",
-    prayer: "Mar�a, que los siete gozos de tu vida sean mi gu�a en el camino de la alegr�a espiritual."
+    verse: { text: "Os he dicho estas cosas para que mi alegría esté en vosotros, y vuestra alegría sea completa.", reference: "Juan 15:11" },
+    reflection: "Al concluir este mes, recordamos que los siete gozos de María son un camino de alegría espiritual que nos acerca a Cristo. Cada gozo es una invitación a vivir la fe con alegría.",
+    prayer: "María, que los siete gozos de tu vida sean mi guía en el camino de la alegría espiritual."
   }
 
 ,   {
     day: 1,
-    title: "El Rosario: Oraci�n de Mar�a",
+    title: "El Rosario: Oración de María",
     month: "Octubre",
-    verse: { text: "Rezo yo al Se�or, que es digno de alabanza, y fui salvo de mis enemigos.", reference: "Salmo 18:4" },
-    reflection: "Octubre es el mes del Rosario. Esta oraci�n es el cetro de amor de Mar�a, el arma m�s poderosa contra el mal. En cada Ave Mar�a elevamos nuestra voz junto con la de Mar�a.",
-    prayer: "Mar�a, reina del Rosario, ens��ame a valorar esta oraci�n tan poderosa y a encontrar en ella la fuerza espiritual."
+    verse: { text: "Rezo yo al Señor, que es digno de alabanza, y fui salvo de mis enemigos.", reference: "Salmo 18:4" },
+    reflection: "Octubre es el mes del Rosario. Esta oración es el cetro de amor de María, el arma más poderosa contra el mal. En cada Ave María elevamos nuestra voz junto con la de María.",
+    prayer: "María, reina del Rosario, enséñame a valorar esta oración tan poderosa y a encontrar en ella la fuerza espiritual."
   },
   {
     day: 2,
     title: "Los Misterios Gozosos",
     month: "Octubre",
-    verse: { text: "Al�grate, llena de gracia, el Se�or es contigo.", reference: "Lucas 1:28" },
-    reflection: "Los misterios gozosos nos invitan a contemplar los primeros momentos de la vida de Jes�s y Mar�a. Son una escuela de fe y de alegr�a espiritual.",
-    prayer: "Mar�a, que los misterios gozosos me llenen de alegr�a por la venida de tu Hijo al mundo."
+    verse: { text: "Alégrate, llena de gracia, el Señor es contigo.", reference: "Lucas 1:28" },
+    reflection: "Los misterios gozosos nos invitan a contemplar los primeros momentos de la vida de Jesús y María. Son una escuela de fe y de alegría espiritual.",
+    prayer: "María, que los misterios gozosos me llenen de alegría por la venida de tu Hijo al mundo."
   },
   {
     day: 3,
-    title: "La Anunciaci�n en el Rosario",
+    title: "La Anunciación en el Rosario",
     month: "Octubre",
-    verse: { text: "He aqu� la sierva del Se�or; h�gase en m� seg�n tu palabra.", reference: "Lucas 1:38" },
-    reflection: "En el primer misterio gozoso contemplamos la Anunciaci�n. Mar�a nos ense�a a decir s� a Dios con fe y generosidad.",
-    prayer: "Mar�a, que el misterio de la Anunciaci�n me ense�e a acoger la voluntad de Dios en mi vida."
+    verse: { text: "He aquí la sierva del Señor; hágase en mí según tu palabra.", reference: "Lucas 1:38" },
+    reflection: "En el primer misterio gozoso contemplamos la Anunciación. María nos enseña a decir sí a Dios con fe y generosidad.",
+    prayer: "María, que el misterio de la Anunciación me enseñe a acoger la voluntad de Dios en mi vida."
   },
   {
     day: 4,
-    title: "La Visitaci�n en el Rosario",
+    title: "La Visitación en el Rosario",
     month: "Octubre",
-    verse: { text: "En cuanto Isabel oy� el saludo de Mar�a, el hijo salt� en su seno.", reference: "Lucas 1:41" },
-    reflection: "En el segundo misterio gozoso contemplamos la Visitaci�n. Mar�a nos ense�a a compartir el gozo del Evangelio con los dem�s.",
-    prayer: "Mar�a, que el misterio de la Visitaci�n me inspire a servir a los dem�s con amor."
+    verse: { text: "En cuanto Isabel oyó el saludo de María, el hijo saltó en su seno.", reference: "Lucas 1:41" },
+    reflection: "En el segundo misterio gozoso contemplamos la Visitación. María nos enseña a compartir el gozo del Evangelio con los demás.",
+    prayer: "María, que el misterio de la Visitación me inspire a servir a los demás con amor."
   },
   {
     day: 5,
-    title: "El Nacimiento de Jes�s en el Rosario",
+    title: "El Nacimiento de Jesús en el Rosario",
     month: "Octubre",
     verse: { text: "Os doy una buena nueva de gran gozo: os ha nacido hoy un Salvador.", reference: "Lucas 2:10" },
-    reflection: "En el tercer misterio gozoso contemplamos el Nacimiento de Jes�s. Mar�a nos ense�a la humildad de Dios que se hace ni�o por amor.",
-    prayer: "Mar�a, que el misterio del Nacimiento renueve mi amor por Jes�s."
+    reflection: "En el tercer misterio gozoso contemplamos el Nacimiento de Jesús. María nos enseña la humildad de Dios que se hace niño por amor.",
+    prayer: "María, que el misterio del Nacimiento renueve mi amor por Jesús."
   },
   {
     day: 6,
-    title: "La Presentaci�n en el Templo en el Rosario",
+    title: "La Presentación en el Templo en el Rosario",
     month: "Octubre",
-    verse: { text: "Cuando se cumplieron los d�as de su purificaci�n, llevaron a Jes�s a Jerusal�n.", reference: "Lucas 2:22" },
-    reflection: "En el cuarto misterio gozoso contemplamos la Presentaci�n en el Templo. Mar�a nos ense�a a ofrecer nuestra vida a Dios.",
-    prayer: "Mar�a, que el misterio de la Presentaci�n me inspire a ofrecer mi vida a Dios cada d�a."
+    verse: { text: "Cuando se cumplieron los días de su purificación, llevaron a Jesús a Jerusalén.", reference: "Lucas 2:22" },
+    reflection: "En el cuarto misterio gozoso contemplamos la Presentación en el Templo. María nos enseña a ofrecer nuestra vida a Dios.",
+    prayer: "María, que el misterio de la Presentación me inspire a ofrecer mi vida a Dios cada día."
   },
   {
     day: 7,
     title: "El Encuentro en el Templo en el Rosario",
     month: "Octubre",
-    verse: { text: "Lo buscaban entre los parientes y conocidos, y al no encontrarlo, se volvieron a Jerusal�n.", reference: "Lucas 2:44-45" },
-    reflection: "En el quinto misterio gozoso contemplamos a Jes�s entre los doctores. Mar�a nos ense�a a buscar a Jes�s con perseverancia.",
-    prayer: "Mar�a, que el misterio del Encuentro en el Templo me ense�e a buscar a Cristo en la oraci�n y la Eucarist�a."
+    verse: { text: "Lo buscaban entre los parientes y conocidos, y al no encontrarlo, se volvieron a Jerusalén.", reference: "Lucas 2:44-45" },
+    reflection: "En el quinto misterio gozoso contemplamos a Jesús entre los doctores. María nos enseña a buscar a Jesús con perseverancia.",
+    prayer: "María, que el misterio del Encuentro en el Templo me enseñe a buscar a Cristo en la oración y la Eucaristía."
   },
   {
     day: 8,
     title: "Los Misterios Dolorosos",
     month: "Octubre",
-    verse: { text: "Junto a la cruz de Jes�s estaba su madre.", reference: "Juan 19:25" },
-    reflection: "Los misterios dolorosos nos invitan a contemplar el sufrimiento de Jes�s y de Mar�a. Son una escuela de entrega y de amor en la cruz.",
-    prayer: "Mar�a, que los misterios dolorosos me ense�en a unir mis sufrimientos a los de tu Hijo."
+    verse: { text: "Junto a la cruz de Jesús estaba su madre.", reference: "Juan 19:25" },
+    reflection: "Los misterios dolorosos nos invitan a contemplar el sufrimiento de Jesús y de María. Son una escuela de entrega y de amor en la cruz.",
+    prayer: "María, que los misterios dolorosos me enseñen a unir mis sufrimientos a los de tu Hijo."
   },
   {
     day: 9,
-    title: "La Oraci�n del Huerto en el Rosario",
+    title: "La Oración del Huerto en el Rosario",
     month: "Octubre",
-    verse: { text: "Padre m�o, si es posible, pase de m� este c�liz; pero no se haga mi voluntad, sino la tuya.", reference: "Mateo 26:39" },
-    reflection: "En el primer misterio doloroso contemplamos la oraci�n de Jes�s en el Huerto. Mar�a tambi�n oraba en silencio, sosteniendo a su Hijo con su amor.",
-    prayer: "Mar�a, que el misterio del Huerto me ense�e a aceptar la voluntad de Dios."
+    verse: { text: "Padre mío, si es posible, pase de mí este cáliz; pero no se haga mi voluntad, sino la tuya.", reference: "Mateo 26:39" },
+    reflection: "En el primer misterio doloroso contemplamos la oración de Jesús en el Huerto. María también oraba en silencio, sosteniendo a su Hijo con su amor.",
+    prayer: "María, que el misterio del Huerto me enseñe a aceptar la voluntad de Dios."
   },
   {
     day: 10,
-    title: "La Flagelaci�n en el Rosario",
+    title: "La Flagelación en el Rosario",
     month: "Octubre",
-    verse: { text: "Entonces Pilato tom� a Jes�s y lo mand� azotar.", reference: "Juan 19:1" },
-    reflection: "En el segundo misterio doloroso contemplamos la Flagelaci�n de Jes�s. Mar�a sufri� en silencio el dolor de su Hijo.",
-    prayer: "Mar�a, que el misterio de la Flagelaci�n me ense� a ofrecer mis sufrimientos por amor."
+    verse: { text: "Entonces Pilato tomó a Jesús y lo mandó azotar.", reference: "Juan 19:1" },
+    reflection: "En el segundo misterio doloroso contemplamos la Flagelación de Jesús. María sufrió en silencio el dolor de su Hijo.",
+    prayer: "María, que el misterio de la Flagelación me enseñ a ofrecer mis sufrimientos por amor."
   },
   {
     day: 11,
-    title: "La Coronaci�n de Espinas en el Rosario",
+    title: "La Coronación de Espinas en el Rosario",
     month: "Octubre",
     verse: { text: "Los soldados trenzaron una corona de espinas y se la pusieron en su cabeza.", reference: "Juan 19:2" },
-    reflection: "En el tercer misterio doloroso contemplamos la Coronaci�n de Espinas. Jes�s fue insultado y Mar�a sufri� con �l cada burla.",
-    prayer: "Mar�a, que el misterio de la Coronaci�n de Espinas me ense� a soportar las burlas por la fe."
+    reflection: "En el tercer misterio doloroso contemplamos la Coronación de Espinas. Jesús fue insultado y María sufrió con él cada burla.",
+    prayer: "María, que el misterio de la Coronación de Espinas me enseñ a soportar las burlas por la fe."
   },
   {
     day: 12,
     title: "La Cruz a Cuestas en el Rosario",
     month: "Octubre",
-    verse: { text: "Y cargando con su cruz, sali� hacia el lugar que llaman Calvario.", reference: "Juan 19:17" },
-    reflection: "En el cuarto misterio doloroso contemplamos a Jes�s cargando la cruz. Mar�a lo acompa�� en silencio, compartiendo su dolor de madre.",
-    prayer: "Mar�a, que el misterio de la Cruz a Cuestas me ense�e a llevar mi cruz con amor."
+    verse: { text: "Y cargando con su cruz, salió hacia el lugar que llaman Calvario.", reference: "Juan 19:17" },
+    reflection: "En el cuarto misterio doloroso contemplamos a Jesús cargando la cruz. María lo acompañó en silencio, compartiendo su dolor de madre.",
+    prayer: "María, que el misterio de la Cruz a Cuestas me enseñe a llevar mi cruz con amor."
   },
   {
     day: 13,
-    title: "La Crucifixi�n en el Rosario",
+    title: "La Crucifixión en el Rosario",
     month: "Octubre",
-    verse: { text: "Junto a la cruz de Jes�s estaba su madre.", reference: "Juan 19:25" },
-    reflection: "En el quinto misterio doloroso contemplamos la Crucifixi�n de Jes�s. Mar�a estuvo al pie de la cruz, testigo del amor supremo.",
-    prayer: "Mar�a, que el misterio de la Crucifixi�n me ense� a amar como Jes�s nos am�."
+    verse: { text: "Junto a la cruz de Jesús estaba su madre.", reference: "Juan 19:25" },
+    reflection: "En el quinto misterio doloroso contemplamos la Crucifixión de Jesús. María estuvo al pie de la cruz, testigo del amor supremo.",
+    prayer: "María, que el misterio de la Crucifixión me enseñ a amar como Jesús nos amó."
   },
   {
     day: 14,
     title: "Los Misterios Gloriosos",
     month: "Octubre",
-    verse: { text: "No est� aqu�, porque ha resucitado, como dijo.", reference: "Mateo 28:6" },
-    reflection: "Los misterios gloriosos nos invitan a contemplar la gloria de Jes�s y de Mar�a. Son una escuela de esperanza y de alegr�a por la salvaci�n.",
-    prayer: "Mar�a, que los misterios gloriosos me llenen de esperanza en la resurrecci�n."
+    verse: { text: "No está aquí, porque ha resucitado, como dijo.", reference: "Mateo 28:6" },
+    reflection: "Los misterios gloriosos nos invitan a contemplar la gloria de Jesús y de María. Son una escuela de esperanza y de alegría por la salvación.",
+    prayer: "María, que los misterios gloriosos me llenen de esperanza en la resurrección."
   },
   {
     day: 15,
-    title: "La Resurrecci�n en el Rosario",
+    title: "La Resurrección en el Rosario",
     month: "Octubre",
-    verse: { text: "No est� aqu�, porque ha resucitado, como dijo.", reference: "Mateo 28:6" },
-    reflection: "En el primer misterio glorioso contemplamos la Resurrecci�n de Jes�s. Mar�a fue la primera en creer y la primera en contemplar al Resucitado.",
-    prayer: "Mar�a, que el misterio de la Resurrecci�n llene mi vida de esperanza."
+    verse: { text: "No está aquí, porque ha resucitado, como dijo.", reference: "Mateo 28:6" },
+    reflection: "En el primer misterio glorioso contemplamos la Resurrección de Jesús. María fue la primera en creer y la primera en contemplar al Resucitado.",
+    prayer: "María, que el misterio de la Resurrección llene mi vida de esperanza."
   },
   {
     day: 16,
-    title: "La Ascensi�n en el Rosario",
+    title: "La Ascensión en el Rosario",
     month: "Octubre",
-    verse: { text: "Y cuando los bendec�a, se alej� de ellos y fue elevado al cielo.", reference: "Lucas 24:51" },
-    reflection: "En el segundo misterio glorioso contemplamos la Ascensi�n de Jes�s. Mar�a contempl� c�mo su Hijo sub�a al cielo para preparar un lugar para nosotros.",
-    prayer: "Mar�a, que el misterio de la Ascensi�n me recuerde que nuestra patria es el cielo."
+    verse: { text: "Y cuando los bendecía, se alejó de ellos y fue elevado al cielo.", reference: "Lucas 24:51" },
+    reflection: "En el segundo misterio glorioso contemplamos la Ascensión de Jesús. María contempló cómo su Hijo subía al cielo para preparar un lugar para nosotros.",
+    prayer: "María, que el misterio de la Ascensión me recuerde que nuestra patria es el cielo."
   },
   {
     day: 17,
-    title: "La Venida del Esp�ritu Santo en el Rosario",
+    title: "La Venida del Espíritu Santo en el Rosario",
     month: "Octubre",
     verse: { text: "Y se les aparecieron lenguas repartidas, como de fuego.", reference: "Hechos 2:3" },
-    reflection: "En el tercer misterio glorioso contemplamos Pentecost�s. Mar�a recibi� al Esp�ritu Santo y fue Madre de la Iglesia naciente.",
-    prayer: "Esp�ritu Santo, que descendiste sobre Mar�a, renueva en m� el don de la vida nueva."
+    reflection: "En el tercer misterio glorioso contemplamos Pentecostés. María recibió al Espíritu Santo y fue Madre de la Iglesia naciente.",
+    prayer: "Espíritu Santo, que descendiste sobre María, renueva en mí el don de la vida nueva."
   },
   {
     day: 18,
-    title: "La Asunci�n en el Rosario",
+    title: "La Asunción en el Rosario",
     month: "Octubre",
-    verse: { text: "Porque ha mirado la humildad de su sierva, y desde ahora me llamar�n bienaventurada todas las generaciones.", reference: "Lucas 1:48" },
-    reflection: "En el cuarto misterio glorioso contemplamos la Asunci�n de Mar�a. Ella fue llevada al cielo en cuerpo y alma como premio a su fidelidad.",
-    prayer: "Mar�a, asunta al cielo, que tu Asunci�n me d� la esperanza de la eternidad."
+    verse: { text: "Porque ha mirado la humildad de su sierva, y desde ahora me llamarán bienaventurada todas las generaciones.", reference: "Lucas 1:48" },
+    reflection: "En el cuarto misterio glorioso contemplamos la Asunción de María. Ella fue llevada al cielo en cuerpo y alma como premio a su fidelidad.",
+    prayer: "María, asunta al cielo, que tu Asunción me dé la esperanza de la eternidad."
   },
   {
     day: 19,
-    title: "La Coronaci�n de Mar�a en el Rosario",
+    title: "La Coronación de María en el Rosario",
     month: "Octubre",
-    verse: { text: "Apareci� en el cielo una gran se�al: una mujer vestida de sol, con la luna bajo sus pies, y una corona de doce estrellas.", reference: "Apocalipsis 12:1" },
-    reflection: "En el quinto misterio glorioso contemplamos la Coronaci�n de Mar�a como Reina. Ella fue exaltada sobre todas las criaturas.",
-    prayer: "Mar�a, coronada de gloria, que tu coronaci�n me recuerde que tambi�n estamos llamados a la gloria."
+    verse: { text: "Apareció en el cielo una gran señal: una mujer vestida de sol, con la luna bajo sus pies, y una corona de doce estrellas.", reference: "Apocalipsis 12:1" },
+    reflection: "En el quinto misterio glorioso contemplamos la Coronación de María como Reina. Ella fue exaltada sobre todas las criaturas.",
+    prayer: "María, coronada de gloria, que tu coronación me recuerde que también estamos llamados a la gloria."
   },
   {
     day: 20,
     title: "El Rosario: Arma Poderosa",
     month: "Octubre",
-    verse: { text: "En todo lugar donde yo haga memoria de ti, yo te har� llover bendiciones.", reference: "�xodo 20:24" },
-    reflection: "El Rosario es el arma m�s poderosa que Mar�a nos ha dado. En cada misterio meditamos la vida de Jes�s y Mar�a, y en cada Ave Mar�a elevamos nuestra oraci�n al cielo.",
-    prayer: "Virgen del Rosario, arma poderosa contra todas las fuerzas del mal, que tu intercesi�n nos proteja."
+    verse: { text: "En todo lugar donde yo haga memoria de ti, yo te haré llover bendiciones.", reference: "Éxodo 20:24" },
+    reflection: "El Rosario es el arma más poderosa que María nos ha dado. En cada misterio meditamos la vida de Jesús y María, y en cada Ave María elevamos nuestra oración al cielo.",
+    prayer: "Virgen del Rosario, arma poderosa contra todas las fuerzas del mal, que tu intercesión nos proteja."
   },
   {
     day: 21,
     title: "El Rosario en Familia",
     month: "Octubre",
-    verse: { text: "En vuestra casa no se apagar� la l�mpara ni se secar� la mecha del candelero.", reference: "2 Reyes 4:33" },
-    reflection: "Mar�a pidi� que el Rosario se rezara en familia, porque la familia es la c�lula fundamental de la Iglesia. La oraci�n en familia fortalece los lazos.",
-    prayer: "Mar�a, que nos pides rezar el Rosario en familia, fortalece nuestros hogares con tu presencia."
+    verse: { text: "En vuestra casa no se apagará la lámpara ni se secará la mecha del candelero.", reference: "2 Reyes 4:33" },
+    reflection: "María pidió que el Rosario se rezara en familia, porque la familia es la célula fundamental de la Iglesia. La oración en familia fortalece los lazos.",
+    prayer: "María, que nos pides rezar el Rosario en familia, fortalece nuestros hogares con tu presencia."
   },
   {
     day: 22,
-    title: "El Rosario como Meditaci�n",
+    title: "El Rosario como Meditación",
     month: "Octubre",
-    verse: { text: "Mar�a guardaba todas estas cosas, medit�ndolas en su coraz�n.", reference: "Lucas 2:19" },
-    reflection: "El Rosario es una meditaci�n de la vida de Jes�s y Mar�a. Como Mar�a, meditamos los misterios de nuestra fe en silencio y en oraci�n.",
-    prayer: "Mar�a, que el Rosario sea mi medio de meditaci�n de los misterios de la fe."
+    verse: { text: "María guardaba todas estas cosas, meditándolas en su corazón.", reference: "Lucas 2:19" },
+    reflection: "El Rosario es una meditación de la vida de Jesús y María. Como María, meditamos los misterios de nuestra fe en silencio y en oración.",
+    prayer: "María, que el Rosario sea mi medio de meditación de los misterios de la fe."
   },
   {
     day: 23,
-    title: "El Rosario y la Conversi�n",
+    title: "El Rosario y la Conversión",
     month: "Octubre",
-    verse: { text: "Arrepent�os y convert�os, para que sean borrados vuestros pecados.", reference: "Hechos 3:19" },
-    reflection: "El Rosario es instrumento de conversi�n. En cada misterio nos convertimos a Dios y renovamos nuestro compromiso de seguir a Cristo.",
-    prayer: "Mar�a, que el Rosario sea instrumento de conversi�n en mi vida y en la del mundo."
+    verse: { text: "Arrepentíos y convertíos, para que sean borrados vuestros pecados.", reference: "Hechos 3:19" },
+    reflection: "El Rosario es instrumento de conversión. En cada misterio nos convertimos a Dios y renovamos nuestro compromiso de seguir a Cristo.",
+    prayer: "María, que el Rosario sea instrumento de conversión en mi vida y en la del mundo."
   },
   {
     day: 24,
     title: "El Rosario y la Paz",
     month: "Octubre",
     verse: { text: "La paz os dejo; mi paz os doy.", reference: "Juan 14:27" },
-    reflection: "El Rosario trae la paz al coraz�n y al mundo. Mar�a prometi� en F�tima que el Rosario traer�a la paz si se rezaba con fe.",
-    prayer: "Mar�a, reina de la paz, que el Rosario traiga la paz a mi coraz�n y al mundo entero."
+    reflection: "El Rosario trae la paz al corazón y al mundo. María prometió en Fátima que el Rosario traería la paz si se rezaba con fe.",
+    prayer: "María, reina de la paz, que el Rosario traiga la paz a mi corazón y al mundo entero."
   },
   {
     day: 25,
-    title: "El Rosario y la Protecci�n",
+    title: "El Rosario y la Protección",
     month: "Octubre",
-    verse: { text: "Bajo sus alas encontrar�s refugio; su fidelidad es escudo y armadura.", reference: "Salmo 91:4" },
-    reflection: "El Rosario es un escudo de protecci�n contra el mal. Mar�a protege a quienes lo rezan con fe y devoci�n.",
-    prayer: "Mar�a, que el Rosario sea mi escudo de protecci�n contra todo mal."
+    verse: { text: "Bajo sus alas encontrarás refugio; su fidelidad es escudo y armadura.", reference: "Salmo 91:4" },
+    reflection: "El Rosario es un escudo de protección contra el mal. María protege a quienes lo rezan con fe y devoción.",
+    prayer: "María, que el Rosario sea mi escudo de protección contra todo mal."
   },
   {
     day: 26,
-    title: "El Rosario y la Eucarist�a",
+    title: "El Rosario y la Eucaristía",
     month: "Octubre",
     verse: { text: "El que come mi carne y bebe mi sangre tiene vida eterna.", reference: "Juan 6:54" },
-    reflection: "El Rosario nos prepara para recibir a Cristo en la Eucarist�a. Cada misterio nos acerca al coraz�n de Jes�s y nos dispone a recibirlo.",
-    prayer: "Mar�a, que el Rosario me prepare para recibir a tu Hijo en la Eucarist�a."
+    reflection: "El Rosario nos prepara para recibir a Cristo en la Eucaristía. Cada misterio nos acerca al corazón de Jesús y nos dispone a recibirlo.",
+    prayer: "María, que el Rosario me prepare para recibir a tu Hijo en la Eucaristía."
   },
   {
     day: 27,
     title: "El Rosario y la Misericordia",
     month: "Octubre",
-    verse: { text: "Bienaventurados los misericordiosos, porque ellos alcanzar�n misericordia.", reference: "Mateo 5:7" },
-    reflection: "El Rosario es una oraci�n de misericordia. En cada misterio contemplamos el amor misericordioso de Dios por los hombres.",
-    prayer: "Mar�a, que el Rosario me ense� a ser misericordioso como Dios lo es conmigo."
+    verse: { text: "Bienaventurados los misericordiosos, porque ellos alcanzarán misericordia.", reference: "Mateo 5:7" },
+    reflection: "El Rosario es una oración de misericordia. En cada misterio contemplamos el amor misericordioso de Dios por los hombres.",
+    prayer: "María, que el Rosario me enseñ a ser misericordioso como Dios lo es conmigo."
   },
   {
     day: 28,
     title: "El Rosario y la Santa Muerte",
     month: "Octubre",
-    verse: { text: "Los que sembraban con l�grimas cosechar�n con c�nticos de alegr�a.", reference: "Salmo 126:5" },
-    reflection: "Mar�a pidi� que se rezara el Rosario para obtener una buena muerte. Esta devoci�n nos prepara para el �ltimo paso hacia la eternidad.",
-    prayer: "Mar�a, que el Rosario me prepare para una buena muerte y me acompa�e en el �ltimo paso."
+    verse: { text: "Los que sembraban con lágrimas cosecharán con cánticos de alegría.", reference: "Salmo 126:5" },
+    reflection: "María pidió que se rezara el Rosario para obtener una buena muerte. Esta devoción nos prepara para el último paso hacia la eternidad.",
+    prayer: "María, que el Rosario me prepare para una buena muerte y me acompañe en el último paso."
   },
   {
     day: 29,
     title: "El Rosario y los Santos",
     month: "Octubre",
-    verse: { text: "As� que nosotros, rodeados de tan grande nube de testigos.", reference: "Hebreos 12:1" },
-    reflection: "Los santos son fruto del Rosario y de la devoci�n mariana. Ellos nos muestran que la santidad es posible para todos.",
-    prayer: "Mar�a, que el Rosario me acerque a los santos y me inspire a seguir sus huellas."
+    verse: { text: "Así que nosotros, rodeados de tan grande nube de testigos.", reference: "Hebreos 12:1" },
+    reflection: "Los santos son fruto del Rosario y de la devoción mariana. Ellos nos muestran que la santidad es posible para todos.",
+    prayer: "María, que el Rosario me acerque a los santos y me inspire a seguir sus huellas."
   },
   {
     day: 30,
-    title: "El Rosario y la Evangelizaci�n",
+    title: "El Rosario y la Evangelización",
     month: "Octubre",
-    verse: { text: "Id por todo el mundo y haced disc�pulos a todas las naciones.", reference: "Mateo 28:19" },
-    reflection: "El Rosario es instrumento de evangelizaci�n. En cada misterio proclamamos las grandes obras de Dios y las compartimos con el mundo.",
-    prayer: "Mar�a, que el Rosario sea instrumento de evangelizaci�n en mis manos."
+    verse: { text: "Id por todo el mundo y haced discípulos a todas las naciones.", reference: "Mateo 28:19" },
+    reflection: "El Rosario es instrumento de evangelización. En cada misterio proclamamos las grandes obras de Dios y las compartimos con el mundo.",
+    prayer: "María, que el Rosario sea instrumento de evangelización en mis manos."
   },
   {
     day: 31,
     title: "El Rosario: Un Camino de Santidad",
     month: "Octubre",
     verse: { text: "Sed santos, porque yo soy santo.", reference: "1 Pedro 1:16" },
-    reflection: "Al concluir el mes del Rosario, recordamos que esta oraci�n es un camino de santidad. Cada misterio nos acerca a Dios y nos transforma en Cristo.",
-    prayer: "Mar�a, que el Rosario sea mi camino de santidad y me acerque cada d�a m�s a tu Hijo."
+    reflection: "Al concluir el mes del Rosario, recordamos que esta oración es un camino de santidad. Cada misterio nos acerca a Dios y nos transforma en Cristo.",
+    prayer: "María, que el Rosario sea mi camino de santidad y me acerque cada día más a tu Hijo."
   }
 
 , {
@@ -2987,7 +2987,7 @@
     title: "Los Santos de las Américas: Fe y Cultura",
     month: "Noviembre",
     verse: {
-      text: "En Dios confío, no temeré; ¿qué me pueden hacer los hombres?",
+      text: "En Dios confío, no temeré; Â¿qué me pueden hacer los hombres?",
       reference: "Salmo 56:11"
     },
     reflection: "Los santos de las Américas nos muestran cómo la fe se encarna en diferentes culturas. María, que también vive en múltiples expresiones culturales, nos une a todos en una sola fe.",
@@ -2998,7 +2998,7 @@
     title: "San León Magno: La Defensa de la Fe",
     month: "Noviembre",
     verse: {
-      text: "Ama a Dios y harás lo que �?l quiera.",
+      text: "Ama a Dios y harás lo que �‰l quiera.",
       reference: "San Agustín"
     },
     reflection: "San León Magno defendió la fe cristiana con sabiduría y valentía. María, que guardaba todas estas cosas en su corazón, nos enseña a custodiar la fe que hemos recibido.",
@@ -3152,7 +3152,7 @@
     title: "San Juan de la Cruz: La Noche Oscura del Alma",
     month: "Noviembre",
     verse: {
-      text: "En un noche oscura, con ansias, en amores inflamada, ¡oh dichosa ventura!, salí sin ser notada, estando ya mi casa sosegada.",
+      text: "En un noche oscura, con ansias, en amores inflamada, Â¡oh dichosa ventura!, salí sin ser notada, estando ya mi casa sosegada.",
       reference: "San Juan de la Cruz"
     },
     reflection: "San Juan de la Cruz nos enseñó que las pruebas espirituales purifican el alma. María, que también vivió noches oscuras, nos acompaña en nuestra búsqueda de Dios incluso en la oscuridad.",
@@ -3395,7 +3395,7 @@
     title: "La Alegría del Adviento",
     month: "Diciembre",
     verse: {
-      text: "Os dice otra vez: ¡Gozaros con gozo, y alegraros con alegría!",
+      text: "Os dice otra vez: Â¡Gozaros con gozo, y alegraros con alegría!",
       reference: "Filipenses 4:4"
     },
     reflection: "La alegría del Adviento no es superficial sino profunda, nacida de la esperanza en la salvación. María fue mujer de alegría porque acogió al Salvador. Nuestra alegría debe ser contagiosa, testimonio vivo de la fe.",
@@ -3406,7 +3406,7 @@
     title: "Las Letanías de la Esperanza",
     month: "Diciembre",
     verse: {
-      text: "Oh深�.�, profundo de las riquezas de la sabiduría y de la ciencia de Dios! ¡Qué insondables son sus juicios, e inescrutables sus caminos!",
+      text: "Ohæ·±å…¥, profundo de las riquezas de la sabiduría y de la ciencia de Dios! Â¡Qué insondables son sus juicios, e inescrutables sus caminos!",
       reference: "Romanos 11:33"
     },
     reflection: "En las Letanías de Loreto invocamos a María con múltiples títulos. Cada título revela un aspecto de su maternidad y de su intercesión. Durante el Adviento, la liturgia nos invita a profundizar en estos títulos marianos.",
