@@ -1,4 +1,4 @@
-const CACHE_NAME = 'maria-te-llama-v2';
+const CACHE_NAME = 'maria-te-llama-v3';
 const urlsToCache = [
   '/',
   '/app.html',

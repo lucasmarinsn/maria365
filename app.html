@@ -245,12 +245,13 @@
   </nav>
 
   <!-- Stage Unlock Toast -->
-  <div class="stage-toast" id="stageToast">
+  <div class="stage-toast" id="stageToast" style="display:none;">
     <div class="stage-toast-icon" id="stageToastIcon">⭐</div>
     <div class="stage-toast-text">
       <div class="stage-toast-title" id="stageToastTitle">¡Nuevo logro!</div>
       <div class="stage-toast-desc" id="stageToastDesc">Has alcanzado el nivel Intermediario</div>
     </div>
+    <button class="stage-toast-close" id="stageToastClose" onclick="dismissStageToast()">✕</button>
   </div>
 
   <script src="js/data.js"></script>

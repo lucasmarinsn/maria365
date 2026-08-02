@@ -426,20 +426,34 @@ function updateLogros() {
 }
 
 // Stage Toast
+let stageToastTimer = null;
 function showStageToast(icon, title, desc) {
   const toast = document.getElementById('stageToast');
+  if (!toast) return;
+  if (stageToastTimer) clearTimeout(stageToastTimer);
   document.getElementById('stageToastIcon').textContent = icon;
   document.getElementById('stageToastTitle').textContent = title;
   document.getElementById('stageToastDesc').textContent = desc;
+  toast.style.display = 'flex';
   toast.classList.add('show');
-  setTimeout(() => toast.classList.remove('show'), 3000);
+  stageToastTimer = setTimeout(() => dismissStageToast(), 4000);
+}
+
+function dismissStageToast() {
+  const toast = document.getElementById('stageToast');
+  if (!toast) return;
+  if (stageToastTimer) clearTimeout(stageToastTimer);
+  toast.classList.remove('show');
+  setTimeout(() => { toast.style.display = 'none'; }, 500);
 }
 
 // Click toast to dismiss
 document.addEventListener('DOMContentLoaded', () => {
   const toast = document.getElementById('stageToast');
   if (toast) {
-    toast.addEventListener('click', () => toast.classList.remove('show'));
+    toast.addEventListener('click', (e) => {
+      if (e.target.id !== 'stageToastClose') dismissStageToast();
+    });
   }
 });
 
